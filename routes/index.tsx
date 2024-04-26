@@ -15,10 +15,10 @@ export default function Home() {
         />
         <h1 class="text-4xl font-bold">Tim Godin</h1>
         <div class="flex space-x-4">
-          <a href="/hire">hire</a>
+          {/* <a href="/hire">hire</a>
           <a href="/blog">blog</a>
           <a href="/deals">deals</a>
-          <a href="/about">about</a>
+          <a href="/about">about</a> */}
         </div>
       </div>
     </div>
