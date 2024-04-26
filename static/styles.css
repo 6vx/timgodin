@@ -4,6 +4,9 @@
 
 html {
     background-color: black;
-    color: #fff2ca
-    
+    color: #fff2ca;
+    font-family: monospace;
+}
+a {
+    text-decoration: underline;
 }
