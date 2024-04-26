@@ -10,3 +10,6 @@ html {
 a {
     text-decoration: underline;
 }
+li {
+    padding: 10px 10px 10px 10px
+}
