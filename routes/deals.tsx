@@ -20,7 +20,7 @@ export default async function Home() {
     <br />
     <p>{await fetchedOn}</p>
     <br />
-    <ul>
+    <ul class="space-x-4">
         <li><a href={deals[0].url}>{deals[0].title}</a> +{deals[0].upvotes}</li>
         <li><a href={deals[1].url}>{deals[1].title}</a> +{deals[1].upvotes}</li>
         <li><a href={deals[2].url}>{deals[2].title}</a> +{deals[2].upvotes}</li>
