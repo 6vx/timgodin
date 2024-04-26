@@ -7,6 +7,8 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tim Godin</title>
         <link rel="stylesheet" href="/styles.css" />
+        <link rel="icon" href="/favicon.png" type="image/png"></link>
+
       </head>
       <body>
         <Component />

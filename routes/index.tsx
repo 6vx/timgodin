@@ -9,8 +9,8 @@ export default function Home() {
         <img
           class="my-6"
           src="/logo.png"
-          width="128"
-          height="128"
+          width="256"
+          height="256"
           alt="the Fresh logo: a sliced lemon dripping with juice"
         />
         <h1 class="text-4xl font-bold">Tim Godin</h1>
