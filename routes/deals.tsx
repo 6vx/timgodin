@@ -1,22 +1,20 @@
 
-    let deals:[] = [];
-    let fetchedOn = "";
-    
-    fetch('https://dmback.deno.dev/deals')
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-            deals = (data.links)
-            console.log(deals);
-            fetchedOn = (data.timestamp)
-        })
-        .catch(err => console.log(err))
+let deals:[] = [];
+let fetchedOn = "";
+
+fetch('https://dmback.deno.dev/deals')
+    .then(res => res.json())
+    .then(data => {
+        deals = (data.links)
+        fetchedOn = (data.timestamp)
+    })
+    .catch(err => console.log(err))
 
 
 export default async function Home() {
   return (
    <div class="px-4 py-8 mx-auto">
-    <h1>deals</h1>
+    <h1 class="text-4xl font-bold">deals</h1>
     <br />
     <p>{await fetchedOn}</p>
     <br />
