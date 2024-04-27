@@ -5,7 +5,6 @@ export default function Layout({ Component, state }: PageProps) {
   return (
     <div class="layout flex-col max-w-2xl text-center">
       <div class="flex space-x-2">
-      <p class="text-xs">TIM GODIN</p>
       <p class="text-xs"> &rarr; </p>
       <a class="text-center text-xs" href="/">home</a>
       <a class="text-xs">{Component}</a>
