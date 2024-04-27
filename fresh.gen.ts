@@ -6,12 +6,17 @@ import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
 import * as $about from "./routes/about.tsx";
+import * as $ai from "./routes/ai.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $blog_index from "./routes/blog/index.tsx";
-import * as $deals from "./routes/deals.tsx";
+import * as $contact from "./routes/contact.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $hire from "./routes/hire.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $now from "./routes/now.tsx";
+import * as $nownownow from "./routes/nownownow.tsx";
+import * as $obsidino from "./routes/obsidino.tsx";
+import * as $spaces_supported from "./routes/spaces-supported.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -21,12 +26,17 @@ const manifest = {
     "./routes/_app.tsx": $_app,
     "./routes/_layout.tsx": $_layout,
     "./routes/about.tsx": $about,
+    "./routes/ai.tsx": $ai,
     "./routes/api/joke.ts": $api_joke,
     "./routes/blog/index.tsx": $blog_index,
-    "./routes/deals.tsx": $deals,
+    "./routes/contact.tsx": $contact,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/hire.tsx": $hire,
     "./routes/index.tsx": $index,
+    "./routes/now.tsx": $now,
+    "./routes/nownownow.tsx": $nownownow,
+    "./routes/obsidino.tsx": $obsidino,
+    "./routes/spaces-supported.tsx": $spaces_supported,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
