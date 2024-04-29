@@ -7,7 +7,7 @@ export default function Home() {
 <li><a href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
 <li><a href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
 </ul>
-<p><a href="Contact">Contact</a> me to contribute or sign up for launch notice.</p>
+<p><a href="contact">Contact</a> me to contribute or sign up for launch notice.</p>
 
 </div>);
 }
