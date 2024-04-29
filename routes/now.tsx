@@ -1,13 +1,13 @@
 export default function Home() {
     
     return (<div class="text-left">
-        <h1>Single mindedness</h1>
-<p>I'm obsessively working on three top priority projects.</p>
+        <h1>Obsession</h1>
+<p>I have a couple projects that I <em>need</em> to get out.</p>
 <ul>
-<li><a class="wiki link" href="/obsidino" data-href="/obsidino">Obsidino</a></li>
-<li><a class="wiki link" href="/ai" data-href="/ai">AI</a></li>
-<li><a class="wiki link" href="/canadaland-submission" data-href="/canadaland-submission">Canadaland Submission</a></li>
+<li><a href="Obsidino">Obsidino</a></li>
+<li><a href="Canadaland Submission">Canadaland Submission</a></li>
 </ul>
+<p>Beyond that, I'm enjoying training my dog and learning video editing techniques.</p>
 
 </div>);
 }

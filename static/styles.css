@@ -14,8 +14,8 @@ a {
     text-decoration: underline;
     color: #ffdd76;
 }
-li {
-    /* padding: 10px 10px 10px 10px */
+ol {
+    padding: 10px 10px 10px 10px
 }
 h1 {
     font-size: larger;
@@ -25,5 +25,5 @@ h1 {
 
 }
 p {
-    padding: 10px, 0px;
+    margin: 10px 0px 10px 0px
 }
