@@ -1,6 +1,6 @@
 export default function Home() {
     
-    return (<div class="text-left">
+    return (<div class="main">
         <h1>Artificial ...Intelligence?</h1>
 <p>None of the pieces published on this website and on my blog, <a href="https://timgod.in" title="https://timgod.in">timgod.in</a> was written by an AI tool.</p>
 <p>I use different tools powered by large language models while brainstorming or researching.</p>

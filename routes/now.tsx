@@ -1,6 +1,6 @@
 export default function Home() {
     
-    return (<div class="text-left">
+    return (<div class="main">
         <h1>Obsession</h1>
 <p>I have a couple projects that I <em>need</em> to get out.</p>
 <ul>

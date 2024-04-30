@@ -1,6 +1,6 @@
 export default function Home() {
     
-    return (<div class="text-left">
+    return (<div class="main">
         <h1>Obsidino</h1>
 <p>Single executable that sits above an Obsidian Vault and deploys to Deno Deploy.</p>
 <ul>
