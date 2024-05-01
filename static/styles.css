@@ -4,23 +4,33 @@
 
 html {
     background-color: black;
-    color: #fff2ca;
+    color: white;
     font-family: monospace;
     margin: 5px;
     padding: 5px;
+    width: 100%
 }
 a {
     text-decoration: underline;
-    color: #ffdd76;
+    color: pink;
 }
 ol {
     padding: 10px 10px 10px 10px
 }
+li {
+    list-style-type: circle;
+    margin-left: 15px;
+}
 h1 {
     font-size: 3em;
-    margin: 10px 0px;
-    padding: 10px 0px;
+    margin: 5px 0px;
+    padding: 5px 0px;
     text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(to bottom left, white, pink);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
     
 
 }
@@ -29,6 +39,11 @@ h2 {
     margin: 5px 0px;
     padding: 5px 0px;
     text-decoration: underline;
+    font-weight: bold;
+    background: linear-gradient(to bottom left, white, pink);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
 }
 p {
     margin: 10px 0px 10px 0px
@@ -42,4 +57,8 @@ img {
 
 .main {
     max-width: 500px;
+    text-align: left;
+    justify-content: center;
+
  }
+
