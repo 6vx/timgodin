@@ -1,6 +1,6 @@
 export default function Home() {
     
-    return (<div class="main">
+    return (<div class="main text-left w-max-md mx-auto">
         <h1>Obsidino</h1>
 <p>Single executable that sits above an Obsidian Vault and, ideally with little to no config, turns Vault and images into a website via Deno Deploy.</p>
 <ul>
@@ -17,6 +17,8 @@ export default function Home() {
 <p>Shouldn't be long before the kinks're worked out, but since my use case is so limited I feel like I'm missing a lot of weird cases.</p>
 <p>Probably best to sprint towards something working: turning 1 flat directory Obsidian Vault with internal links and images into a website in one or two clicks.</p>
 <p>Would be a better 'product' if it had support for canvas/graph view though.</p>
+<h2>fresh in particular</h2>
+<p>Might be worth integrating a way to place islands/components with params inside markdown for the transmuter to replace. How might that look? ISLAND=&quot;COUNTER&quot; or COMPONENT=&quot;BUTTON&quot;?</p>
 
 </div>);
 }

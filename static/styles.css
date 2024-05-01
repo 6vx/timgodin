@@ -8,7 +8,6 @@ html {
     font-family: monospace;
     margin: 5px;
     padding: 5px;
-    font-size: large;
 }
 a {
     text-decoration: underline;
@@ -18,11 +17,18 @@ ol {
     padding: 10px 10px 10px 10px
 }
 h1 {
-    font-size: larger;
+    font-size: 3em;
     margin: 10px 0px;
     padding: 10px 0px;
-    /* text-align: center; */
+    text-align: center;
+    
 
+}
+h2 {
+    font-size: large;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    text-decoration: underline;
 }
 p {
     margin: 10px 0px 10px 0px
@@ -34,9 +40,6 @@ img {
     flex: auto;
  }
 
-main {
+.main {
     max-width: 500px;
-    text-align: left;
-    flex-direction: column;
-    display: flex;    
  }
