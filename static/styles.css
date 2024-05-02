@@ -30,7 +30,7 @@ li {
 
 h1 {
     flex: auto;
-    font-size: 3em;
+    font-size: 2em;
     margin: 5px 0px;
     padding: 5px 0px;
     text-align: center;
@@ -46,15 +46,16 @@ h1 {
 
 }
 h2 {
-    font-size: large;
+    font-size: 1.5em;
     margin: 5px 0px;
     padding: 5px 0px;
-    text-decoration: underline;
-    font-weight: bold;
+    font-weight: bolder;
     background: linear-gradient(to bottom left, white, pink);
     -webkit-background-clip: text;
+    background-size: 200% 200%;
     color: transparent;
-    display: inline-block;
+    display: flex;
+    animation: gradientAnimation 2s ease infinite;
 }
 p {
     margin: 10px 0px 10px 0px
@@ -70,6 +71,4 @@ img {
     max-width: 500px;
     text-align: left;
     justify-content: center;
-
- }
-
+}
