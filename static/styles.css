@@ -64,7 +64,8 @@ p {
 img {
     object-fit: contain;
     max-width: 250px;
-    flex: auto;
+    display: block;
+    margin: auto;
  }
 
 .main {
