@@ -4,7 +4,8 @@ export default function Home() {
         <h1>Pierre Poilievre</h1>
 <h2>what I know about Pierre</h2>
 <ul>
-<li><a href="pierre-youtube-analysis-1">He's a monkey</a></li>
+<li><a href="pierre-youtube-analysis-1">He's monkeying around with Canadian Politics</a></li>
+<li>He's an out of touch career politician</li>
 </ul>
 <h2>basics</h2>
 <p>As I understand it this fella's been a politician his whole life and now is gaming the algorithm with divisiveness to rise to power.</p>
@@ -20,7 +21,6 @@ export default function Home() {
 <li>I, common-sense daddy, will solve all your problems lickety-split. Vote for Pierre. Duh.</li>
 </ul>
 <p>It's agonizingly transparent... and yet he's approaching half of a million youtube subscribers.</p>
-<p>Here's one <a href="pierre-youtube-analysis-1">analysis</a> in particular, wherein I conclude that he's a monkey.</p>
 
 </div>);
 }

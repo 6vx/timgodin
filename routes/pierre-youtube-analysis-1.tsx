@@ -14,9 +14,9 @@ export default function Home() {
 <p>In 'the online world' this is called 'clip-chimping'.</p>
 <p>From fluidslang.com:</p>
 <blockquote>
-<p><em>The term <strong>clip chimp</strong> is slang that originated in the Twitch community and refers to a Twitch user who creates and shares out-of-context clips from a streamer’s channel. These clips are often shared on social media platforms like Reddit and Twitter in an attempt to embarrass streamers and gain online popularity.</em></p>
+<p>The term &quot;<strong>clip chimp</strong>&quot; is slang that originated in the Twitch community and refers to a Twitch user who creates and shares out-of-context clips from a streamer’s channel. These clips are often shared on social media platforms like Reddit and Twitter in an attempt to embarrass streamers and gain online popularity.</p>
 </blockquote>
-<p>In other words; Pierre is a monkey using anything he can to gain 'clout'.</p>
+<p>In other words; Pierre is monkeying around with <a href="canadian-politics">Canadian Politics</a>.</p>
 
 </div>);
 }
