@@ -10,10 +10,17 @@ import * as $api_joke from "./routes/api/joke.ts";
 import * as $blog_index from "./routes/blog/index.tsx";
 import * as $canadaland_submission from "./routes/canadaland-submission.tsx";
 import * as $contact from "./routes/contact.tsx";
+import * as $graveyard_farms from "./routes/graveyard-farms.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $justin_trudeau from "./routes/justin-trudeau.tsx";
+import * as $list_of_jobs from "./routes/list-of-jobs.tsx";
 import * as $now from "./routes/now.tsx";
 import * as $obsidino from "./routes/obsidino.tsx";
+import * as $pierre_poilievre from "./routes/pierre-poilievre.tsx";
+import * as $pierre_youtube_analysis_1 from "./routes/pierre-youtube-analysis-1.tsx";
+import * as $politics from "./routes/politics.tsx";
+import * as $tims_twos from "./routes/tims-twos.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -27,10 +34,17 @@ const manifest = {
     "./routes/blog/index.tsx": $blog_index,
     "./routes/canadaland-submission.tsx": $canadaland_submission,
     "./routes/contact.tsx": $contact,
+    "./routes/graveyard-farms.tsx": $graveyard_farms,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
+    "./routes/justin-trudeau.tsx": $justin_trudeau,
+    "./routes/list-of-jobs.tsx": $list_of_jobs,
     "./routes/now.tsx": $now,
     "./routes/obsidino.tsx": $obsidino,
+    "./routes/pierre-poilievre.tsx": $pierre_poilievre,
+    "./routes/pierre-youtube-analysis-1.tsx": $pierre_youtube_analysis_1,
+    "./routes/politics.tsx": $politics,
+    "./routes/tims-twos.tsx": $tims_twos,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
