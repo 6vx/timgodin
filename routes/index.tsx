@@ -2,9 +2,9 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         <h1>Tim Godin</h1>
-<p>Check out some of my ongoing projects or <a href="contact">Contact</a> me.</p>
+<p>Widget artificer.</p>
+<p>You can <a href="contact">contact me</a> for more.</p>
 <ul>
-<li><a href="obsidino">Obsidino</a></li>
 <li><a href="now">now</a></li>
 <li><a href="ai">AI</a></li>
 </ul>
