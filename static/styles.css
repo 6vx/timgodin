@@ -83,8 +83,35 @@ h2 {
     display: flex;
     animation: gradientAnimation 2s ease infinite;
 }
+
+h4 {
+  font-size: smaller;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+  text-align: center;
+}
+
 p {
     margin: 10px 0px 10px 0px
+}
+
+@keyframes imageFuzzInSlide {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(2px);
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
 }
 
 img {
@@ -92,7 +119,8 @@ img {
     max-width: 250px;
     display: block;
     margin: auto;
- }
+    animation: imageFuzzInSlide 1.5s ease-in-out forwards;
+}
 
 .main {
     max-width: 500px;
