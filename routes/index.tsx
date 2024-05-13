@@ -4,7 +4,8 @@ export default function Home() {
         <h1>Tim Godin</h1>
 <img src="timface.png" alt="timface.png" />
 <p>Widget artificer.</p>
-<p>You can <a href="contact">contact me</a> for more.</p>
+<p>Some satire, some serious. Depends how you got here.</p>
+<p><a href="contact">Reach out</a> with inquiries/offers.</p>
 <ul>
 <li><a href="now">now</a></li>
 <li><a href="ai">AI</a></li>

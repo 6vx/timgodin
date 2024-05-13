@@ -12,8 +12,7 @@ export default function Home() {
 <h2>why</h2>
 <p>Obsidian Publish 8$ USD / month
 Obsidino = 2$ USD / month</p>
-<p><a href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text here.</p>
-<p>Also I've found that most of the sites published with it don't even display in Edge. I'm not sure if that's a result of poor work on their end or some rogue extension on mine, but I also don't care. I can make it better myself.</p>
+<p><a href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
 <h2>expected limitations</h2>
 <ul>
 <li>1GB maximum size</li>

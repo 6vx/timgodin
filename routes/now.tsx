@@ -8,8 +8,6 @@ export default function Home() {
 <ul>
 <li><a href="obsidino">Obsidino</a></li>
 <li><a href="canadaland-submission">Canadaland Submission</a></li>
-<li><a href="security-guard-course">Security Guard Course</a></li>
-<li><a href="kettlebell-routine">Kettlebell Routine</a></li>
 </ul>
 
 </div>);
