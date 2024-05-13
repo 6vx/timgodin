@@ -12,7 +12,7 @@ export default function Home() {
 <h2>conclusion</h2>
 <p>Pierre Poilievre uses out of context quotes to sow divisiveness</p>
 <p>In 'the online world' this is called 'clip-chimping'.</p>
-<p>From fluidslang.com:</p>
+<p>From fluentslang.com:</p>
 <blockquote>
 <p>The term &quot;<strong>clip chimp</strong>&quot; is slang that originated in the Twitch community and refers to a Twitch user who creates and shares out-of-context clips from a streamer’s channel. These clips are often shared on social media platforms like Reddit and Twitter in an attempt to embarrass streamers and gain online popularity.</p>
 </blockquote>

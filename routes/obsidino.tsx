@@ -3,7 +3,7 @@ export default function Home() {
     return (<div class="main text-left w-max-md mx-auto">
         <h1>Obsidino</h1>
 <img src="obsidino.png" alt="obsidino.png" />
-<p>Vault -&gt; URL in one click.</p>
+<h4>Vault -&gt; URL in one click.</h4>
 <p>Update/publish by running it again.</p>
 <ul>
 <li><a href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
