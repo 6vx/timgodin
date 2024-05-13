@@ -10,7 +10,6 @@ export default function Home() {
 <li>A person who paid to get Cherokee status in 1880 (to buy land) now has a millionaire descendent running for (US) congress on their heritage</li>
 <li>Can we trust the statistics when it comes to indigenous crime if a large percentage of the 'indigenous' people are... fake?</li>
 <li>Johnny Depp is a prominent Pretendian</li>
-<li></li>
 </ul>
 
 </div>);

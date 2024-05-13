@@ -5,8 +5,8 @@ export default function Home() {
 <img src="obsidino.png" alt="obsidino.png" />
 <h4>Vault -&gt; URL in one click.</h4>
 <h2>why</h2>
-<p>Obsidian Publish 10$ USD / month</p>
-<p>Obsidino = 10$ USD / year</p>
+<p>Obsidian Publish - 10$ USD / month</p>
+<p>Obsidino - 10$ USD / <em>year</em></p>
 <p><a href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
 <h2>expected limitations</h2>
 <ul>
