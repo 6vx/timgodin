@@ -15,7 +15,7 @@ export default function Home() {
 <h2>example</h2>
 <p>You only have to watch a few of Pierre's videos to get the idea;</p>
 <ul>
-<li>JT bad</li>
+<li><a href="justin-trudeau">JT</a> bad</li>
 <li>CBC bad</li>
 <li>world is bad</li>
 <li>I, common-sense daddy, will solve all your problems lickety-split. Vote for Pierre. Duh.</li>

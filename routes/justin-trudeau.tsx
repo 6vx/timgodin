@@ -2,6 +2,7 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         <h1>Justin Trudeau</h1>
+<img src="justintrudeau.png" alt="justintrudeau.png" />
 <p>I was living in downtown Kelowna and hiking Knox had become a regular occurrence.</p>
 <p>A jog down the beach and you were there, and the views of the lake and city were incentive on their own.</p>
 <p>The radio mentioned that the PM would be in town and was scheduled to hike Knox.</p>
@@ -9,7 +10,6 @@ export default function Home() {
 <p>I found myself more fascinated and preoccupied with the armed, plainclothes officers we encountered on our otherwise regular hike.</p>
 <p>I'd met a few politicians before, but none with secret, armed pre-eminent escorts.</p>
 <p>When Justin arrived he shook hands with us and another couple that had been waiting for the meeting. Someone took a photo for us.</p>
-<img src="justintrudeau.png" alt="justintrudeau.png" />
 <p>Afterwards, while conversing with my then-partner, she remarked that</p>
 <p>&quot;I looked into his eyes and it was like there was nobody there&quot;</p>
 <p>and I had no rebuttal.</p>
