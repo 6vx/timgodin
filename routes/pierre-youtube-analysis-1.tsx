@@ -2,7 +2,7 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         <h1>Pierre Youtube Analysis 1</h1>
-<p><a href="https://www.youtube.com/watch?v=fxbsfjiamza">Trudeau and Singh ask you to feel bad for them - YouTube</a></p>
+<p><a target="_blank" href="https://www.youtube.com/watch?v=fxbsfjiamza">Trudeau and Singh ask you to feel bad for them - YouTube</a></p>
 <h2>description</h2>
 <p>Thirty seven second video showing mostly news footage of food banks being used, followed by nine (5 and 4, sliced together?) out-of-context words clipped from a Justin Trudeau speech.</p>
 <h2>analysis</h2>

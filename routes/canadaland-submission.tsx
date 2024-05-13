@@ -1,7 +1,7 @@
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1><a href="https://www.canadaland.com/introducing-canadalabs/">CanadaLabs</a></h1>
+        <h1><a target="_blank" href="https://www.canadaland.com/introducing-canadalabs/">CanadaLabs</a></h1>
 <p>Due May 31st. 3 minute audio local news.</p>
 <p>the rules:</p>
 <ol>

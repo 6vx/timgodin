@@ -9,7 +9,7 @@ export default function Home() {
 <li>One man has created 50,000 fraudulent Indians (status card sales 80$ each, everyone who takes a DNA test qualifies)</li>
 <li>A person who paid to get Cherokee status in 1880 (to buy land) now has a millionaire descendent running for (US) congress on their heritage</li>
 <li>Can we trust the statistics when it comes to indigenous crime if a large percentage of the 'indigenous' people are... fake?</li>
-<li>Johnny Depp is a prominent Pretendian</li>
+<li><strong>Johnny Depp</strong> is a prominent Pretendian</li>
 </ul>
 
 </div>);

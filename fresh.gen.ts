@@ -9,6 +9,7 @@ import * as $ai from "./routes/ai.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $blog_index from "./routes/blog/index.tsx";
 import * as $canadaland_submission from "./routes/canadaland-submission.tsx";
+import * as $canadaland from "./routes/canadaland.tsx";
 import * as $contact from "./routes/contact.tsx";
 import * as $give_quebec_back from "./routes/give-quebec-back.tsx";
 import * as $graveyard_farms from "./routes/graveyard-farms.tsx";
@@ -22,8 +23,11 @@ import * as $obsidino from "./routes/obsidino.tsx";
 import * as $pierre_poilievre from "./routes/pierre-poilievre.tsx";
 import * as $pierre_youtube_analysis_1 from "./routes/pierre-youtube-analysis-1.tsx";
 import * as $politics from "./routes/politics.tsx";
+import * as $security_guard_course from "./routes/security-guard-course.tsx";
+import * as $the_pretendian_crisis from "./routes/the-pretendian-crisis.tsx";
 import * as $tims_twos from "./routes/tims-twos.tsx";
 import * as $unity_party from "./routes/unity-party.tsx";
+import * as $web_app_dev from "./routes/web-app-dev.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -36,6 +40,7 @@ const manifest = {
     "./routes/api/joke.ts": $api_joke,
     "./routes/blog/index.tsx": $blog_index,
     "./routes/canadaland-submission.tsx": $canadaland_submission,
+    "./routes/canadaland.tsx": $canadaland,
     "./routes/contact.tsx": $contact,
     "./routes/give-quebec-back.tsx": $give_quebec_back,
     "./routes/graveyard-farms.tsx": $graveyard_farms,
@@ -49,8 +54,11 @@ const manifest = {
     "./routes/pierre-poilievre.tsx": $pierre_poilievre,
     "./routes/pierre-youtube-analysis-1.tsx": $pierre_youtube_analysis_1,
     "./routes/politics.tsx": $politics,
+    "./routes/security-guard-course.tsx": $security_guard_course,
+    "./routes/the-pretendian-crisis.tsx": $the_pretendian_crisis,
     "./routes/tims-twos.tsx": $tims_twos,
     "./routes/unity-party.tsx": $unity_party,
+    "./routes/web-app-dev.tsx": $web_app_dev,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,

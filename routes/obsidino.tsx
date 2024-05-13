@@ -7,7 +7,7 @@ export default function Home() {
 <h2>why</h2>
 <p>Obsidian Publish - 10$ USD / month</p>
 <p>Obsidino - 10$ USD / <em>year</em></p>
-<p><a href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
+<p><a target="_blank" href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
 <h2>expected limitations</h2>
 <ul>
 <li>1GB maximum size</li>
@@ -28,8 +28,8 @@ export default function Home() {
 </ul>
 <h2>links</h2>
 <ul>
-<li><a href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
-<li><a href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
+<li><a target="_blank" href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
+<li><a target="_blank" href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
 </ul>
 
 </div>);

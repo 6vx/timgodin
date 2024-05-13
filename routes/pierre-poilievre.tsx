@@ -4,15 +4,13 @@ export default function Home() {
         <h1>Pierre Poilievre</h1>
 <h2>what I know about Pierre</h2>
 <ul>
-<li>He's an out of touch <a href="https://en.wikipedia.org/wiki/pierre_poilievre#background_and_childhood">career politician</a></li>
+<li>He's an out of touch <a target="_blank" href="https://en.wikipedia.org/wiki/pierre_poilievre#background_and_childhood">career politician</a></li>
 <li><a href="pierre-youtube-analysis-1">He's monkeying around with Canadian Politics</a></li>
 </ul>
-<h2>basics</h2>
-<p>As I understand it this fella's been a politician his whole life and now is gaming the algorithm with divisiveness to rise to power.</p>
-<p>Sounds a bit sketch I gotta say.</p>
-<p>If I understood his positive vision and accompanying policy I may change my mind.</p>
-<p>But it seems like he just uses negativity to get views and... well damn it's <strong>workin</strong>' but that don't mean it's <strong>good</strong>.</p>
-<h2>example</h2>
+<h2>the gist</h2>
+<p>Politician his whole life and now is gaming FB/YT et al algorithms with divisiveness to rise (apparently) to power.</p>
+<p>Sounds kinda sketch to me.</p>
+<h2>understanding pp</h2>
 <p>You only have to watch a few of Pierre's videos to get the idea;</p>
 <ul>
 <li><a href="justin-trudeau">JT</a> bad</li>
@@ -20,7 +18,8 @@ export default function Home() {
 <li>world is bad</li>
 <li>I, common-sense daddy, will solve all your problems lickety-split</li>
 </ul>
-<p>It's agonizingly transparent... and yet he's approaching half of a million YouTube subscribers...</p>
+<p>It's agonizingly transparent populism... and yet he's approaching half of a million YouTube subscribers... 'Canadians' are eating it up.</p>
+<p>Or are they?</p>
 
 </div>);
 }
