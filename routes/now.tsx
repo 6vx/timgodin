@@ -2,8 +2,8 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         <h1>nownownow</h1>
-<p>I want to get out this Canadalabs thing. Seems like a good link to have. Also working on my blog.</p>
-<p>Primary focus is getting a job in security. Would like to have a security company within two years.</p>
+<p>I'm living in Alberta, contemplating a new path that has opened up.</p>
+<p>Some projects are going to have to go on the back burner for a bit, hopefully I can knock these two out while I'm figuring a way forward.</p>
 <h2>processing</h2>
 <ul>
 <li><a href="obsidino">Obsidino</a></li>

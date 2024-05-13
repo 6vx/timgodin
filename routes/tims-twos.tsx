@@ -10,7 +10,12 @@ export default function Home() {
 <h3>possible elements</h3>
 <ul>
 <li>stream of thought</li>
-<li>exercise vlog</li>
+<li>exercise vlog
+<ul>
+<li>mastering the monkey bars series</li>
+<li>the wear pattern on my vibrams</li>
+</ul>
+</li>
 <li>reminiscing about
 <ul>
 <li><a href="list-of-jobs">List of Jobs</a></li>
@@ -21,9 +26,6 @@ export default function Home() {
 <li>calling mom</li>
 <li>drawing tarot cards</li>
 </ul>
-<p>First episode will be out tonight.</p>
-<p>And the second will be out tomorrow.</p>
-<p>And so it shall be for at least 30 days. This is my promise to myself.</p>
 
 </div>);
 }
