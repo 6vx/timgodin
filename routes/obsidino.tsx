@@ -4,14 +4,9 @@ export default function Home() {
         <h1>Obsidino</h1>
 <img src="obsidino.png" alt="obsidino.png" />
 <h4>Vault -&gt; URL in one click.</h4>
-<p>Update/publish by running it again.</p>
-<ul>
-<li><a href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
-<li><a href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
-</ul>
 <h2>why</h2>
-<p>Obsidian Publish 8$ USD / month
-Obsidino = 2$ USD / month</p>
+<p>Obsidian Publish 10$ USD / month</p>
+<p>Obsidino = 10$ USD / year</p>
 <p><a href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
 <h2>expected limitations</h2>
 <ul>
@@ -30,6 +25,11 @@ Obsidino = 2$ USD / month</p>
 <li>check non-internal alias links</li>
 <li>automatic downsize images for web (optional)</li>
 <li><em><strong>interpret frontmatter</strong></em></li>
+</ul>
+<h2>links</h2>
+<ul>
+<li><a href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
+<li><a href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
 </ul>
 
 </div>);
