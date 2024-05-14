@@ -2,6 +2,7 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         <h1>Pierre Poilievre</h1>
+<img src="pierre-banner.png" alt="pierre-banner.png" />
 <h2>what I know about Pierre</h2>
 <ul>
 <li>He's an out of touch <a target="_blank" href="https://en.wikipedia.org/wiki/pierre_poilievre#background_and_childhood">career politician</a></li>
