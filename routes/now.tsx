@@ -6,9 +6,9 @@ export default function Home() {
 <p>Some projects are going to have to go on the back burner for a bit, hopefully I can knock these two out while I'm figuring a way forward.</p>
 <h2>processing</h2>
 <ul>
+<li>Security Course</li>
 <li>Flesh out <a href="obsidino">Obsidino</a></li>
 <li><a href="canadaland-submission">Canadaland Submission</a> deadline coming up</li>
-<li>Security Course</li>
 </ul>
 
 </div>);
