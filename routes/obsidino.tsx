@@ -10,7 +10,8 @@ export default function Home() {
 <p><a target="_blank" href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
 <p><a href="obsidino">Obsidino</a> is a simple and fast method of deploying a vault to the web.</p>
 <h2>examples</h2>
-<p><a href="index">This website</a> is built and updated using Obsidino. All pages on this website are generated from an Obsidian Vault.</p>
+<p><a href="/">This website</a> is built and updated using Obsidino. All pages on this website are generated from an Obsidian Vault.</p>
+<p><a href="markdown-syntax">This</a> page shows examples of the elements that Obsidino can currently process.</p>
 <h2>expected limitations</h2>
 <ul>
 <li>1GB maximum size</li>
@@ -27,7 +28,7 @@ export default function Home() {
 <li>20240502 support internal links</li>
 </ul>
 <h2>next steps</h2>
-<h4>in order of priority</h4>
+<p>in order of priority</p>
 <ul>
 <li><strong>interpret frontmatter</strong></li>
 <li>extended markdown syntax</li>

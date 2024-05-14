@@ -16,10 +16,14 @@ a {
     color: pink;
 }
 ol {
-    padding: 10px 10px 10px 10px
+    padding: 10px 10px 10px 10px;
+    list-style-type: decimal;
+
+}
+ul {
+  list-style-type: disc;
 }
 li {
-    list-style-type: circle;
     margin-left: 15px;
 }
 @keyframes gradientAnimation {
@@ -88,7 +92,7 @@ h3 {
   font-size: 1.2em; /* Smaller than h2 */
   margin: 5px 0px; /* Same margin as h1 and h2 */
   padding: 5px 20px; /* Padding with indentation on the left */
-  text-align: left; /* Left-aligned text */
+  text-align: center; /* Left-aligned text */
   font-weight: bold; /* Bold font weight */
   color: pink; /* Pink text color */
   background-color: black; /* Black background */
@@ -110,6 +114,8 @@ h4 {
   justify-content: center;
   flex: auto;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 p {
@@ -188,4 +194,20 @@ img {
   100% {
       opacity: 0.9;
   }
+}
+
+code {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  border-left: 3px solid #ff69b4; /* Pink accent on the left border */
+  padding: 10px;
+  margin: 10px 0;
+  overflow-x: auto; /* Ensures the content is scrollable horizontally if it's too wide */
+  font-family: 'Courier New', monospace; /* Monospaced font for better code readability */
+  border-radius: 4px; /* Slightly rounded corners for a softer look */
+}
+
+/* Optional: Add a hover effect to highlight code blocks on mouse-over */
+code:hover {
+  border-color: #ff8ec7; /* Lighter shade of pink for the accent */
 }
