@@ -2,7 +2,11 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         <h1>Web App Dev</h1>
-<h2>Jack of all Techs</h2>
+<h2>Open to Work</h2>
+<p>Currently accepting short term work.</p>
+<p><strong>Flat Rate</strong>: <strong>$50/hour</strong> with a <strong>minimum of 10 hours</strong> per project and a <strong>maximum of 40 hours</strong> per week.</p>
+<p><a href="contact">Contact</a> me to discuss your project more specifically.</p>
+<h2>Experience</h2>
 <p>Typescript focused developer with additional experience using:</p>
 <ul>
 <li>HTML, CSS, JS</li>
@@ -18,10 +22,6 @@ export default function Home() {
 <li>Cap-cut</li>
 <li>Dall-E</li>
 </ul>
-<h2>Open to Work</h2>
-<p>Accepting (and prefer) short term work.</p>
-<p><strong>Flat Rate</strong>: <strong>$50/hour</strong> with a <strong>minimum of 10 hours</strong> per project and a <strong>maximum of 40 hours</strong> per week.</p>
-<p><a href="contact">Contact</a> me to discuss your project more specifically.</p>
 <h2>Web App Development</h2>
 <p><strong>Prototype Development</strong>: Starting at $500</p>
 <ul>
