@@ -19,13 +19,10 @@ export default function Home() {
 <li>Dall-E</li>
 </ul>
 <h2>Open to Work</h2>
-<p>Accepting (and prefer) short term work, <a href="contact">contact</a> me to discuss your project more specifically.</p>
-<h2>Web App Development Fee Guide</h2>
-<p><strong>Initial Consultation</strong>: Free (30 minutes)</p>
-<ul>
-<li>Discussion of project scope and requirements</li>
-<li>Preliminary advice on strategy and implementation</li>
-</ul>
+<p>Accepting (and prefer) short term work.</p>
+<p><strong>Flat Rate</strong>: <strong>$50/hour</strong> with a <strong>minimum of 10 hours</strong> per project and a <strong>maximum of 40 hours</strong> per week.</p>
+<p><a href="contact">Contact</a> me to discuss your project more specifically.</p>
+<h2>Web App Development</h2>
 <p><strong>Prototype Development</strong>: Starting at $500</p>
 <ul>
 <li>Basic functional layout</li>
@@ -46,7 +43,7 @@ export default function Home() {
 <li>Content Management System: $750</li>
 <li>Ongoing Maintenance &amp; Support: $100/month</li>
 </ul>
-<p><strong>Note</strong>: Prices are indicative and may vary based on the complexity and specific requirements of the project. A detailed quote will be provided after the initial consultation.</p>
+<p><strong>Note</strong>: Prices are indicative and may vary based on the complexity and specific requirements of the project. A detailed quote will be provided after an initial consultation.</p>
 
 </div>);
 }
