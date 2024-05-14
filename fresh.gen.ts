@@ -20,6 +20,7 @@ import * as $list_of_jobs from "./routes/list-of-jobs.tsx";
 import * as $maid_expansion from "./routes/maid-expansion.tsx";
 import * as $now from "./routes/now.tsx";
 import * as $obsidino from "./routes/obsidino.tsx";
+import * as $payments from "./routes/payments.tsx";
 import * as $pierre_poilievre from "./routes/pierre-poilievre.tsx";
 import * as $pierre_youtube_analysis_1 from "./routes/pierre-youtube-analysis-1.tsx";
 import * as $politics from "./routes/politics.tsx";
@@ -51,6 +52,7 @@ const manifest = {
     "./routes/maid-expansion.tsx": $maid_expansion,
     "./routes/now.tsx": $now,
     "./routes/obsidino.tsx": $obsidino,
+    "./routes/payments.tsx": $payments,
     "./routes/pierre-poilievre.tsx": $pierre_poilievre,
     "./routes/pierre-youtube-analysis-1.tsx": $pierre_youtube_analysis_1,
     "./routes/politics.tsx": $politics,

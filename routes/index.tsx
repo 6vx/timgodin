@@ -7,7 +7,8 @@ export default function Home() {
 <p>Some satire, some serious. Depends how you got here.</p>
 <p><a href="contact">Reach out</a> with inquiries/offers.</p>
 <ul>
-<li><a href="now">now</a></li>
+<li><a href="now">now</a> page</li>
+<li><a href="obsidino">current project</a></li>
 </ul>
 
 </div>);

@@ -6,8 +6,9 @@ export default function Home() {
 <h4>Vault -&gt; URL in one click.</h4>
 <h2>why</h2>
 <p>Obsidian Publish - 10$ USD / month</p>
-<p>Obsidino - 10$ USD / <em>year</em></p>
+<p><a href="obsidino">Obsidino</a> - 10$ USD / <em>year</em></p>
 <p><a target="_blank" href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
+<p><a href="obsidino">Obsidino</a> is a simple and fast method of deploying a vault to the web.</p>
 <h2>expected limitations</h2>
 <ul>
 <li>1GB maximum size</li>
@@ -16,15 +17,18 @@ export default function Home() {
 </ul>
 <h2>progress</h2>
 <ul>
-<li>20240510 internal alias links working</li>
-<li>20240505 PNG files working</li>
-<li>20240502 internal links working</li>
+<li>20240513 external links open in new window</li>
+<li>20240510 support internal alias links</li>
+<li>20240505 support PNG images</li>
+<li>20240502 support internal links</li>
 </ul>
 <h2>next steps</h2>
 <ul>
-<li>check non-internal alias links</li>
-<li>automatic downsize images for web (optional)</li>
+<li>automatic scale images for web</li>
 <li><em><strong>interpret frontmatter</strong></em></li>
+<li>1:1 Obsidian-style markdown translation</li>
+<li>Canvas view</li>
+<li>Graph view</li>
 </ul>
 <h2>links</h2>
 <ul>

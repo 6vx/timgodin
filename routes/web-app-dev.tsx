@@ -20,7 +20,7 @@ export default function Home() {
 </ul>
 <h2>Open to Work</h2>
 <p>Accepting (and prefer) short term work, <a href="contact">contact</a> me to discuss your project more specifically.</p>
-<h4>Web App Development Fee Guide</h4>
+<h2>Web App Development Fee Guide</h2>
 <p><strong>Initial Consultation</strong>: Free (30 minutes)</p>
 <ul>
 <li>Discussion of project scope and requirements</li>
