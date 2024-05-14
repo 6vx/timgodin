@@ -9,31 +9,39 @@ export default function Home() {
 <p><a href="obsidino">Obsidino</a> - 10$ USD / <em>year</em></p>
 <p><a target="_blank" href="https://www.obsidian.md/publish">Obsidian's offering</a> is too expensive. We're talking about publishing some text.</p>
 <p><a href="obsidino">Obsidino</a> is a simple and fast method of deploying a vault to the web.</p>
+<h2>examples</h2>
+<p><a href="index">This website</a> is built and updated using Obsidino. All pages on this website are generated from an Obsidian Vault.</p>
 <h2>expected limitations</h2>
 <ul>
 <li>1GB maximum size</li>
-<li>images are downsized</li>
+<li>images, canvases, graphs limited in basic version</li>
 <li>extra costs for domains and excessive traffic</li>
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240514 some extended syntax (conflicts)</li>
+<li>20240514 basic markdown syntax complete</li>
 <li>20240513 external links open in new window</li>
 <li>20240510 support internal alias links</li>
 <li>20240505 support PNG images</li>
 <li>20240502 support internal links</li>
 </ul>
 <h2>next steps</h2>
+<h4>in order of priority</h4>
 <ul>
-<li>automatic scale images for web</li>
-<li><em><strong>interpret frontmatter</strong></em></li>
-<li>1:1 Obsidian-style markdown translation</li>
+<li><strong>interpret frontmatter</strong></li>
+<li>extended markdown syntax</li>
+<li>1:1 Obsidian-style markdown syntax</li>
 <li>Canvas view</li>
 <li>Graph view</li>
+<li>automatic scale images for web</li>
 </ul>
 <h2>links</h2>
 <ul>
 <li><a target="_blank" href="https://obsidian.md/">Obsidian - Sharpen your thinking</a></li>
 <li><a target="_blank" href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
+<li><a target="_blank" href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheat Sheet | Markdown Guide</a></li>
+<li><a target="_blank" href="https://fresh.deno.dev/">Fresh - The next-gen web framework.</a></li>
 </ul>
 
 </div>);

@@ -19,7 +19,10 @@ export default function Home() {
 <li>I, common-sense daddy, will solve all your problems lickety-split</li>
 </ul>
 <p>It's agonizingly transparent populism... and yet he's approaching half of a million YouTube subscribers... 'Canadians' are eating it up.</p>
+<h2>what's really going on?</h2>
 <p>Or are they?</p>
+<p>How much of his audience is Russian/Chinese bots?</p>
+<p>How much rage is coming from authentic Canadians?</p>
 
 </div>);
 }

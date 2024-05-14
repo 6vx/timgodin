@@ -173,3 +173,19 @@ img {
   margin-top: 50px;
   padding-top: 25px;
 }
+
+.highlight {
+  background: linear-gradient(to top, #ff69b4, #000);
+  color: white;
+  animation: pulse 3s infinite alternate;
+  border-radius: 5px; /* Add rounded edges */
+}
+
+@keyframes pulse {
+  0% {
+      opacity: 0.8;
+  }
+  100% {
+      opacity: 0.9;
+  }
+}

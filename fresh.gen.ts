@@ -18,6 +18,8 @@ import * as $index from "./routes/index.tsx";
 import * as $justin_trudeau from "./routes/justin-trudeau.tsx";
 import * as $list_of_jobs from "./routes/list-of-jobs.tsx";
 import * as $maid_expansion from "./routes/maid-expansion.tsx";
+import * as $markdown_cheat_sheet from "./routes/markdown-cheat-sheet.tsx";
+import * as $markdown_syntax from "./routes/markdown-syntax.tsx";
 import * as $now from "./routes/now.tsx";
 import * as $obsidino from "./routes/obsidino.tsx";
 import * as $payments from "./routes/payments.tsx";
@@ -50,6 +52,8 @@ const manifest = {
     "./routes/justin-trudeau.tsx": $justin_trudeau,
     "./routes/list-of-jobs.tsx": $list_of_jobs,
     "./routes/maid-expansion.tsx": $maid_expansion,
+    "./routes/markdown-cheat-sheet.tsx": $markdown_cheat_sheet,
+    "./routes/markdown-syntax.tsx": $markdown_syntax,
     "./routes/now.tsx": $now,
     "./routes/obsidino.tsx": $obsidino,
     "./routes/payments.tsx": $payments,
