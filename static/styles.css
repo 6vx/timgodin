@@ -143,6 +143,8 @@ p {
 img {
     object-fit: contain;
     max-width: 250px;
+    width: 250px;
+    height: 250px;
     display: block;
     margin: auto;
     animation: imageFuzzInSlide 1.5s ease-in-out forwards;
