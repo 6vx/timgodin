@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Basic Syntax</h1>
+        
+    <h1>Basic Syntax</h1>
 <h1>Header 1</h1>
 <h2>Header 2</h2>
 <h3>Header 3</h3>
@@ -29,6 +31,7 @@ export default function Home() {
 <h2>wip</h2>
 <p>H~2~O Subscript</p>
 <p>X^2^ Superscript</p>
+
 
 </div>);
 }

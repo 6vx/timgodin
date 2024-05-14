@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Justin Trudeau</h1>
+        
+    <h1>Justin Trudeau</h1>
 <img src="justintrudeau.png" alt="justintrudeau.png" />
 <p>I was living in downtown Kelowna and hiking Knox had become a regular occurrence.</p>
 <p>A jog down the beach and you were there, and the views of the lake and city were incentive on their own.</p>
@@ -16,6 +18,7 @@ export default function Home() {
 <p>My personal opinion was that he was a kind've a plain guy, unremarkable really if not for his excessive company.</p>
 <p>I appreciated that he was participating in a hobby I enjoyed; jogging down a mountain path.</p>
 <p>Beyond that... what do I really even know about him? Not much.</p>
+
 
 </div>);
 }

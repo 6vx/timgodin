@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <ul>
+        
+    <ul>
 <li>Paper Carrier</li>
 <li>Arena Concessions Attendant</li>
 <li>Spring Roll stand at Farmers Market</li>
@@ -22,6 +24,7 @@ export default function Home() {
 <li>Instacart</li>
 <li>Good Neighbour with Rudy</li>
 </ul>
+
 
 </div>);
 }

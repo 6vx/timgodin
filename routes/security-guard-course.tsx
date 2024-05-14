@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Sec Notes</h1>
+        
+    <h1>Sec Notes</h1>
 <p>Collection of notes related to the course work.</p>
 <p>Using trainmyguard.com AB accredited course.</p>
 <h1>Unit 1</h1>
@@ -67,6 +69,7 @@ Section 2.1, Petty Trespass Act</li>
 <li>no tearing down signs</li>
 </ul>
 <p>trespassing is only enacted after they have been requested to leave</p>
+
 
 </div>);
 }

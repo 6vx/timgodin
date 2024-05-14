@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Pierre Poilievre</h1>
+        
+    <h1>Pierre Poilievre</h1>
 <img src="pierre-banner.png" alt="pierre-banner.png" />
 <h2>what I know about Pierre</h2>
 <ul>
@@ -24,6 +26,7 @@ export default function Home() {
 <p>Or are they?</p>
 <p>How much of his audience is Russian/Chinese bots?</p>
 <p>How much rage is coming from authentic Canadians?</p>
+
 
 </div>);
 }

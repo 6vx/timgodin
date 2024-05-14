@@ -11,6 +11,7 @@ import * as $blog_index from "./routes/blog/index.tsx";
 import * as $canadaland_submission from "./routes/canadaland-submission.tsx";
 import * as $canadaland from "./routes/canadaland.tsx";
 import * as $contact from "./routes/contact.tsx";
+import * as $frontmatter from "./routes/frontmatter.tsx";
 import * as $give_quebec_back from "./routes/give-quebec-back.tsx";
 import * as $graveyard_farms from "./routes/graveyard-farms.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
@@ -45,6 +46,7 @@ const manifest = {
     "./routes/canadaland-submission.tsx": $canadaland_submission,
     "./routes/canadaland.tsx": $canadaland,
     "./routes/contact.tsx": $contact,
+    "./routes/frontmatter.tsx": $frontmatter,
     "./routes/give-quebec-back.tsx": $give_quebec_back,
     "./routes/graveyard-farms.tsx": $graveyard_farms,
     "./routes/greet/[name].tsx": $greet_name_,

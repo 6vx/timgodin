@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Tims Twos</h1>
+        
+    <h1>Tims Twos</h1>
 <h2>Daily Youtube Channel</h2>
 <p>This is an experiment.</p>
 <p>A time constraint and a frequency constraint.</p>
@@ -26,6 +28,7 @@ export default function Home() {
 <li>calling mom</li>
 <li>drawing tarot cards</li>
 </ul>
+
 
 </div>);
 }

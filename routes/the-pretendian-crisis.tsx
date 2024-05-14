@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>The Pretendian Crisis</h1>
+        
+    <h1>The Pretendian Crisis</h1>
 <ul>
 <li>Self-identifying appears to be an issue in Canada and US</li>
 <li>Potentially more 'fake' natives than real ones in Canada/US</li>
@@ -11,6 +13,7 @@ export default function Home() {
 <li>Can we trust the statistics when it comes to indigenous crime if a large percentage of the 'indigenous' people are... fake?</li>
 <li><strong>Johnny Depp</strong> is a prominent Pretendian</li>
 </ul>
+
 
 </div>);
 }

@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>MAID Expansion</h1>
+        
+    <h1>MAID Expansion</h1>
 <h2>EXPAND MAID NOW</h2>
 <h3>Expanded Eligibility</h3>
 <p>Eligibility requirements will be dropped and all consenting or unconscious participants registered and processed at the most expedient rate possible.</p>
@@ -16,6 +18,7 @@ export default function Home() {
 <li>YYC</li>
 <li>YVR</li>
 </ul>
+
 
 </div>);
 }

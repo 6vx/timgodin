@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Obsidino</h1>
+        
+    <h1>Obsidino</h1>
 <img src="obsidino.png" alt="obsidino.png" />
 <h4>Vault -&gt; URL in one click.</h4>
 <h2>why</h2>
@@ -47,6 +49,7 @@ export default function Home() {
 <li><a target="_blank" href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheat Sheet | Markdown Guide</a></li>
 <li><a target="_blank" href="https://fresh.deno.dev/">Fresh - The next-gen web framework.</a></li>
 </ul>
+
 
 </div>);
 }

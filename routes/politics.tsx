@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Politics</h1>
+        
+    <h1>Politics</h1>
 <h2>My Policies</h2>
 <p>I have a few controversial opinions of my own that I hope will, in the future, comprise a stalwart platform that gives rise to a '<a href="unity-party">Unity Party</a>' like no other.</p>
 <ul>
@@ -15,6 +17,7 @@ export default function Home() {
 <p>But it's also kinda the norm around the world right now.</p>
 <p>It's also sort've... ironic? How the so-called &quot;Social Media Prime Minister&quot; <a href="justin-trudeau">Justin Trudeau</a> is about to be defeated by a walking oxymoron.</p>
 <p><a href="pierre-poilievre">Pierre's</a> behaviour appears simply robotic to me, and that was <em>before</em> I found out he was <em>the definition</em> of a <strong>career politician</strong>.</p>
+
 
 </div>);
 }

@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1><a target="_blank" href="https://www.canadaland.com/introducing-canadalabs/">CanadaLabs</a></h1>
+        
+    <h1><a target="_blank" href="https://www.canadaland.com/introducing-canadalabs/">CanadaLabs</a></h1>
 <p>Due May 31st. 3 minute audio local news.</p>
 <p>the rules:</p>
 <ol>
@@ -27,6 +29,7 @@ export default function Home() {
 <li>Links to websites / social handles</li>
 <li>An English-language transcript, if the submission is not in English or the audio is unclear</li>
 </ul>
+
 
 </div>);
 }

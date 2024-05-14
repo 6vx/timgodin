@@ -1,7 +1,9 @@
+
 export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
-        <h1>Pierre Youtube Analysis 1</h1>
+        
+    <h1>Pierre Youtube Analysis 1</h1>
 <img src="pierre-analysis-1.png" alt="pierre-analysis-1.png" />
 <p><a target="_blank" href="https://www.youtube.com/watch?v=fxbsfjiamza">Trudeau and Singh ask you to feel bad for them - YouTube</a></p>
 <h2>description</h2>
@@ -18,6 +20,7 @@ export default function Home() {
 <p>The term &quot;<strong>clip chimp</strong>&quot; is slang that originated in the Twitch community and refers to a Twitch user who creates and shares out-of-context clips from a streamer’s channel. These clips are often shared on social media platforms like Reddit and Twitter in an attempt to embarrass streamers and gain online popularity.</p>
 </blockquote>
 <p>In other words; Pierre is monkeying around with <a href="canadian-politics">Canadian Politics</a>.</p>
+
 
 </div>);
 }
