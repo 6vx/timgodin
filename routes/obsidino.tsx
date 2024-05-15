@@ -20,9 +20,8 @@ export default function Home() {
 </ul>
 <h2>why</h2>
 <blockquote>
-<p>Publish - 10$ USD / month
-vs
-Obsidino - 10$ USD / <em>year</em></p>
+<p>Publish - 10$ USD / month</p>
+<p>Obsidino - 10$ USD / <em>year</em></p>
 </blockquote>
 <p>Obsidian's <a target="_blank" href="https://www.obsidian.md/publish">first party offering</a> is too expensive for a lot of use cases.</p>
 <p>For deploying a vault quickly and easily with minimal cosmetic requirements, Obsidino is a reliable alternative.</p>
