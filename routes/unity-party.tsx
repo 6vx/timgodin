@@ -4,7 +4,9 @@ export default function Home() {
     
     return (<div class="main text-left w-max-md mx-auto">
         
-    <h4>One Planet, One People, One Government</h4>
+    <blockquote>
+<p>One Planet, One People, One Government</p>
+</blockquote>
 <h2>Unite the World</h2>
 <p>Canada should lead the way in uniting earth under the hard earned values of the West by uniting the United States and Europe.</p>
 <h2>Combine North America</h2>

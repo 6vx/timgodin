@@ -6,7 +6,9 @@ export default function Home() {
         
     <h1>Obsidino</h1>
 <img src="obsidino.png" alt="obsidino.png" />
-<h4>Vault -&gt; URL in one click.</h4>
+<blockquote>
+<p>Vault -&gt; URL in one click.</p>
+</blockquote>
 <h2>why</h2>
 <p>Obsidian Publish - 10$ USD / month</p>
 <p>Obsidino - 10$ USD / <em>year</em></p>

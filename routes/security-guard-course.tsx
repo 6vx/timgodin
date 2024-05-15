@@ -70,6 +70,25 @@ Section 2.1, Petty Trespass Act</li>
 <li>no tearing down signs</li>
 </ul>
 <p>trespassing is only enacted after they have been requested to leave</p>
+<p>354 cc - posession of property obtained by crime</p>
+<p>430 mischief can be destroying, carelessness, interrupts, obstructs, interferes</p>
+<p>430(2) mischief that endangers someones life is big bad</p>
+<p>breaking car window = mischief</p>
+<p>public mischief is a hybrid dual offence</p>
+<p>tamper computer data may be mischief</p>
+<p>section 25 cc use of force</p>
+<p>avoid using force</p>
+<p>25-2 executing a sentence</p>
+<p>25-3 when not protected</p>
+<p>25-4 protected</p>
+<p>26 excessive use of force</p>
+<p>cops
+criminally liable
+operational policies
+provincial acts and regs
+social acceptability</p>
+<p>27 cc use of force to prevent commision of offence</p>
+<p>ProServe 25$ and ProTect Free to be in Gaming Liquor Venues</p>
 
 
 </div>);
