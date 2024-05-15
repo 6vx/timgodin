@@ -213,3 +213,15 @@ code {
 code:hover {
   border-color: #ff8ec7; /* Lighter shade of pink for the accent */
 }
+
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.disclaimerText {
+  font-size: smaller;
+  color: pink;
+  opacity: 80%;
+}

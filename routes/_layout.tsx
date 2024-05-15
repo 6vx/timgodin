@@ -7,14 +7,19 @@ export default function Layout({ Component, state }: PageProps) {
       
       <Component />
 
-    <div className="bottomSpace">
+    <div class="bottomSpace">
       <br />
     </div>
 
 
-      <div className="menuButton">
-        <h4><a href="/">home</a></h4>
+      <div class="menuButton">
+        {/* <h4><a href="/">home</a></h4> */}
       </div>
+      <div class="disclaimer">
+        <p class="disclaimerText"><a href="/">Tim Godin</a></p>
+        <p class="disclaimerText" >Published with <a href="/obsidino">Obsidino</a> v0.1 © 2024</p>
+      </div>
+
     </div>
   );
 }
