@@ -89,6 +89,8 @@ provincial acts and regs
 social acceptability</p>
 <p>27 cc use of force to prevent commision of offence</p>
 <p>ProServe 25$ and ProTect Free to be in Gaming Liquor Venues</p>
+<h1>Unit 3</h1>
+<h2>Basic Security Procedures</h2>
 
 
 </div>);
