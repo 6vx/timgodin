@@ -12,6 +12,7 @@ import * as $canadaland_submission from "./routes/canadaland-submission.tsx";
 import * as $canadaland from "./routes/canadaland.tsx";
 import * as $contact from "./routes/contact.tsx";
 import * as $dev from "./routes/dev.tsx";
+import * as $eulogy from "./routes/eulogy.tsx";
 import * as $frontmatter from "./routes/frontmatter.tsx";
 import * as $give_quebec_back from "./routes/give-quebec-back.tsx";
 import * as $graveyard_farms from "./routes/graveyard-farms.tsx";
@@ -48,6 +49,7 @@ const manifest = {
     "./routes/canadaland.tsx": $canadaland,
     "./routes/contact.tsx": $contact,
     "./routes/dev.tsx": $dev,
+    "./routes/eulogy.tsx": $eulogy,
     "./routes/frontmatter.tsx": $frontmatter,
     "./routes/give-quebec-back.tsx": $give_quebec_back,
     "./routes/graveyard-farms.tsx": $graveyard_farms,
