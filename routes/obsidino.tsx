@@ -9,11 +9,23 @@ export default function Home() {
 <blockquote>
 <p>Vault -&gt; URL in one click.</p>
 </blockquote>
-<h2>why</h2>
-<p>Obsidian Publish - 10$ USD / month</p>
-<p>Obsidino - 10$ USD / <em>year</em></p>
-<p>Obsidian's <a target="_blank" href="https://www.obsidian.md/publish">first party offering</a> is too expensive. We're talking about publishing some text.</p>
+<h2>what</h2>
 <p>Obsidino is a simple and fast method of deploying a vault to the web.</p>
+<p>Obsidino consumes an Obsidian Vault using Deno and deploys as a Fresh project.</p>
+<ul>
+<li>90+ Lighthouse</li>
+<li>SEO built-in</li>
+<li>Automatic image reformatting</li>
+<li>Minimal/zero config</li>
+</ul>
+<h2>why</h2>
+<blockquote>
+<p>Publish - 10$ USD / month
+vs
+Obsidino - 10$ USD / <em>year</em></p>
+</blockquote>
+<p>Obsidian's <a target="_blank" href="https://www.obsidian.md/publish">first party offering</a> is too expensive for a lot of use cases.</p>
+<p>For deploying a vault quickly and easily with minimal cosmetic requirements, Obsidino is a reliable alternative.</p>
 <h2>examples</h2>
 <p><a href="/">This website</a> is built and updated using Obsidino. All pages on this website are generated from an Obsidian Vault.</p>
 <p><a href="markdown-syntax">This</a> page shows examples of the elements that Obsidino can currently process.</p>
@@ -22,6 +34,8 @@ export default function Home() {
 <li>1GB maximum size</li>
 <li>images, canvases, graphs limited in basic/first version</li>
 <li>extra costs for domains and excessive traffic</li>
+<li>throttling after X requests (ie 2500 views/day)</li>
+<li>throttling after X updates (ie 5 builds/day)</li>
 </ul>
 <h2>progress</h2>
 <ul>

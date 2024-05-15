@@ -12,7 +12,7 @@ export default function Home() {
 <ul>
 <li>Security Course</li>
 <li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li><a href="canadaland-submission">Canadaland Submission</a> deadline coming up</li>
+<li><a href="canadaland-submission">Canadaland Submission</a> <strong>05/31</strong>!</li>
 </ul>
 
 
