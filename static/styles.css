@@ -47,7 +47,7 @@ li {
     background-color: #000; /* Black background */
     color: #ffc0cb; /* Pink text color */
     border-left: 2px solid #ffc0cb; /* Pink accent on the left border */
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0;
     font-style: italic;
     animation: fadeInMove 1s ease forwards; /* Apply the animation */
