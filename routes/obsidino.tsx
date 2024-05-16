@@ -5,7 +5,7 @@ export default function Home() {
     return (<div class="main text-left w-max-md mx-auto">
         
     <h1>Obsidino</h1>
-<img src="obsidino.png" alt="obsidino.png" />
+<img src="obsidino.webp" alt="obsidino.webp" />
 <blockquote>
 <p>Vault -&gt; URL in one click.</p>
 </blockquote>

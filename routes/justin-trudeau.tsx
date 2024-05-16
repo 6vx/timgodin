@@ -5,7 +5,7 @@ export default function Home() {
     return (<div class="main text-left w-max-md mx-auto">
         
     <h1>Justin Trudeau</h1>
-<img src="justintrudeau.png" alt="justintrudeau.png" />
+<img src="justintrudeau.webp" alt="justintrudeau.webp" />
 <p>I was living in downtown Kelowna and hiking Knox had become a regular occurrence.</p>
 <p>A jog down the beach and you were there, and the views of the lake and city were incentive on their own.</p>
 <p>The radio mentioned that the PM would be in town and was scheduled to hike Knox.</p>

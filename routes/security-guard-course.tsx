@@ -157,6 +157,8 @@ Special</p>
 <li>Identify and develop strategies to control your personal triggers in situations of conflict or anxiety</li>
 <li>Conduct an effective interview</li>
 </ol>
+<p>Cycle of Conflict
+break the cycle</p>
 
 
 </div>);
