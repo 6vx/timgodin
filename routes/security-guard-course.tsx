@@ -90,6 +90,73 @@ social acceptability</p>
 <p>ProServe 25$ and ProTect Free to be in Gaming Liquor Venues</p>
 <h1>Unit 3</h1>
 <h2>Basic Security Procedures</h2>
+<ol>
+<li>Explain and demonstrate the observation skills utilized by a security professional</li>
+<li>Explain and demonstrate the various techniques used to:
+<ul>
+<li>control access to sites or venues, and areas within</li>
+<li>carry out surveillance</li>
+<li>control crowds</li>
+<li>describe the signs and behaviours associated with substance absue</li>
+<li>identify drug paraphernalia</li>
+<li>control traffic in emergency and non-emergency situations</li>
+</ul>
+</li>
+<li>Describe shift-related responsibilities, such as:
+<ul>
+<li>interpreting shift posting orders</li>
+<li>starting a new shift</li>
+<li>transferring responsibility at the end of a shift</li>
+</ul>
+</li>
+<li>Explain best practices when working with a partner</li>
+<li>Explain and provide examples of an appropriate use of force response for a security professional</li>
+</ol>
+<p>Observation Activity</p>
+<p>batteries
+glasses
+chocolate
+cell phone
+keyfob
+keys
+screwdriver
+gum
+coins
+business cards
+headphones
+ketchup
+coupon
+paper clips
+rings</p>
+<p>15/24</p>
+<p>CYMBLS</p>
+<p>Color
+Year
+Make
+Body
+License
+Special</p>
+<p>Recalling</p>
+<p>Concentrate Associate Repeat</p>
+<p>Excited Delirium occurs when restricted</p>
+<p>Positional Asphyxia - try to avoid face down, try to avoid chest pressure</p>
+<p>left side is preferred, seated more so</p>
+<h1>Unit 4</h1>
+<h2>Communication for Security Professionals</h2>
+<ol>
+<li>Describe effective verbal and non-verbal communication strategies for security professionals</li>
+<li>Identify and demonstrate methods of communication which are free from bias discrimination or harassment</li>
+<li>Identify strategies for effective verbal and non-verbal communication in situations where communication barriers exist</li>
+<li>Explain and demonstrate verbal and non-verbal communication skills when interacting with individuals who show signs of being:
+<ul>
+<li>uncooperative</li>
+<li>violent</li>
+<li>impaired</li>
+</ul>
+</li>
+<li>Identify and develop strategies to control your personal triggers in situations of conflict or anxiety</li>
+<li>Conduct an effective interview</li>
+</ol>
 
 
 </div>);
