@@ -1,6 +1,6 @@
 
 
-export default function Home() {
+export default function Home({data}: PageProps) {
     
     return (<div class="main text-left w-max-md mx-auto">
         
@@ -38,6 +38,7 @@ export default function Home() {
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240516 added png -&gt; webp automatic conversion</li>
 <li>20240514 some extended syntax (conflicts)</li>
 <li>20240514 basic markdown syntax complete</li>
 <li>20240513 external links open in new window</li>

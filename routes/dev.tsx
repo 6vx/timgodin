@@ -1,10 +1,28 @@
 
+import { h } from "preact";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 
-export default function Home() {
-    
-    return (<div class="main text-left w-max-md mx-auto">
-        
-    <h1>Web App Development Services</h1>
+export const handler: Handlers = {
+  GET(req: Request, ctx: any) {
+    return ctx.render( data );
+  },
+};
+const data = 
+{"title":"Web Dev for Hire","description":"Experienced Typescript Developer available for short-term projects","tags":["seo","dev","developer","Tim","Godin","webdev"]}
+export default function Home({ data }: PageProps) {
+  return (
+    <>
+      <Head>
+        <title>{data.title}</title>
+        <meta name="description" content={data.description} />
+        {/* Add other SEO-related tags here */}
+        {data.tags.map(tag => (
+          <meta name="keywords" content={tag} />
+        ))}
+      </Head>
+      <div class="main text-left w-max-md mx-auto">
+<h1>Web App Development Services</h1>
 <h2>Open to Work</h2>
 <p>Currently accepting short-term projects.</p>
 <h2>Pricing</h2>
@@ -98,6 +116,7 @@ export default function Home() {
 <p><strong>Note</strong>: Prices are indicative and may vary based on the complexity and specific requirements of each project. A detailed quote will be provided after an initial consultation.</p>
 <p>Feel free to <a href="contact">reach out</a> if you have any questions or need further details.</p>
 
-
-</div>);
-}
+        </div>
+      </>
+    );
+  }

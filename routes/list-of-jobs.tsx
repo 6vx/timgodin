@@ -1,6 +1,6 @@
 
 
-export default function Home() {
+export default function Home({data}: PageProps) {
     
     return (<div class="main text-left w-max-md mx-auto">
         
@@ -23,7 +23,7 @@ export default function Home() {
 <li>Electronics Recycling Association</li>
 <li>Amazon Warehouse</li>
 <li>Instacart</li>
-<li>Good Neighbour with Rudy</li>
+<li>Good Neighbour</li>
 </ul>
 
 

@@ -1,6 +1,6 @@
 
 
-export default function Home() {
+export default function Home({data}: PageProps) {
     
     return (<div class="main text-left w-max-md mx-auto">
         
