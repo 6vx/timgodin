@@ -13,7 +13,7 @@ export default function Home({data}: PageProps) {
 <p>Obsidino is a simple and fast method of deploying a vault to the web.</p>
 <p>Obsidino consumes an Obsidian Vault using Deno and deploys as a Fresh project.</p>
 <ul>
-<li>90+ Lighthouse</li>
+<li>90+ Lighthouse score</li>
 <li>SEO built-in</li>
 <li>Automatic image reformatting</li>
 <li>Minimal/zero config</li>
@@ -32,12 +32,11 @@ export default function Home({data}: PageProps) {
 <ul>
 <li>1GB maximum size</li>
 <li>images, canvases, graphs limited in basic/first version</li>
-<li>extra costs for domains and excessive traffic</li>
-<li>throttling after X requests (ie 2500 views/day)</li>
-<li>throttling after X updates (ie 5 builds/day)</li>
+<li>throttling for high use accounts</li>
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240518 added frontmatter title, description and tags</li>
 <li>20240516 added png -&gt; webp automatic conversion</li>
 <li>20240514 some extended syntax (conflicts)</li>
 <li>20240514 basic markdown syntax complete</li>
@@ -49,15 +48,10 @@ export default function Home({data}: PageProps) {
 <h2>roadmap</h2>
 <p>in order of priority</p>
 <ul>
-<li><strong>interpret frontmatter</strong></li>
-<li>SEO and mobile performance tuning</li>
 <li>extended markdown syntax</li>
 <li>1:1 Obsidian-style markdown syntax</li>
 <li>Canvas view</li>
 <li>Graph view</li>
-<li>automatic scale images for web</li>
-<li>themes</li>
-<li>custom domain simplification</li>
 </ul>
 <h2>links</h2>
 <ul>
