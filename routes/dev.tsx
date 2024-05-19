@@ -26,15 +26,8 @@ export default function Home({ data }: PageProps) {
 <h2>Open to Work</h2>
 <p>Currently accepting short-term projects.</p>
 <h2>Pricing</h2>
-<ul>
-<li><strong>Flat Rate</strong>: $50/hour
-<ul>
-<li>Minimum of 10 hours per project</li>
-<li>Maximum of 30 hours per week</li>
-</ul>
-</li>
-</ul>
-<p>Contact me to discuss your project specifics.</p>
+<p>$50/hour</p>
+<p><a href="contact">Contact</a> me to discuss your project specifics.</p>
 <h1>Experience</h1>
 <p>As a TypeScript-focused developer, I have additional experience in the following areas:</p>
 <ol>

@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"color":"red","title":"Tim Godin","description":"Tim Godin","tags":["timgodin"]}
+{"color":"red","description":"Reach out to me about your project!","title":"Contact Information","tags":["email","linkedIn"]}
 export default function Home({ data }: PageProps) {
   return (
     <>

@@ -1,10 +1,28 @@
 
+import { h } from "preact";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 
-export default function Home({data}: PageProps) {
-    
-    return (<div class="main text-left w-max-md mx-auto">
-        
-    <h1>Obsidino</h1>
+export const handler: Handlers = {
+  GET(req: Request, ctx: any) {
+    return ctx.render( data );
+  },
+};
+const data = 
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework."}
+export default function Home({ data }: PageProps) {
+  return (
+    <>
+      <Head>
+        <title>{data.title}</title>
+        <meta name="description" content={data.description} />
+        {/* Add other SEO-related tags here */}
+        {data.tags.map(tag => (
+          <meta name="keywords" content={tag} />
+        ))}
+      </Head>
+      <div class="main text-left w-max-md mx-auto">
+<h1>Obsidino</h1>
 <img src="obsidino.webp" alt="obsidino.webp" />
 <blockquote>
 <p>Vault -&gt; URL in one click.</p>
@@ -49,6 +67,8 @@ export default function Home({data}: PageProps) {
 <p>in order of priority</p>
 <ul>
 <li>extended markdown syntax</li>
+<li>subdirectory support</li>
+<li>automatic created/updated data</li>
 <li>1:1 Obsidian-style markdown syntax</li>
 <li>Canvas view</li>
 <li>Graph view</li>
@@ -61,6 +81,7 @@ export default function Home({data}: PageProps) {
 <li><a target="_blank" href="https://fresh.deno.dev/">Fresh - The next-gen web framework.</a></li>
 </ul>
 
-
-</div>);
-}
+        </div>
+      </>
+    );
+  }
