@@ -66,6 +66,7 @@ export default function Home({ data }: PageProps) {
 <h2>roadmap</h2>
 <p>in order of priority</p>
 <ul>
+<li>generate sitemap/robots.txt</li>
 <li>extended markdown syntax</li>
 <li>subdirectory support</li>
 <li>automatic created/updated data</li>
