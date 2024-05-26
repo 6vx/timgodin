@@ -90,8 +90,8 @@ h2 {
 
 h3 {
   font-size: 1.2em; /* Smaller than h2 */
-  margin: 5px 0px; /* Same margin as h1 and h2 */
-  padding: 5px 5px; /* Padding with indentation on the left */
+  margin: 5px 0px;
+  padding: 5px 0px;
   text-align: left; /* Left-aligned text */
   font-weight: bold; /* Bold font weight */
   color: pink; /* Pink text color */
@@ -106,8 +106,8 @@ h4 {
   justify-content: left;
   flex: auto;
   text-align: left;
-  margin: 0px;
-  padding: 0px;
+  margin: 5px 0px;
+  padding: 5px 0px;
 }
 
 p {

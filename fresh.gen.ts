@@ -30,6 +30,7 @@ import * as $payments from "./routes/payments.tsx";
 import * as $pierre_poilievre from "./routes/pierre-poilievre.tsx";
 import * as $pierre_youtube_analysis_1 from "./routes/pierre-youtube-analysis-1.tsx";
 import * as $politics from "./routes/politics.tsx";
+import * as $resume from "./routes/resume.tsx";
 import * as $security_guard_course from "./routes/security-guard-course.tsx";
 import * as $the_pretendian_crisis from "./routes/the-pretendian-crisis.tsx";
 import * as $tims_twos from "./routes/tims-twos.tsx";
@@ -68,6 +69,7 @@ const manifest = {
     "./routes/pierre-poilievre.tsx": $pierre_poilievre,
     "./routes/pierre-youtube-analysis-1.tsx": $pierre_youtube_analysis_1,
     "./routes/politics.tsx": $politics,
+    "./routes/resume.tsx": $resume,
     "./routes/security-guard-course.tsx": $security_guard_course,
     "./routes/the-pretendian-crisis.tsx": $the_pretendian_crisis,
     "./routes/tims-twos.tsx": $tims_twos,
