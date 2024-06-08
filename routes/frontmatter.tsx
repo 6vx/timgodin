@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"tags":["frontmatter","seo","tags","tagging"],"published":"20240514","title":"FrontMatter","description":"A page for testing frontmatter.","public":true,"private":"false"}
+{"tags":["frontmatter","seo","tags","tagging"],"published":"20240514","title":"FrontMatter","description":"A page for testing frontmatter.","public":true,"created":"Tue May 14 2024","updated":"Tue May 14 2024","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

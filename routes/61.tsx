@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+{"created":"Thu May 16 2024","updated":"Thu May 16 2024","title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
