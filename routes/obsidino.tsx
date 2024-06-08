@@ -49,11 +49,12 @@ export default function Home({ data }: PageProps) {
 <h2>expected limitations</h2>
 <ul>
 <li>1GB maximum size</li>
-<li>images, canvases, graphs limited in basic/first version</li>
-<li>throttling for high use accounts</li>
+<li>images, canvases, graphs limited</li>
+<li>throttling resources</li>
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240608 added privacy mode - file is never sent to server</li>
 <li>20240518 added frontmatter title, description and tags</li>
 <li>20240516 added png -&gt; webp automatic conversion</li>
 <li>20240514 some extended syntax (conflicts)</li>
@@ -66,10 +67,11 @@ export default function Home({ data }: PageProps) {
 <h2>roadmap</h2>
 <p>in order of priority</p>
 <ul>
+<li>footnote support</li>
+<li>automatic created/updated frontmatter injection</li>
 <li>generate sitemap/robots.txt</li>
 <li>extended markdown syntax</li>
 <li>subdirectory support</li>
-<li>automatic created/updated data</li>
 <li>1:1 Obsidian-style markdown syntax</li>
 <li>Canvas view</li>
 <li>Graph view</li>
