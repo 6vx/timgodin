@@ -54,6 +54,7 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240608 abstracted build -&gt; deploy into one step with fail-safe</li>
 <li>20240608 added privacy mode - file is never sent to server</li>
 <li>20240518 added frontmatter title, description and tags</li>
 <li>20240516 added png -&gt; webp automatic conversion</li>
