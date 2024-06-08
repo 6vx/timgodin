@@ -68,7 +68,7 @@ export default function Home({ data }: PageProps) {
 <p>in order of priority</p>
 <ul>
 <li>footnote support</li>
-<li>automatic created/updated frontmatter injection</li>
+<li>automatic created/modified frontmatter injection</li>
 <li>generate sitemap/robots.txt</li>
 <li>extended markdown syntax</li>
 <li>subdirectory support</li>
