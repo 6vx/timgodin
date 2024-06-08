@@ -22,7 +22,7 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-REDACTED
+This page has been set to private.
         </div>
       </>
     );
