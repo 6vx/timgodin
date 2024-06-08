@@ -1,19 +1,39 @@
 
+import { h } from "preact";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 
-export default function Home({data}: PageProps) {
-    
-    return (<div class="main text-left w-max-md mx-auto">
-        
-    <h1>nownownow</h1>
-<p>I am being pressured to move quickly. And am happy to do so.</p>
-<p>Obsessed with creating; Obsidino keeps me busy even when I'm not busy.</p>
+export const handler: Handlers = {
+  GET(req: Request, ctx: any) {
+    return ctx.render( data );
+  },
+};
+const data = 
+{"title":"What I'm Up To","tags":["nownownow"],"description":"Tim Godin"}
+export default function Home({ data }: PageProps) {
+  return (
+    <>
+      <Head>
+        <title>{data.title}</title>
+        <meta name="description" content={data.description} />
+        {/* Add other SEO-related tags here */}
+        {data.tags.map(tag => (
+          <meta name="keywords" content={tag} />
+        ))}
+      </Head>
+      <div class="main text-left w-max-md mx-auto">
+<h1>nownownow</h1>
+<h4>Updated 20240527 from Alberta</h4>
+<p>Working and playing in Canada's America.</p>
 <h2>processing</h2>
 <ul>
-<li>Security Course</li>
+<li>Security Application</li>
 <li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li><a href="canadaland-submission">Canadaland Submission</a></li>
+<li><a href="art-project-for-fgm">Art Project for FGM</a></li>
+<li></li>
 </ul>
 
-
-</div>);
-}
+        </div>
+      </>
+    );
+  }
