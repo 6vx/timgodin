@@ -1,10 +1,28 @@
 
+import { h } from "preact";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 
-export default function Home({data}: PageProps) {
-    
-    return (<div class="main text-left w-max-md mx-auto">
-        
-    <h1>Justin Trudeau</h1>
+export const handler: Handlers = {
+  GET(req: Request, ctx: any) {
+    return ctx.render( data );
+  },
+};
+const data = 
+{"title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+export default function Home({ data }: PageProps) {
+  return (
+    <>
+      <Head>
+        <title>{data.title}</title>
+        <meta name="description" content={data.description} />
+        {/* Add other SEO-related tags here */}
+        {data.tags.map(tag => (
+          <meta name="keywords" content={tag} />
+        ))}
+      </Head>
+      <div class="main text-left w-max-md mx-auto">
+<h1>Justin Trudeau</h1>
 <img src="justintrudeau.webp" alt="justintrudeau.webp" />
 <p>I was living in downtown Kelowna and hiking Knox had become a regular occurrence.</p>
 <p>A jog down the beach and you were there, and the views of the lake and city were incentive on their own.</p>
@@ -20,6 +38,7 @@ export default function Home({data}: PageProps) {
 <p>I appreciated that he was participating in a hobby I enjoyed; jogging down a mountain path.</p>
 <p>Beyond that... what do I really even know about him? Not much.</p>
 
-
-</div>);
-}
+        </div>
+      </>
+    );
+  }

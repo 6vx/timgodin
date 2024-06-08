@@ -22,8 +22,7 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-<p>Testing privacy first. Then we'll add more here.</p>
-
+REDACTED
         </div>
       </>
     );

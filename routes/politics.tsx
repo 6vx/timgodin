@@ -1,10 +1,28 @@
 
+import { h } from "preact";
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 
-export default function Home({data}: PageProps) {
-    
-    return (<div class="main text-left w-max-md mx-auto">
-        
-    <h1>Politics</h1>
+export const handler: Handlers = {
+  GET(req: Request, ctx: any) {
+    return ctx.render( data );
+  },
+};
+const data = 
+{"title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+export default function Home({ data }: PageProps) {
+  return (
+    <>
+      <Head>
+        <title>{data.title}</title>
+        <meta name="description" content={data.description} />
+        {/* Add other SEO-related tags here */}
+        {data.tags.map(tag => (
+          <meta name="keywords" content={tag} />
+        ))}
+      </Head>
+      <div class="main text-left w-max-md mx-auto">
+<h1>Politics</h1>
 <h2>My Policies</h2>
 <p>I have a few controversial opinions of my own that I hope will, in the future, comprise a stalwart platform that gives rise to a '<a href="unity-party">Unity Party</a>' like no other.</p>
 <ul>
@@ -20,6 +38,7 @@ export default function Home({data}: PageProps) {
 <p><a href="pierre-poilievre">Pierre's</a> behaviour appears simply robotic to me, and that was <em>before</em> I found out he was <em>the definition</em> of a <strong>career politician</strong>.</p>
 <p>Can't we find someone... else? Can we skip both of these guys? Please?</p>
 
-
-</div>);
-}
+        </div>
+      </>
+    );
+  }

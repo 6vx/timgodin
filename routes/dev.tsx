@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Web Dev for Hire","description":"Experienced Typescript Developer available for short-term projects","tags":["seo","dev","developer","Tim","Godin","webdev"]}
+{"title":"Web Dev for Hire","description":"Experienced Typescript Developer available for short-term projects","tags":["seo","dev","developer","Tim","Godin","webdev"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

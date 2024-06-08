@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"description":"Tim Godin"}
+{"title":"What I'm Up To","tags":["nownownow"],"description":"Tim Godin","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,14 +23,14 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 <h1>nownownow</h1>
-<h4>Updated 20240527 from Alberta</h4>
+<h4>Updated 20240608 from Alberta</h4>
 <p>Working and playing in Canada's America.</p>
 <h2>processing</h2>
 <ul>
 <li>Security Application</li>
 <li>Flesh out <a href="obsidino">Obsidino</a></li>
 <li><a href="art-project-for-fgm">Art Project for FGM</a></li>
-<li></li>
+<li>XP Bonus</li>
 </ul>
 
         </div>
