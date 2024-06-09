@@ -29,8 +29,8 @@ export default function Home({ data }: PageProps) {
 <p>Tim was reliable, patient, kind, loving, witty and forgiving.</p>
 <p>He will be remembered through me.</p>
 
-        <span class="timestamps">Created: {data.created}</span><br/>
-        <span class="timestamps">Updated: {data.updated}</span>
+        <p class="timestamps">Created: {data.created}</p>
+        <p class="timestamps">Updated: {data.updated}</p>
         </div>
       </>
     );

@@ -50,8 +50,8 @@ export default function Home({ data }: PageProps) {
 <li>An English-language transcript, if the submission is not in English or the audio is unclear</li>
 </ul>
 
-        <span class="timestamps">Created: {data.created}</span><br/>
-        <span class="timestamps">Updated: {data.updated}</span>
+        <p class="timestamps">Created: {data.created}</p>
+        <p class="timestamps">Updated: {data.updated}</p>
         </div>
       </>
     );

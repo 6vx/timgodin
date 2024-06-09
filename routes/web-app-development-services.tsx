@@ -62,8 +62,8 @@ export default function Home({ data }: PageProps) {
 </ol>
 <p><strong>Note</strong>: Prices are indicative and may vary based on the complexity and specific requirements of each project. A detailed quote will be provided after an initial consultation.</p>
 
-        <span class="timestamps">Created: {data.created}</span><br/>
-        <span class="timestamps">Updated: {data.updated}</span>
+        <p class="timestamps">Created: {data.created}</p>
+        <p class="timestamps">Updated: {data.updated}</p>
         </div>
       </>
     );

@@ -41,8 +41,8 @@ export default function Home({ data }: PageProps) {
 </blockquote>
 <p>In other words; Pierre is monkeying around with <a href="canadian-politics">Canadian Politics</a>.</p>
 
-        <span class="timestamps">Created: {data.created}</span><br/>
-        <span class="timestamps">Updated: {data.updated}</span>
+        <p class="timestamps">Created: {data.created}</p>
+        <p class="timestamps">Updated: {data.updated}</p>
         </div>
       </>
     );

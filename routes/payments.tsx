@@ -29,8 +29,8 @@ export default function Home({ data }: PageProps) {
 <h3>BTC</h3>
 <p>12QoR6H3bXCAVmaEo9Q5jWjksXqpQjLLh9</p>
 
-        <span class="timestamps">Created: {data.created}</span><br/>
-        <span class="timestamps">Updated: {data.updated}</span>
+        <p class="timestamps">Created: {data.created}</p>
+        <p class="timestamps">Updated: {data.updated}</p>
         </div>
       </>
     );

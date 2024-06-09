@@ -39,8 +39,8 @@ export default function Home({ data }: PageProps) {
 <p><a href="pierre-poilievre">Pierre's</a> behaviour appears simply robotic to me, and that was <em>before</em> I found out he was <em>the definition</em> of a <strong>career politician</strong>.</p>
 <p>Can't we find someone... else? Can we skip both of these guys? Please?</p>
 
-        <span class="timestamps">Created: {data.created}</span><br/>
-        <span class="timestamps">Updated: {data.updated}</span>
+        <p class="timestamps">Created: {data.created}</p>
+        <p class="timestamps">Updated: {data.updated}</p>
         </div>
       </>
     );
