@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Pierre Youtube Analysis 1</h1>
 <img src="pierre-analysis-1.webp" alt="pierre-analysis-1.webp" />
@@ -42,6 +41,8 @@ export default function Home({ data }: PageProps) {
 </blockquote>
 <p>In other words; Pierre is monkeying around with <a href="canadian-politics">Canadian Politics</a>.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

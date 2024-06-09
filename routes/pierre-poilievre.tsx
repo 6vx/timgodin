@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Pierre Poilievre</h1>
 <img src="pierre-banner.webp" alt="pierre-banner.webp" />
@@ -48,6 +47,8 @@ export default function Home({ data }: PageProps) {
 <p>How much of his audience is Russian/Chinese bots?</p>
 <p>How much rage is coming from authentic Canadians?</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Justin Trudeau</h1>
 <img src="justintrudeau.webp" alt="justintrudeau.webp" />
@@ -40,6 +39,8 @@ export default function Home({ data }: PageProps) {
 <p>I appreciated that he was participating in a hobby I enjoyed; jogging down a mountain path.</p>
 <p>Beyond that... what do I really even know about him? Not much.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

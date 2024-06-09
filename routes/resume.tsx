@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Tim Godin</h1>
 <h3><a target="_blank" href="https://github.com/6vx">GITHUB</a></h3>
@@ -144,6 +143,8 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h3>References available upon request</h3>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

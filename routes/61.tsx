@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Sarah</h1>
 <h2>무당</h2>
@@ -32,6 +31,8 @@ export default function Home({ data }: PageProps) {
 </blockquote>
 <p>She is a conduit between the material and spiritual realms, a bridge from mundane to mystical.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

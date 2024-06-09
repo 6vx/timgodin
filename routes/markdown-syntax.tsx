@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Basic Syntax</h1>
 <h1>Header 1</h1>
@@ -53,6 +52,8 @@ export default function Home({ data }: PageProps) {
 <p>H~2~O Subscript</p>
 <p>X^2^ Superscript</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

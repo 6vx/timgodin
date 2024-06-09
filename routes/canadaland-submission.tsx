@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1><a target="_blank" href="https://www.canadaland.com/introducing-canadalabs/">CanadaLabs</a></h1>
 <p>Due May 31st. 3 minute audio local news.</p>
@@ -51,6 +50,8 @@ export default function Home({ data }: PageProps) {
 <li>An English-language transcript, if the submission is not in English or the audio is unclear</li>
 </ul>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

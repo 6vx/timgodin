@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <ul>
 <li>Paper Carrier</li>
@@ -46,6 +45,8 @@ export default function Home({ data }: PageProps) {
 <li>Good Neighbour</li>
 </ul>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

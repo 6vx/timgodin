@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Web App Development Services</h1>
 <h2>Open to Work</h2>
@@ -74,6 +73,8 @@ export default function Home({ data }: PageProps) {
 <p>Example <a href="web-app-development-services">Web App Development Services</a>.</p>
 <p>Feel free to <a href="contact">reach out</a> if you have any questions or need further details.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

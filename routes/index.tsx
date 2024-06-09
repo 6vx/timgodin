@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Tim Godin</h1>
 <img src="timface.webp" alt="timface.webp" />
@@ -31,6 +30,8 @@ export default function Home({ data }: PageProps) {
 <p><a href="contact">Reach out</a> with inquiries/offers.</p>
 <p>Check out what I'm up to right <a href="now">now</a>.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

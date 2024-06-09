@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Eulogy</h1>
 <h2>How does $%@# remember me?</h2>
@@ -30,6 +29,8 @@ export default function Home({ data }: PageProps) {
 <p>Tim was reliable, patient, kind, loving, witty and forgiving.</p>
 <p>He will be remembered through me.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

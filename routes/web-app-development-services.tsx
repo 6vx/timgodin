@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Web Application Development Packages</h1>
 <h2>1. Prototype Development (Starting at $500)</h2>
@@ -63,6 +62,8 @@ export default function Home({ data }: PageProps) {
 </ol>
 <p><strong>Note</strong>: Prices are indicative and may vary based on the complexity and specific requirements of each project. A detailed quote will be provided after an initial consultation.</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

@@ -22,12 +22,13 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>CANADALAND Podcast</h1>
 <h2>Episodes</h2>
 <p>20240513 - <a href="the-pretendian-crisis">The Pretendian Crisis</a></p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );

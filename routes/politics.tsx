@@ -22,7 +22,6 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
-      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
 
 <h1>Politics</h1>
 <h2>My Policies</h2>
@@ -40,6 +39,8 @@ export default function Home({ data }: PageProps) {
 <p><a href="pierre-poilievre">Pierre's</a> behaviour appears simply robotic to me, and that was <em>before</em> I found out he was <em>the definition</em> of a <strong>career politician</strong>.</p>
 <p>Can't we find someone... else? Can we skip both of these guys? Please?</p>
 
+        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+        
         </div>
       </>
     );
