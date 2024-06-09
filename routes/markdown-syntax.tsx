@@ -52,6 +52,8 @@ export default function Home({ data }: PageProps) {
 <p>H~2~O Subscript</p>
 <p>X^2^ Superscript</p>
 
+        <br />
+        <br />
         <p class="timestamps">Created: {data.created}</p>
         <p class="timestamps">Updated: {data.updated}</p>
         </div>

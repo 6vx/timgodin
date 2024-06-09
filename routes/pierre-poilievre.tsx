@@ -47,6 +47,8 @@ export default function Home({ data }: PageProps) {
 <p>How much of his audience is Russian/Chinese bots?</p>
 <p>How much rage is coming from authentic Canadians?</p>
 
+        <br />
+        <br />
         <p class="timestamps">Created: {data.created}</p>
         <p class="timestamps">Updated: {data.updated}</p>
         </div>

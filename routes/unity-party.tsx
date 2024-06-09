@@ -34,6 +34,8 @@ export default function Home({ data }: PageProps) {
 <h2>Consolidate Power</h2>
 <p>10,000 years of peace will be administered to Earth while humans become an interplanetary species.</p>
 
+        <br />
+        <br />
         <p class="timestamps">Created: {data.created}</p>
         <p class="timestamps">Updated: {data.updated}</p>
         </div>

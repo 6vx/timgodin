@@ -24,7 +24,6 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>nownownow</h1>
-<h4>Updated 20240608 from Alberta</h4>
 <p>Working and playing in Canada's America.</p>
 <h2>processing</h2>
 <ul>
@@ -34,6 +33,8 @@ export default function Home({ data }: PageProps) {
 <li>XP Bonus</li>
 </ul>
 
+        <br />
+        <br />
         <p class="timestamps">Created: {data.created}</p>
         <p class="timestamps">Updated: {data.updated}</p>
         </div>

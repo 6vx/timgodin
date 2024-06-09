@@ -7,10 +7,7 @@ export default function Layout({ Component, state }: PageProps) {
       
       <Component />
 
-    <div class="bottomSpace">
       <br />
-    </div>
-
 
       <div class="menuButton">
         {/* <h4><a href="/">home</a></h4> */}

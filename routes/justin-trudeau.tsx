@@ -39,6 +39,8 @@ export default function Home({ data }: PageProps) {
 <p>I appreciated that he was participating in a hobby I enjoyed; jogging down a mountain path.</p>
 <p>Beyond that... what do I really even know about him? Not much.</p>
 
+        <br />
+        <br />
         <p class="timestamps">Created: {data.created}</p>
         <p class="timestamps">Updated: {data.updated}</p>
         </div>
