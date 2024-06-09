@@ -30,7 +30,7 @@ export default function Home({ data }: PageProps) {
 <p><a href="contact">Reach out</a> with inquiries/offers.</p>
 <p>Check out what I'm up to right <a href="now">now</a>.</p>
 
-        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Created: {data.created}</span><br>
         <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>

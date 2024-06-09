@@ -52,7 +52,7 @@ export default function Home({ data }: PageProps) {
 <p>H~2~O Subscript</p>
 <p>X^2^ Superscript</p>
 
-        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Created: {data.created}</span><br>
         <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>

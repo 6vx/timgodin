@@ -39,7 +39,7 @@ export default function Home({ data }: PageProps) {
 <li>YVR</li>
 </ul>
 
-        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Created: {data.created}</span><br>
         <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>

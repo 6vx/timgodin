@@ -179,7 +179,7 @@ Special</p>
 <p>Cycle of Conflict
 break the cycle</p>
 
-        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Created: {data.created}</span><br>
         <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
