@@ -86,8 +86,8 @@ export default function Home({ data }: PageProps) {
 <li><a target="_blank" href="https://fresh.deno.dev/">Fresh - The next-gen web framework.</a></li>
 </ul>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );

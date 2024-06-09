@@ -34,8 +34,8 @@ export default function Home({ data }: PageProps) {
 <li><strong>Johnny Depp</strong> is a prominent Pretendian</li>
 </ul>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );

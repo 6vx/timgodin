@@ -27,8 +27,8 @@ export default function Home({ data }: PageProps) {
 <p>Some things just aren't meant to be shared.</p>
 <p><a href="/">Go home?</a></p>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );

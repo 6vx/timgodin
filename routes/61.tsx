@@ -31,8 +31,8 @@ export default function Home({ data }: PageProps) {
 </blockquote>
 <p>She is a conduit between the material and spiritual realms, a bridge from mundane to mystical.</p>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );

@@ -27,8 +27,8 @@ export default function Home({ data }: PageProps) {
 <h2>Episodes</h2>
 <p>20240513 - <a href="the-pretendian-crisis">The Pretendian Crisis</a></p>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );

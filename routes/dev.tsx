@@ -73,8 +73,8 @@ export default function Home({ data }: PageProps) {
 <p>Example <a href="web-app-development-services">Web App Development Services</a>.</p>
 <p>Feel free to <a href="contact">reach out</a> if you have any questions or need further details.</p>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );

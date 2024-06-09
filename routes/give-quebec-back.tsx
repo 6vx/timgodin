@@ -27,8 +27,8 @@ export default function Home({ data }: PageProps) {
 <h2>An Important Step Forward for Canada</h2>
 <p>When Quebec rejoins France, the new 'EU' 'NA' border will further align European, Canadian and American interests.</p>
 
-        <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
-        
+        <span class="timestamps">Created: {data.created}</span>
+        <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
     );
