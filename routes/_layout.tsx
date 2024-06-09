@@ -9,9 +9,6 @@ export default function Layout({ Component, state }: PageProps) {
 
       <br />
 
-      <div class="menuButton">
-        {/* <h4><a href="/">home</a></h4> */}
-      </div>
       <div class="disclaimer">
         <p class="disclaimerText"><a href="/">Tim Godin</a></p>
         <p class="disclaimerText" >Published with <a href="/obsidino">Obsidino</a> v0.1 © 2024</p>
