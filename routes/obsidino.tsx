@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"Fri Apr 26 2024","updated":"Sat Jun 08 2024","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-06-08","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
