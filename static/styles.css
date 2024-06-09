@@ -114,10 +114,12 @@ h4 {
   font-size: x-small;
   align-items: center;
   align-content: center;
+  margin: 10px 0px 10px 0px
+
 }
 
 p {
-    margin: 10px 0px 10px 0px
+  margin: 10px 0px 10px 0px
 }
 
 @keyframes imageFuzzInSlide {

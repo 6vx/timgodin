@@ -143,7 +143,7 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h3>References available upon request</h3>
 
-        <span class="timestamps">Created: {data.created}</span><br>
+        <span class="timestamps">Created: {data.created}</span><br />
         <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>

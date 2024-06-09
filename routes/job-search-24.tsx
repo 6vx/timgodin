@@ -26,7 +26,7 @@ export default function Home({ data }: PageProps) {
 <p>20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)</p>
 <p>20240526 MCI - Customer Service REMOTE MCW-G617-ZxxK-XWbUX</p>
 
-        <span class="timestamps">Created: {data.created}</span><br>
+        <span class="timestamps">Created: {data.created}</span><br />
         <span class="timestamps">Updated: {data.updated}</span>
         </div>
       </>
