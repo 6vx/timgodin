@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 This page has been set to private.
         </div>
       </>

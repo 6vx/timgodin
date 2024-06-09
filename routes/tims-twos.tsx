@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Tims Twos</h1>
 <h2>Daily Youtube Channel</h2>
 <p>This is an experiment.</p>

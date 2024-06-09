@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Politics</h1>
 <h2>My Policies</h2>
 <p>I have a few controversial opinions of my own that I hope will, in the future, comprise a stalwart platform that gives rise to a '<a href="unity-party">Unity Party</a>' like no other.</p>

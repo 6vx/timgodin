@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Private Information Redacted</h1>
 <p>Some things just aren't meant to be shared.</p>
 <p><a href="/">Go home?</a></p>

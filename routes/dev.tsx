@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Web App Development Services</h1>
 <h2>Open to Work</h2>
 <p>Currently accepting short-term projects.</p>

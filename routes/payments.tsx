@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Payments</h1>
 <h3>TON</h3>
 <p>UQAu8pQHB5b9v_isn7lU6ZWjUAKs2Pr7ilZf-J2p4_AcuSD8</p>

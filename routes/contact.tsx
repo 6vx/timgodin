@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Contact</h1>
 <h2>email</h2>
 <p><a href="mailto:tim@timgod.in">tim@timgod.in</a></p>

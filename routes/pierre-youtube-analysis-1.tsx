@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Pierre Youtube Analysis 1</h1>
 <img src="pierre-analysis-1.webp" alt="pierre-analysis-1.webp" />
 <p><a target="_blank" href="https://www.youtube.com/watch?v=fxbsfjiamza">Trudeau and Singh ask you to feel bad for them - YouTube</a></p>

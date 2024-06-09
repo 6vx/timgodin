@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Justin Trudeau</h1>
 <img src="justintrudeau.webp" alt="justintrudeau.webp" />
 <p>I was living in downtown Kelowna and hiking Knox had become a regular occurrence.</p>

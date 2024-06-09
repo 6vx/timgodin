@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>The Pretendian Crisis</h1>
 <ul>
 <li>Self-identifying appears to be an issue in Canada and US</li>

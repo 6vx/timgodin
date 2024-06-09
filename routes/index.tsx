@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Tim Godin</h1>
 <img src="timface.webp" alt="timface.webp" />
 <p><a href="dev">Widget artificer</a>.</p>

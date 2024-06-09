@@ -110,6 +110,12 @@ h4 {
   padding: 5px 0px;
 }
 
+.timestamps {
+  font-size: x-small;
+  align-items: center;
+  align-content: center;
+}
+
 p {
     margin: 10px 0px 10px 0px
 }

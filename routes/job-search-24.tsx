@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <p>20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)</p>
 <p>20240526 MCI - Customer Service REMOTE MCW-G617-ZxxK-XWbUX</p>
 

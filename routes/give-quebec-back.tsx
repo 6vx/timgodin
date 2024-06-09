@@ -22,6 +22,8 @@ export default function Home({ data }: PageProps) {
         ))}
       </Head>
       <div class="main text-left w-max-md mx-auto">
+      <span class="timestamps">Created: {data.created} - Updated: {data.updated}</span>
+
 <h1>Give Quebec Back</h1>
 <h2>An Important Step Forward for Canada</h2>
 <p>When Quebec rejoins France, the new 'EU' 'NA' border will further align European, Canadian and American interests.</p>
