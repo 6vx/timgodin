@@ -27,9 +27,7 @@ export default function Home({ data }: PageProps) {
 <p>All graveyards must be converted to farms by 2035 or be surrendered to the state for processing.</p>
 
         <br />
-        <br />
-        <p class="timestamps">Created: {data.created}</p>
-        <p class="timestamps">Updated: {data.updated}</p>
+        <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
       </>
     );

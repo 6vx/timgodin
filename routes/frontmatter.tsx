@@ -30,9 +30,7 @@ export default function Home({ data }: PageProps) {
 <p>How can I accomplish that?</p>
 
         <br />
-        <br />
-        <p class="timestamps">Created: {data.created}</p>
-        <p class="timestamps">Updated: {data.updated}</p>
+        <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
       </>
     );

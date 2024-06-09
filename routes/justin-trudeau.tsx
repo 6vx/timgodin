@@ -40,9 +40,7 @@ export default function Home({ data }: PageProps) {
 <p>Beyond that... what do I really even know about him? Not much.</p>
 
         <br />
-        <br />
-        <p class="timestamps">Created: {data.created}</p>
-        <p class="timestamps">Updated: {data.updated}</p>
+        <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
       </>
     );

@@ -42,9 +42,7 @@ export default function Home({ data }: PageProps) {
 <p>In other words; Pierre is monkeying around with <a href="canadian-politics">Canadian Politics</a>.</p>
 
         <br />
-        <br />
-        <p class="timestamps">Created: {data.created}</p>
-        <p class="timestamps">Updated: {data.updated}</p>
+        <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
       </>
     );

@@ -31,9 +31,7 @@ export default function Home({ data }: PageProps) {
 <p>Check out what I'm up to right <a href="now">now</a>.</p>
 
         <br />
-        <br />
-        <p class="timestamps">Created: {data.created}</p>
-        <p class="timestamps">Updated: {data.updated}</p>
+        <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
       </>
     );

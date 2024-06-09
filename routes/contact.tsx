@@ -30,9 +30,7 @@ export default function Home({ data }: PageProps) {
 <p><a target="_blank" href="https://www.linkedin.com/in/godini/">Tim Godin | LinkedIn</a></p>
 
         <br />
-        <br />
-        <p class="timestamps">Created: {data.created}</p>
-        <p class="timestamps">Updated: {data.updated}</p>
+        <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
       </>
     );
