@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-06-08","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-06-10","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -55,9 +55,9 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h2>progress</h2>
 <ul>
-<li>20240608 inject created/updated data to frontmatter from file</li>
-<li>20240608 abstracted build -&gt; deploy into one step with fail-safe</li>
-<li>20240608 added privacy mode - file is never sent to server</li>
+<li>20240608 inject created/updated data to frontmatter from file metadata</li>
+<li>20240608 abstracted build -&gt; deploy into one step with fail-safe and commit message param</li>
+<li>20240608 added privacy mode - file/data is replaced and never sent to server</li>
 <li>20240518 added frontmatter title, description and tags</li>
 <li>20240516 added png -&gt; webp automatic conversion</li>
 <li>20240514 some extended syntax (conflicts)</li>
@@ -70,6 +70,7 @@ export default function Home({ data }: PageProps) {
 <h2>roadmap</h2>
 <p>in order of priority</p>
 <ul>
+<li>auto generate &quot;recently updated/created&quot;</li>
 <li>footnote support</li>
 <li>generate sitemap/robots.txt</li>
 <li>extended markdown syntax</li>

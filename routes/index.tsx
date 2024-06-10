@@ -26,8 +26,8 @@ export default function Home({ data }: PageProps) {
 <h1>Tim Godin</h1>
 <img src="timface.webp" alt="timface.webp" />
 <p><a href="dev">Widget artificer</a>.</p>
-<p>I like to write. <a href="walking-the-dog">People's stories</a>, <a href="obsidino">computer code</a>, fiction, and commentary.</p>
-<p><a href="contact">Reach out</a> with inquiries/offers.</p>
+<p>I like to write. <a href="obsidino">Computer code</a>, fiction, <a href="walking-the-dog">people's stories</a> and commentary.</p>
+<p><a href="contact">Reach out</a> with inquiries/offers. I enjoy taking on short term web and media projects.</p>
 <p>Check out what I'm up to right <a href="now">now</a>.</p>
 
         <br />
