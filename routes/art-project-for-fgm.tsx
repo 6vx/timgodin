@@ -23,7 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-This page has been set to private.
+<p class='timestamps'>This page has been set to private.</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

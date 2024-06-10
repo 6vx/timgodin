@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-06-05","private":"false"}
+{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-06-10","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -26,7 +26,7 @@ export default function Home({ data }: PageProps) {
 <h1>Tim Godin</h1>
 <img src="timface.webp" alt="timface.webp" />
 <p><a href="dev">Widget artificer</a>.</p>
-<p>I write fact and fiction in various places.</p>
+<p>I like to write. <a href="walking-the-dog">People's stories</a>, <a href="obsidino">computer code</a>, fiction, and commentary.</p>
 <p><a href="contact">Reach out</a> with inquiries/offers.</p>
 <p>Check out what I'm up to right <a href="now">now</a>.</p>
 
