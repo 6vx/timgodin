@@ -7,6 +7,11 @@
         </url>
       
         <url>
+          <loc>https://www.timgod.in/dev</loc>
+          <lastmod>2024-06-16</lastmod>
+        </url>
+      
+        <url>
           <loc>https://www.timgod.in/list-of-jobs</loc>
           <lastmod>2024-06-16</lastmod>
         </url>
@@ -17,12 +22,12 @@
         </url>
       
         <url>
-          <loc>https://www.timgod.in/contact</loc>
-          <lastmod>2024-06-10</lastmod>
+          <loc>https://www.timgod.in/pay</loc>
+          <lastmod>2024-06-16</lastmod>
         </url>
       
         <url>
-          <loc>https://www.timgod.in/dev</loc>
+          <loc>https://www.timgod.in/contact</loc>
           <lastmod>2024-06-10</lastmod>
         </url>
       
@@ -78,11 +83,6 @@
       
         <url>
           <loc>https://www.timgod.in/markdown-syntax</loc>
-          <lastmod>2024-05-14</lastmod>
-        </url>
-      
-        <url>
-          <loc>https://www.timgod.in/payments</loc>
           <lastmod>2024-05-14</lastmod>
         </url>
       
