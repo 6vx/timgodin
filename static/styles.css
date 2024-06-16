@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    background-color: black;
+    background-color: #1e1e1e;
     color: white;
     font-family: monospace;
     padding-left: 20px;
@@ -13,7 +13,7 @@ html {
 }
 a {
     text-decoration: underline;
-    color: pink;
+    color: #aa89fa;
 }
 ol {
     padding: 10px 10px 10px 10px;
@@ -67,7 +67,7 @@ h1 {
     justify-content: left;
     
     font-weight: bolder;
-    background: linear-gradient(to bottom left, white, pink);
+    background: linear-gradient(to bottom left, white, #aa89fa);
     -webkit-background-clip: text;
     background-size: 200% 200%;
     color: transparent;
@@ -80,7 +80,7 @@ h2 {
     margin: 5px 0px;
     padding: 5px 0px;
     font-weight: bolder;
-    background: linear-gradient(to bottom left, white, pink);
+    background: linear-gradient(to bottom left, white, #aa89fa);
     -webkit-background-clip: text;
     background-size: 200% 200%;
     color: transparent;
@@ -160,8 +160,8 @@ img {
   flex: auto;
   left: 50%; /* Center the button horizontally */
   bottom: 10px; /* Distance from the bottom */
-  background-color: black; /* Background color */
-  color: pink; /* Text color */
+  background-color: #1e1e1e; /* Background color */
+  color: #aa89fa; /* Text color */
   text-align: center; /* Center text */
   /* Fade-in animation */
   opacity: 0;
@@ -201,7 +201,7 @@ img {
 code {
   background-color: #000; /* Black background */
   color: #fff; /* White text */
-  border-left: 3px solid #ff69b4; /* Pink accent on the left border */
+  border-left: 3px solid #aa89fa; /* Pink accent on the left border */
   padding: 10px;
   margin: 10px 0;
   overflow-x: auto; /* Ensures the content is scrollable horizontally if it's too wide */
@@ -211,7 +211,7 @@ code {
 
 /* Optional: Add a hover effect to highlight code blocks on mouse-over */
 code:hover {
-  border-color: #ff8ec7; /* Lighter shade of pink for the accent */
+  border-color: #aa89fa; /* Lighter shade of pink for the accent */
 }
 
 .disclaimer {
@@ -222,6 +222,6 @@ code:hover {
 
 .disclaimerText {
   font-size: smaller;
-  color: pink;
+  color: #aa89fa;
   opacity: 80%;
 }
