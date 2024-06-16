@@ -67,12 +67,12 @@ h1 {
     justify-content: left;
     
     font-weight: bolder;
-    background: linear-gradient(to bottom left, white, #aa89fa);
-    -webkit-background-clip: text;
-    background-size: 200% 200%;
-    color: transparent;
+    /* background: linear-gradient(to bottom left, white, #aa89fa); */
+    /* -webkit-background-clip: text; */
+    /* background-size: 200% 200%; */
+    color: white;
     display: flex;
-    animation: gradientAnimation 2s ease infinite;
+    /* animation: gradientAnimation 2s ease infinite; */
 
 }
 h2 {
@@ -80,12 +80,12 @@ h2 {
     margin: 5px 0px;
     padding: 5px 0px;
     font-weight: bolder;
-    background: linear-gradient(to bottom left, white, #aa89fa);
-    -webkit-background-clip: text;
-    background-size: 200% 200%;
-    color: transparent;
+    /* background: linear-gradient(to bottom left, white, #aa89fa); */
+    /* -webkit-background-clip: text; */
+    /* background-size: 200% 200%; */
+    color: white;
     display: flex;
-    animation: gradientAnimation 2s ease infinite;
+    /* animation: gradientAnimation 2s ease infinite; */
 }
 
 h3 {
@@ -94,8 +94,8 @@ h3 {
   padding: 5px 0px;
   text-align: left; /* Left-aligned text */
   font-weight: bold; /* Bold font weight */
-  color: aa89fa; /* Pink text color */
-  background-color: black; /* Black background */
+  color: white; /* Pink text color */
+  background-color: #1e1e1e; /* Black background */
   display: block; /* Block display */
   /* Subtle pulsing animation */
 }
