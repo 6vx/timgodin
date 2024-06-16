@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-12","updated":"2024-05-12","title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-12","updated":"2024-05-12","title":"Tim Godin - MAID Expansion","description":"Eligibility requirements will be dropped and all consenting or unconscious participants registered and processed at the most expedient rate possible.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

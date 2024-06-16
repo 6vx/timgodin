@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-15","updated":"2024-05-15","title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-15","updated":"2024-05-15","title":"Tim Godin - Eulogy","description":"A steadfast person in a chaotic world, with grace and patience for whoever joined him in the eye of the storm.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

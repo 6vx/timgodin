@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-06-10","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-06-16","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -55,6 +55,8 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240616 auto-generate a page's title &amp; description when none is provided</li>
+<li>20240616 automatically create an .xml sitemap for web crawlers</li>
 <li>20240608 inject created/updated data to frontmatter from file metadata</li>
 <li>20240608 abstracted build -&gt; deploy into one step with fail-safe and commit message param</li>
 <li>20240608 added privacy mode - file/data is replaced and never sent to server</li>

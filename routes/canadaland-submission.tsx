@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-04-27","updated":"2024-04-29","title":"Tim Godin","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+{"created":"2024-04-27","updated":"2024-04-29","title":"Tim Godin - Canadaland Submission","description":"Due May 31st. 3 minute audio local news.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
