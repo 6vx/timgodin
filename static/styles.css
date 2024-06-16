@@ -44,9 +44,9 @@ li {
   }
   
   blockquote {
-    background-color: #000; /* Black background */
-    color: #ffc0cb; /* Pink text color */
-    border-left: 2px solid #ffc0cb; /* Pink accent on the left border */
+    background-color: #1e1e1e; /* Black background */
+    color: #aa89fa; /* Pink text color */
+    border-left: 2px solid #aa89fa; /* Pink accent on the left border */
     padding: 5px;
     margin: 5px 0;
     font-style: italic;
@@ -94,7 +94,7 @@ h3 {
   padding: 5px 0px;
   text-align: left; /* Left-aligned text */
   font-weight: bold; /* Bold font weight */
-  color: pink; /* Pink text color */
+  color: aa89fa; /* Pink text color */
   background-color: black; /* Black background */
   display: block; /* Block display */
   /* Subtle pulsing animation */
@@ -183,7 +183,7 @@ img {
 }
 
 .highlight {
-  background: linear-gradient(to top, #ff69b4, #000);
+  background: linear-gradient(to top, #aa89fa, #1e1e1e);
   color: white;
   animation: pulse 3s infinite alternate;
   border-radius: 5px; /* Add rounded edges */
@@ -199,7 +199,7 @@ img {
 }
 
 code {
-  background-color: #000; /* Black background */
+  background-color: #1e1e1e; /* Black background */
   color: #fff; /* White text */
   border-left: 3px solid #aa89fa; /* Pink accent on the left border */
   padding: 10px;
