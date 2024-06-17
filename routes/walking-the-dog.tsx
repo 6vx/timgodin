@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"Judy told me a story while she was distracted doing the dishes. I couldn't help but write it down.","tags":["true","story","people"],"created":"2024-06-10","updated":"2024-06-17","title":"Tim Godin - Walking the Dog","private":"false"}
+{"description":"Judy told me a story while she was distracted doing the dishes. I couldn't help but write it down.","tags":["true","story","people"],"created":"2024-06-10","updated":"2024-06-17","title":"Walking the Dog","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

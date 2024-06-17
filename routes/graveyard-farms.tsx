@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-05-12","title":"Tim Godin - Graveyard Farms","description":"All graveyards must be converted to farms by 2035 or be surrendered to the state for processing.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-05-12","title":"Graveyard Farms","description":"All graveyards must be converted to farms by 2035 or be surrendered to the state for processing.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

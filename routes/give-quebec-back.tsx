@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-12","updated":"2024-06-17","title":"Tim Godin - Give Quebec Back","description":"When Quebec rejoins France, the new 'EU' 'NA' border will further align European, Canadian and American interests.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-12","updated":"2024-06-17","title":"Give Quebec Back","description":"When Quebec rejoins France, the new 'EU' 'NA' border will further align European, Canadian and American interests.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
