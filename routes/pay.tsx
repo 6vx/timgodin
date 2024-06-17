@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Buy me a Coffee","description":"Send me some love using any of the methods listed here.","tags":["crypto","money","cash","payments","buymeacoffee","donate","support"],"created":"2024-05-13","updated":"2024-06-17","private":"false"}
+{"title":"Payments and Subscriptions","description":"Send me some love using any of the methods listed here.","tags":["crypto","money","cash","payments","buymeacoffee","donate","support"],"created":"2024-05-13","updated":"2024-06-17","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -30,9 +30,6 @@ export default function Home({ data }: PageProps) {
 <p>12QoR6H3bXCAVmaEo9Q5jWjksXqpQjLLh9</p>
 <h3>USDT TRC20</h3>
 <p>TWFtKwsNGjHVMMnKJdcg6obeKWr8iyENyT</p>
-<h1>Send Money</h1>
-<h3>PayPal</h3>
-<p><a target="_blank" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=p-45h662381g121072smzxxnxi">Subscribe to Obsidino</a></p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
