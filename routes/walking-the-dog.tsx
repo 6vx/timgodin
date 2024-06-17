@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-10","updated":"2024-06-10","title":"Tim Godin - Walking the Dog","description":"I rearranged it a bit and tried to imagine how this bubbled up into our coffee-conversation.","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-10","updated":"2024-06-17","title":"Tim Godin - Walking the Dog","description":"I rearranged it a bit and tried to imagine how this bubbled up into our coffee-conversation.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,11 +23,12 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Foreword</h1>
+<h1>Walking the Dog</h1>
+<h2>Foreword</h2>
 <p>This is not <em>entirely</em> accurate, though the main (hard to hear) points are direct from Judy. She was finishing breakfast dishes in the kitchen with me when she began recounting this.</p>
 <p>I rearranged it a bit and tried to imagine how this bubbled up into our coffee-conversation.</p>
 <p>Story is NSFW, maybe that's why it lodged in my brain and had to be written down.</p>
-<h1>Walking the Dog</h1>
+<h2>Summer in Wisconsin</h2>
 <p>Quintessentially 'grandma', Judy was musing on the summer weather as she finished up the dishes from a late lunch. The window above the sink looked out onto a modest suburban property.</p>
 <p>Judy had to squint out over the patio to see Neil, her husband of forty-three years, watering the plants. It was a warm afternoon, the kind you could dress almost any way and still be comfortable.</p>
 <p>Glendale was lovely this time of year, it had been raining just last night, and Neil was watering the garden.</p>

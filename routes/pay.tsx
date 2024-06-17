@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Buy me a Coffee","description":"Send me some love using any of the methods listed here.","tags":["crypto","money","cash","payments","buymeacoffee","donate","support"],"created":"2024-05-13","updated":"2024-06-16","private":"false"}
+{"title":"Buy me a Coffee","description":"Send me some love using any of the methods listed here.","tags":["crypto","money","cash","payments","buymeacoffee","donate","support"],"created":"2024-05-13","updated":"2024-06-17","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
