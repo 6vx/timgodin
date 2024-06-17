@@ -1,0 +1,4 @@
+User-agent: Bingbot
+Sitemap: https://www.timgod.in/sitemap.xml
+User-agent: Googlebot
+Sitemap: https://www.timgod.in/sitemap.xml
