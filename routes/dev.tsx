@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Web Dev for Hire","description":"Experienced Typescript Developer available for short-term projects.","tags":["seo","dev","developer","Tim","Godin","webdev"],"created":"2024-05-13","updated":"2024-06-16","private":"false"}
+{"title":"Tim Godin - Web Dev for Hire","description":"Experienced Typescript Developer available for short-term projects.","tags":["seo","dev","developer","Tim","Godin","webdev"],"created":"2024-05-13","updated":"2024-06-17","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -29,7 +29,7 @@ export default function Home({ data }: PageProps) {
 <h2>Pricing</h2>
 <p>$50/hour</p>
 <p><a href="contact">Contact</a> me to discuss your project specifics.</p>
-<h1>Experience</h1>
+<h2>Experience</h2>
 <p>As a TypeScript-focused developer, I have additional experience in the following areas:</p>
 <ol>
 <li><strong>Front-End Development:</strong>
@@ -55,7 +55,7 @@ export default function Home({ data }: PageProps) {
 </ul>
 </li>
 </ol>
-<h1>Creative Design and Multimedia</h1>
+<h2>Creative Design and Multimedia</h2>
 <p>In addition to development, I’m also proficient in creating sales and professional materials:</p>
 <ol>
 <li><strong>Graphic Design:</strong>

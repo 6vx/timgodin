@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-14","updated":"2024-05-14","title":"Tim Godin - Markdown Syntax","description":"blockquote","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-14","updated":"2024-06-17","title":"Tim Godin - Markdown Syntax","description":"blockquote","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,6 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Basic Syntax</h1>
 <h1>Header 1</h1>
 <h2>Header 2</h2>
 <h3>Header 3</h3>
