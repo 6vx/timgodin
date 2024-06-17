@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-08","updated":"2024-06-05","title":"Tim Godin - Web App Development Services","description":"Tim Godin - Web App Development Services","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-08","updated":"2024-06-17","title":"Tim Godin - Web App Development Services","description":"Tim Godin - Web App Development Services","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -37,7 +37,7 @@ export default function Home({ data }: PageProps) {
 <li>Basic SEO optimization</li>
 <li>User testing and feedback integration</li>
 </ul>
-<h1>Additional Services</h1>
+<h2>Additional Services</h2>
 <ol>
 <li><strong>Advanced SEO Optimization</strong>: $500
 <ul>
