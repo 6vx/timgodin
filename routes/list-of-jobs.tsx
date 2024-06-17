@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-06-17","title":"List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job'. I wonder what it'll be.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-06-17","title":"List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,6 +23,9 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
+<h1>List of Jobs</h1>
+<p>My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.</p>
+<p>I wonder what it'll be.</p>
 <ul>
 <li>Paper Carrier</li>
 <li>Arena Concessions Attendant</li>
@@ -44,7 +47,6 @@ export default function Home({ data }: PageProps) {
 <li>Instacart</li>
 <li>Good Neighbour</li>
 </ul>
-<p>My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job'. I wonder what it'll be.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
