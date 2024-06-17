@@ -26,7 +26,7 @@ export default function Home({ data }: PageProps) {
 <h1>Men Who Hate Women</h1>
 <img src="menwhohatewomen.webp" alt="menwhohatewomen.webp" />
 <h2>review</h2>
-<p>Helps to understand the breadth of some of the circles online that center on mosgyny.</p>
+<p>Helps to understand the breadth of some of the circles online that center on misogyny.</p>
 <p>The author appears to be credible and unfortunately locked in a cycle of becoming more prominent and thereby receiving more and more online hate.</p>
 <p>She reads this hate into the record in her audiobook. She reads them in bed at night. She has tried taking threats to the police. It is an unending noise in the background of her life.</p>
 <p>So she's apparently a badass. Though I think that comes with a risk of self-radicalizing: she admits in a post-audiobook-interview that the title is intentionally inflammatory. Is she touching the dark side?</p>
@@ -66,17 +66,17 @@ export default function Home({ data }: PageProps) {
 <li>definition of toxic masculinity</li>
 </ul>
 <blockquote>
-<p>showing strength and hiding weakness
-dominating/controlling all relationships
-never admit vulnerability or emotion
-stoically bottling up fear or distress
-avoiding support or communication at all costs
-assuming household role of head provider/protector
-treating family as vulnerable extensions of self instead of support
-prioritizing strength and sexual triumph over intellect, emotional intelligence and friendship
-secretive self flagellation and self-medication over admission of failure
-career over parenting
-society over self</p>
+<p>showing strength and hiding weakness</p>
+<p>dominating/controlling all relationships
+never admit vulnerability or emotion</p>
+<p>stoically bottling up fear or distress</p>
+<p>avoiding support or communication at all costs</p>
+<p>assuming household role of head provider/protector</p>
+<p>treating family as vulnerable extensions of self instead of support</p>
+<p>prioritizing strength and sexual triumph over intellect, emotional intelligence and friendship</p>
+<p>secretive self flagellation and self-medication over admission of failure</p>
+<p>career over parenting</p>
+<p>society over self</p>
 </blockquote>
 <ul>
 <li>when people say 'toxic masculinity' what people hear is 'toxic men'</li>
