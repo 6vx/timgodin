@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-06-16","title":"List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job'. I'm thirty seven at time of writing, and I guess I started working at nine or ten...","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-06-17","title":"List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job'. I wonder what it'll be.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -44,7 +44,7 @@ export default function Home({ data }: PageProps) {
 <li>Instacart</li>
 <li>Good Neighbour</li>
 </ul>
-<p>My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job'. I'm thirty seven at time of writing, and I guess I started working at nine or ten...</p>
+<p>My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job'. I wonder what it'll be.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

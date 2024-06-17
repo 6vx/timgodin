@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-06-17","private":"false"}
+{"private":true,"created":"2024-06-17","updated":"2024-06-17","title":"TH3","description":"Send it here next. At least the outline.","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,13 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Tim Godin</h1>
-<img src="timface.webp" alt="timface.webp" />
-<p><a href="dev">Widget artificer</a>.</p>
-<p>I love to <a href="writing">write</a>. Computer code, fiction, people's stories, critique and commentary. All of it.</p>
-<p><a href="contact">Reach out</a> with inquiries/offers. I enjoy taking on short term web and media projects.</p>
-<p>Check out what I'm up to right <a href="now">now</a>.</p>
-
+<h1>Private</h1><p>This page has been set to private</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-17","updated":"2024-06-17","title":"Unitroupe","description":"I ask the storm for what is left.","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-17","updated":"2024-06-17","title":"Unitroupe","description":"I visualize a human in space, preparing to jump down into the fight for Mars.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,6 +24,11 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Unitroupe</h1>
+<h2>foreword</h2>
+<p>This is a version of <a href="paratroopers-prayer">Paratrooper's Prayer</a> that I stripped down for my own uses.</p>
+<p>I visualize a human in space, preparing to jump down into the fight for Mars.</p>
+<p>Almost certain death awaits them, yet their purpose is noble and their resolve steel.</p>
+<h2>Gazing Down Upon Mars</h2>
 <p>I ask the storm for what is left.</p>
 <p>Give me those things which others never ask for.</p>
 <p>I don't ask for rest, or tranquility.</p>
