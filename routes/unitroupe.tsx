@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-17","updated":"2024-06-17","title":"Unitroupe","description":"I visualize a human in space, preparing to jump down into the fight for Mars.","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-17","updated":"2024-06-17","title":"Tim Godin - Unitroupe","description":"I visualize a human in space, preparing to jump down into the fight for Mars.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

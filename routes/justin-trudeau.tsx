@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-06-17","title":"Justin Trudeau","description":"I was living in downtown Kelowna and hiking Knox had become a regular occurrence.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-06-17","title":"Tim Godin - Justin Trudeau","description":"I was living in downtown Kelowna and hiking Knox had become a regular occurrence.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

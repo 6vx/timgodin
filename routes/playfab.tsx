@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-17","updated":"2024-06-17","title":"PlayFab","description":"I started a separate repository for what I think will be the first of many &quot;boiler-plate-y&quot; components I need to break apart for my svelte project.","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-17","updated":"2024-06-17","title":"Tim Godin - PlayFab","description":"I started a separate repository for what I think will be the first of many &quot;boiler-plate-y&quot; components I need to break apart for my svelte project.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

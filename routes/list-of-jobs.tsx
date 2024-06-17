@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-06-17","title":"List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-06-17","title":"Tim Godin - List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

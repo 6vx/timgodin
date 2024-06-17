@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-16","updated":"2024-05-16","title":"61","description":"focused creativity, turning visions into reality, inspired action","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-16","updated":"2024-05-16","title":"Tim Godin - 61","description":"focused creativity, turning visions into reality, inspired action","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-13","updated":"2024-05-13","title":"The Pretendian Crisis","description":"Tim Godin","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-13","updated":"2024-05-13","title":"Tim Godin - The Pretendian Crisis","description":"Tim Godin","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

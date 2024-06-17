@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-13","updated":"2024-05-16","title":"Security Guard Course","description":"Section 8 contains search and seizure\nSection 9 contains detained/imprisonment","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-13","updated":"2024-05-16","title":"Tim Godin - Security Guard Course","description":"Section 8 contains search and seizure\nSection 9 contains detained/imprisonment","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-17","updated":"2022-07-07","title":"Timelapse Calculator","description":"I generally grab the default svelte template, set up a github repo for it and connect that to an AWS Amplify project.","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-17","updated":"2022-07-07","title":"Tim Godin - Timelapse Calculator","description":"I generally grab the default svelte template, set up a github repo for it and connect that to an AWS Amplify project.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>

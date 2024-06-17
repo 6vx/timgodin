@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-05-14","title":"Pierre Youtube Analysis 1","description":"Thirty seven second video showing mostly news footage of food banks being used, followed by nine (5 and 4, sliced together?) out-of-context words clipped from a Justin Trudeau speech.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-05-14","title":"Tim Godin - Pierre Youtube Analysis 1","description":"Thirty seven second video showing mostly news footage of food banks being used, followed by nine (5 and 4, sliced together?) out-of-context words clipped from a Justin Trudeau speech.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
