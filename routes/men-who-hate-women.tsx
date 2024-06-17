@@ -67,8 +67,8 @@ export default function Home({ data }: PageProps) {
 </ul>
 <blockquote>
 <p>showing strength and hiding weakness</p>
-<p>dominating/controlling all relationships
-never admit vulnerability or emotion</p>
+<p>dominating/controlling all relationships</p>
+<p>never admit vulnerability or emotion</p>
 <p>stoically bottling up fear or distress</p>
 <p>avoiding support or communication at all costs</p>
 <p>assuming household role of head provider/protector</p>
