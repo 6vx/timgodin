@@ -24,7 +24,7 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Men Who Hate Women</h1>
-<p>!<a href="menwhohatewomen.webp">menwhohatewomen.webp</a></p>
+<img src="menwhohatewomen.webp" alt="menwhohatewomen.webp" />
 <h2>review</h2>
 <p>Helps to understand the breadth of some of the circles online that center on mosgyny.</p>
 <p>The author appears to be credible and unfortunately locked in a cycle of becoming more prominent and thereby receiving more and more online hate.</p>
