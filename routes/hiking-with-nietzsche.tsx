@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-06-17","updated":"2024-06-23","title":"Tim Godin - TH3","description":"(Prologue was originally created November 12, 2011, edited for values and wording December 7, 2013)","tags":["timgodin"]}
+{"type":"book","title":"Hiking With Nietzsche","rating":3,"author":"John Kaag","date":20180101,"created":"2024-06-23","updated":"2022-07-16","description":"I found this to be an adequate primer/summary on Nietzsche, which is all I was looking for.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,9 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<p>I found this to be an adequate primer/summary on Nietzsche, which is all I was looking for.</p>
+<p>Don't know that I'd recommend as the author's story takes up a good portion. However, if you haven't bothered to read the wikipedia entry yet and still want to know more... Maybe something like this is the route for you too.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

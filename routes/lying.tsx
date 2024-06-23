@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-06-17","updated":"2024-06-23","title":"Tim Godin - TH3","description":"(Prologue was originally created November 12, 2011, edited for values and wording December 7, 2013)","tags":["timgodin"]}
+{"type":"book","author":"Sam Harris","date":20180501,"title":"Lying","rating":5,"created":"2024-06-23","updated":"2022-07-16","description":"This is a short and sweet essay to get me out of trouble when someone is upset that I've been 'too' blunt.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,8 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<p>This is a short and sweet essay to get me out of trouble when someone is upset that I've been 'too' blunt.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

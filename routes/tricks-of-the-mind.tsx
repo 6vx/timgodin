@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-06-17","updated":"2024-06-23","title":"Tim Godin - TH3","description":"(Prologue was originally created November 12, 2011, edited for values and wording December 7, 2013)","tags":["timgodin"]}
+{"type":"book","date":20220803,"title":"Tricks of the Mind","author":"Derren Brown","rating":4,"created":"2024-06-23","updated":"2022-08-03","description":"Pretty dense book I actually read years ago. It's jam packed with practical knowledge - if these sorts of things can be called practical.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,10 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<p>Pretty dense book I actually read years ago. It's jam packed with practical knowledge - if these sorts of things can be called practical.</p>
+<p>Would I recommend it? For sure. But I recognize it's not for everyone and can be quite dry. Enthusiasts only.</p>
+<p>Adding it because I've yet again jumped into it to reference Derren's particular implementation of the major system. It can be found at 29.1%.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

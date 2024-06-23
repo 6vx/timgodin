@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-06-17","title":"Tim Godin - List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-06-23","title":"Tim Godin - List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -28,24 +28,24 @@ export default function Home({ data }: PageProps) {
 <p>I wonder what it'll be.</p>
 <ul>
 <li>Paper Carrier</li>
-<li>Arena Concessions Attendant</li>
-<li>Spring Roll stand at Farmers Market</li>
-<li>Global Donuts at Bayside Mall</li>
-<li>Geek Squad Call Center</li>
-<li>Pizza Hut</li>
-<li>Lowe's Hardware</li>
-<li>Retirement Home Server Sarnia</li>
-<li>WIZ Counting in Cranbrook</li>
-<li>Retirement Home Cook Kelowna</li>
-<li>Kelowna Express</li>
-<li>Docker Transport</li>
-<li>CN Rail Conductor</li>
-<li>LM Industrial Appliance Delivery</li>
+<li>Arena Concessions</li>
+<li>Farmers Market</li>
+<li>Donut Shop</li>
+<li>Call Center Rep</li>
+<li>Restaurant Manager</li>
+<li>Appliance/Cabinets Sales</li>
+<li>Retirement Home Server</li>
+<li>Travelling Counter</li>
+<li>Retirement Home Cook</li>
+<li>Materials Delivery</li>
+<li>Appliance Delivery/Install</li>
+<li>Railroad Conductor</li>
+<li>Industrial Appliance Delivery</li>
 <li>Foodbox Delivery</li>
-<li>Electronics Recycling Association</li>
-<li>Amazon Warehouse</li>
+<li>Electronics Recycling</li>
+<li>Amazon Warehouse Packer</li>
 <li>Instacart</li>
-<li>Good Neighbour</li>
+<li>Landscaping Crew Lead</li>
 </ul>
 
         <br />

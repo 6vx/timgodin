@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-06-17","updated":"2024-06-23","title":"Tim Godin - TH3","description":"(Prologue was originally created November 12, 2011, edited for values and wording December 7, 2013)","tags":["timgodin"]}
+{"type":"book","date":20210101,"author":"Ron Dreher","title":"Live not by Lies","rating":0,"created":"2024-06-23","updated":"2022-07-12","description":"Heard the title multiple times in succession, wanted to know context.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,13 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<h1>DNF</h1>
+<h2>Why</h2>
+<p>Heard the title multiple times in succession, wanted to know context.</p>
+<h2>10</h2>
+<p>Reading this immediately frustrated me. It reminds me that I don't know much about Mao / Cultural Revolution. It's like a gnawing hole of information that I run into time and time again.</p>
+<p>DNF - Might come back, didn't seem like it was for me.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

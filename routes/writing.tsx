@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"A collection of writing of different sorts.","tags":["notes","reviews","stories","fiction","non-fiction","commentary","critique","coding","code"],"created":"2024-06-17","updated":"2024-06-17","title":"Tim Godin - Writing","private":"false"}
+{"description":"A collection of writing of different sorts.","tags":["notes","reviews","stories","fiction","non-fiction","commentary","critique","coding","code"],"created":"2024-06-17","updated":"2024-06-23","title":"Tim Godin - Writing","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -30,10 +30,6 @@ export default function Home({ data }: PageProps) {
 <li><a href="timelapse-calculator">Timelapse Calculator</a></li>
 <li><a href="playfab">PlayFab</a></li>
 </ul>
-<h2>book notes</h2>
-<ul>
-<li><a href="men-who-hate-women">Men Who Hate Women</a></li>
-</ul>
 <h2>stories</h2>
 <ul>
 <li><a href="walking-the-dog">Walking the Dog</a></li>
@@ -50,6 +46,21 @@ export default function Home({ data }: PageProps) {
 <ul>
 <li><a href="justin-trudeau">Justin Trudeau</a></li>
 <li><a href="list-of-jobs">List of Jobs</a></li>
+</ul>
+<h2>reviews</h2>
+<ul>
+<li><a href="windows-phone-8">Windows Phone 8</a></li>
+</ul>
+<h2>book notes</h2>
+<ul>
+<li><a href="men-who-hate-women">Men Who Hate Women</a></li>
+<li><a href="daring-greatly">Daring Greatly</a></li>
+<li><a href="12-rules-for-life">12 Rules for Life</a></li>
+<li><a href="when-my-name-was-keoko">When My Name Was Keoko</a></li>
+<li><a href="big-magic">Big Magic</a></li>
+<li><a href="facing-reality">Facing Reality</a></li>
+<li><a href="the-ethical-slut">The Ethical Slut</a></li>
+<li><a href="caffeine">Caffeine</a></li>
 </ul>
 
         <br />

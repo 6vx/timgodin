@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"A collection of my notes from reading Men Who Hate Women.","title":"Men Who Hate Women - From Incels to Pickup Artists","tags":["book"],"isbn-13":"978-1728236247","year":"2020","author":"Laura Bates","created":"2024-06-17","updated":"2024-06-17","private":"false"}
+{"description":"A collection of my notes from reading Men Who Hate Women.","title":"Men Who Hate Women - From Incels to Pickup Artists","tags":["book"],"isbn-13":"978-1728236247","year":"2020","author":"Laura Bates","type":"book","rating":4,"created":"2024-06-17","updated":"2024-06-23","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,6 +24,7 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Men Who Hate Women</h1>
+<h2>by Laura Bates</h2>
 <img src="menwhohatewomen.webp" alt="menwhohatewomen.webp" />
 <h2>review</h2>
 <p>Helps to understand the breadth of some of the circles online that center on misogyny.</p>
