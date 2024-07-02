@@ -26,13 +26,13 @@ export default function Home({ data }: PageProps) {
 <h1>YouTube</h1>
 <p>I've been fussing with this for at least a decade now. At first just a random place to post videos, eventually a repository of dog videos, and soon maybe something else.</p>
 <h2>Channels</h2>
-<h3><a href="youtube.com/@soapandchis">Soapy Xolo</a></h3>
+<h3><a target="_blank" href="http://www.youtube.com/@soapandchis">Soapy Xolo</a></h3>
 <ul>
 <li>Dog videos</li>
 <li>750k+ views</li>
 <li>1.3k+ subscribers</li>
 </ul>
-<h3><a href="youtube.com/@timgodin">Tim Godin</a></h3>
+<h3><a target="_blank" href="http://www.youtube.com/@timgodin">Tim Godin</a></h3>
 <ul>
 <li>Random Short Cuts</li>
 <li>50k+ views</li>
