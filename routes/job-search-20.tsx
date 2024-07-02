@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-26","updated":"2024-06-24","title":"Tim Godin - Job Search 20","description":"20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)","tags":["timgodin"],"private":"false"}
+{"private":true,"created":"2024-05-26","updated":"2024-07-01","title":"Tim Godin - Job Search 20","description":"20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,10 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<p>20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)</p>
-<p>20240526 MCI - Customer Service REMOTE MCW-G617-ZxxK-XWbUX</p>
-<p>20240624 A1 Sec - Mobile Patrol</p>
-
+<h1>Private</h1><p>This page has been set to private</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

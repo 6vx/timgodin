@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-06-23","title":"Tim Godin - List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-07-01","title":"Tim Godin - List of Jobs","description":"My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -25,7 +25,7 @@ export default function Home({ data }: PageProps) {
 
 <h1>List of Jobs</h1>
 <p>My next job is going to be my twentieth job, if we roll all the different routes and papers into one 'job' and don't count any of the short term projects I've done over the years.</p>
-<p>I wonder what it'll be.</p>
+<p>I wonder what it'll be. Let's call it... <a href="job-search-20">Job Search 20</a>.</p>
 <ul>
 <li>Paper Carrier</li>
 <li>Arena Concessions</li>
