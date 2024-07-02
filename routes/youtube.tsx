@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-07-01","description":"Working and playing in Canada's America.","private":"false"}
+{"title":"Tim Godin - Youtube","description":"My YouTube adventures summarized.","tags":["youtube","videos","timgodin"],"created":"2024-07-01","updated":"2024-07-01","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,15 +23,20 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>nownownow</h1>
-<p>Working and playing in Canada's America.</p>
-<p>I need to take some space to focus on what my next step is while carrying on with some significant responsibilities.</p>
-<p>I'm contemplating changing the order of my priorities.</p>
-<h2>currently processing</h2>
+<h1>YouTube</h1>
+<p>I've been fussing with this for at least a decade now. At first just a random place to post videos, eventually a repository of dog videos, and soon maybe something else.</p>
+<h2>Channels</h2>
+<h3><a href="youtube.com/@soapandchis">Soapy Xolo</a></h3>
 <ul>
-<li>Shopping around my new credentials</li>
-<li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li><a href="art-project-for-fgm">Art Project for FGM</a></li>
+<li>Dog videos</li>
+<li>750k+ views</li>
+<li>1.3k+ subscribers</li>
+</ul>
+<h3><a href="youtube.com/@timgodin">Tim Godin</a></h3>
+<ul>
+<li>Random Short Cuts</li>
+<li>50k+ views</li>
+<li>100+ subscribers</li>
 </ul>
 
         <br />

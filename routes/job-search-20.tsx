@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-07-01","description":"Working and playing in Canada's America.","private":"false"}
+{"created":"2024-05-26","updated":"2024-06-24","title":"Tim Godin - Job Search 20","description":"20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,16 +23,9 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>nownownow</h1>
-<p>Working and playing in Canada's America.</p>
-<p>I need to take some space to focus on what my next step is while carrying on with some significant responsibilities.</p>
-<p>I'm contemplating changing the order of my priorities.</p>
-<h2>currently processing</h2>
-<ul>
-<li>Shopping around my new credentials</li>
-<li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li><a href="art-project-for-fgm">Art Project for FGM</a></li>
-</ul>
+<p>20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)</p>
+<p>20240526 MCI - Customer Service REMOTE MCW-G617-ZxxK-XWbUX</p>
+<p>20240624 A1 Sec - Mobile Patrol</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"A collection of writing of different sorts.","tags":["notes","reviews","stories","fiction","non-fiction","commentary","critique","coding","code"],"created":"2024-06-17","updated":"2024-06-23","title":"Tim Godin - Writing","private":"false"}
+{"description":"A collection of writing of different sorts.","tags":["notes","reviews","stories","fiction","non-fiction","commentary","critique","coding","code"],"created":"2024-06-17","updated":"2024-06-24","title":"Tim Godin - Writing","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -27,15 +27,12 @@ export default function Home({ data }: PageProps) {
 <h2>code</h2>
 <ul>
 <li><a href="obsidino">Obsidino</a></li>
-<li><a href="timelapse-calculator">Timelapse Calculator</a></li>
 <li><a href="playfab">PlayFab</a></li>
+<li><a href="timelapse-calculator">Timelapse Calculator</a></li>
 </ul>
-<h2>stories</h2>
+<h2>short stories</h2>
 <ul>
 <li><a href="walking-the-dog">Walking the Dog</a></li>
-</ul>
-<h2>short fiction</h2>
-<ul>
 <li><a href="th3">TH3</a></li>
 </ul>
 <h2>poetry</h2>
