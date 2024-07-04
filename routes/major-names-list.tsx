@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Major Names List","description":"Chichi\nJerry\nJenny\nChad\nJim\nAshley\nJess\nJack\nChef\nChap\nRash\nRere\nErin\nRed\nRam\nRahl\nRousseau\nErik\nRaffi\nRIP\nNash\nNero\nNun\nNed\nNam\nAnal\nNess\nNick\nNeve\nNappa\nTosh\nTerry\nTien\nDiddy\nTim\nToll\nTess\nDoug\nDaif\nDub\nMoash\nMaury\nMunna\nMat\nMom\nMolly\nMessy\nMac\nMav\nMab\nLash\nLore\nLenny\nLitt\nLamb\nLoli\nLisa\nLocke\nOlive\nLab\nSasha\nSarah\nSun\nSayid\nSam\nCell\nSis\nSokka\nSophie\nCB\nKesha\nKiora\nGohan\nKate\nKim\nCole\nCass\nGoku\nKev\nKip\nFash\nFry\nEvan\nFit\nFem\nPhil\nFez\nVick\nVivec\nFabio\nBush\nOprah\nBon\nBot\nPam\nBaal\nBuzz\nBeck\nPuff\nPippy","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,106 +24,308 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Names</h1>
-<p>Chichi
-Jerry
-Jenny
-Chad
-Jim
-Ashley
-Jess
-Jack
-Chef
-Chap
-Rash
-Rere
-Erin
-Red
-Ram
-Rahl
-Rousseau
-Erik
-Raffi
-RIP
-Nash
-Nero
-Nun
-Ned
-Nam
-Anal
-Ness
-Nick
-Neve
-Nappa
-Tosh
-Terry
-Tien
-Diddy
-Tim
-Toll
-Tess
-Doug
-Daif
-Dub
-Moash
-Maury
-Munna
-Mat
-Mom
-Molly
-Messy
-Mac
-Mav
-Mab
-Lash
-Lore
-Lenny
-Litt
-Lamb
-Loli
-Lisa
-Locke
-Olive
-Lab
-Sasha
-Sarah
-Sun
-Sayid
-Sam
-Cell
-Sis
-Sokka
-Sophie
-CB
-Kesha
-Kiora
-Gohan
-Kate
-Kim
-Cole
-Cass
-Goku
-Kev
-Kip
-Fash
-Fry
-Evan
-Fit
-Fem
-Phil
-Fez
-Vick
-Vivec
-Fabio
-Bush
-Oprah
-Bon
-Bot
-Pam
-Baal
-Buzz
-Beck
-Puff
-Pippy</p>
+<ul>
+<li>
+<p>00 Chichi</p>
+</li>
+<li>
+<p>01 Jerry</p>
+</li>
+<li>
+<p>02 Jenny</p>
+</li>
+<li>
+<p>03 Chad</p>
+</li>
+<li>
+<p>04 Jim</p>
+</li>
+<li>
+<p>05 Ashley</p>
+</li>
+<li>
+<p>06 Jess</p>
+</li>
+<li>
+<p>07 Jack</p>
+</li>
+<li>
+<p>08 Chef</p>
+</li>
+<li>
+<p>09 Chap</p>
+</li>
+<li>
+<p>10 Rash</p>
+</li>
+<li>
+<p>11 Rere</p>
+</li>
+<li>
+<p>12 Erin</p>
+</li>
+<li>
+<p>13 Red</p>
+</li>
+<li>
+<p>14 Ram</p>
+</li>
+<li>
+<p>15 Rahl</p>
+</li>
+<li>
+<p>16 Rousseau</p>
+</li>
+<li>
+<p>17 Erik</p>
+</li>
+<li>
+<p>18 Raffi</p>
+</li>
+<li>
+<p>19 RIP</p>
+</li>
+<li>
+<p>20 Nash</p>
+</li>
+<li>
+<p>21 Nero</p>
+</li>
+<li>
+<p>22 Nun</p>
+</li>
+<li>
+<p>23 Ned</p>
+</li>
+<li>
+<p>24 Nam</p>
+</li>
+<li>
+<p>25 Anal</p>
+</li>
+<li>
+<p>26 Ness</p>
+</li>
+<li>
+<p>27 Nick</p>
+</li>
+<li>
+<p>28 Neve</p>
+</li>
+<li>
+<p>29 Nappa</p>
+</li>
+<li>
+<p>30 Tosh</p>
+</li>
+<li>
+<p>31 Terry</p>
+</li>
+<li>
+<p>32 Tien</p>
+</li>
+<li>
+<p>33 Diddy</p>
+</li>
+<li>
+<p>34 Tim</p>
+</li>
+<li>
+<p>35 Toll</p>
+</li>
+<li>
+<p>36 Tess</p>
+</li>
+<li>
+<p>37 Doug</p>
+</li>
+<li>
+<p>38 Daif</p>
+</li>
+<li>
+<p>39 Dub</p>
+</li>
+<li>
+<p>40 Moash</p>
+</li>
+<li>
+<p>41 Maury</p>
+</li>
+<li>
+<p>42 Munna</p>
+</li>
+<li>
+<p>43 Mat</p>
+</li>
+<li>
+<p>44 Mom</p>
+</li>
+<li>
+<p>45 Molly</p>
+</li>
+<li>
+<p>46 Messy</p>
+</li>
+<li>
+<p>47 Mac</p>
+</li>
+<li>
+<p>48 Mav</p>
+</li>
+<li>
+<p>49 Mab</p>
+</li>
+<li>
+<p>50 Lash</p>
+</li>
+<li>
+<p>51 Lore</p>
+</li>
+<li>
+<p>52 Lenny</p>
+</li>
+<li>
+<p>53 Litt</p>
+</li>
+<li>
+<p>54 Lamb</p>
+</li>
+<li>
+<p>55 Loli</p>
+</li>
+<li>
+<p>56 Lisa</p>
+</li>
+<li>
+<p>57 Locke</p>
+</li>
+<li>
+<p>58 Olive</p>
+</li>
+<li>
+<p>59 Lab</p>
+</li>
+<li>
+<p>60 Sasha</p>
+</li>
+<li>
+<p>61 Sarah</p>
+</li>
+<li>
+<p>62 Sun</p>
+</li>
+<li>
+<p>63 Sayid</p>
+</li>
+<li>
+<p>64 Sam</p>
+</li>
+<li>
+<p>65 Cell</p>
+</li>
+<li>
+<p>66 Sis</p>
+</li>
+<li>
+<p>67 Sokka</p>
+</li>
+<li>
+<p>68 Sophie</p>
+</li>
+<li>
+<p>69 CB</p>
+</li>
+<li>
+<p>70 Kesha</p>
+</li>
+<li>
+<p>71 Kiora</p>
+</li>
+<li>
+<p>72 Gohan</p>
+</li>
+<li>
+<p>73 Kate</p>
+</li>
+<li>
+<p>74 Kim</p>
+</li>
+<li>
+<p>75 Cole</p>
+</li>
+<li>
+<p>76 Cass</p>
+</li>
+<li>
+<p>77 Goku</p>
+</li>
+<li>
+<p>78 Kev</p>
+</li>
+<li>
+<p>79 Kip</p>
+</li>
+<li>
+<p>80 Fash</p>
+</li>
+<li>
+<p>81 Fry</p>
+</li>
+<li>
+<p>82 Evan</p>
+</li>
+<li>
+<p>83 Fit</p>
+</li>
+<li>
+<p>84 Fem</p>
+</li>
+<li>
+<p>85 Phil</p>
+</li>
+<li>
+<p>86 Fez</p>
+</li>
+<li>
+<p>87 Vick</p>
+</li>
+<li>
+<p>88 Vivec</p>
+</li>
+<li>
+<p>89 Fabio</p>
+</li>
+<li>
+<p>90 Bush</p>
+</li>
+<li>
+<p>91 Oprah</p>
+</li>
+<li>
+<p>92 Bon</p>
+</li>
+<li>
+<p>93 Bot</p>
+</li>
+<li>
+<p>94 Pam</p>
+</li>
+<li>
+<p>95 Baal</p>
+</li>
+<li>
+<p>96 Buzz</p>
+</li>
+<li>
+<p>97 Beck</p>
+</li>
+<li>
+<p>98 Puff</p>
+</li>
+<li>
+<p>99 Pippy</p>
+</li>
+</ul>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

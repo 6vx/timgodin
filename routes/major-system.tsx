@@ -26,16 +26,18 @@ export default function Home({ data }: PageProps) {
 <h1>Major System</h1>
 <p><a href="major-names-list">Major Names List</a></p>
 <p>I use a non-standard major system that was adjusted to make Korean map on a little bit better.</p>
-<p>0 - ch sh
-1 - r
-2 - n
-3 - t
-4 - m
-5 - l
-6 - s
-7 - k g
-8 - f v
-9 - b p</p>
+<ul>
+<li>0 - ch sh j</li>
+<li>1 - r</li>
+<li>2 - n</li>
+<li>3 - t</li>
+<li>4 - m</li>
+<li>5 - l</li>
+<li>6 - s</li>
+<li>7 - k g</li>
+<li>8 - f v</li>
+<li>9 - b p</li>
+</ul>
 <p>I initially encountered Derren Brown's version in his book Tricks of the Mind, though the method precedes him.</p>
 
         <br />

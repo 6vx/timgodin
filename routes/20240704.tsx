@@ -27,6 +27,7 @@ export default function Home({ data }: PageProps) {
 <p>Setting up a template for the daily note.</p>
 <p>Curious to see if subdirectory is going to get picked up with no work.</p>
 <p>Called mom. She's pruned the lilac bush finally.</p>
+<p>Added <a href="major-system">Major System</a></p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
