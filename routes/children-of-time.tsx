@@ -25,6 +25,7 @@ export default function Home({ data }: PageProps) {
 
 <h1>Children of Time</h1>
 <h2>by Adrian Tchaikovsky</h2>
+<p><a target="_blank" href="https://www.amazon.com/gp/product/1447273281?ref_=dbs_m_mng_rwt_calw_thcv_0&amp;storetype=ebooks&amp;qid=1720129374&amp;sr=1-1">Amazon</a></p>
 <p>This series won the Hugo for Best Series in 2023, that is how I found it.</p>
 
         <br />

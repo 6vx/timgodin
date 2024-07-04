@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":false,"pray":false,"might":false,"call":true,"vigor":false,"gore":false,"read":false,"write":false,"tags":["daily"],"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - 20240704","description":"Setting up a template for the daily note.","private":"false"}
+{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Major System","description":"I use a non-standard major system that was adjusted to make Korean map on a little bit better.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,10 +23,20 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>20240704</h1>
-<p>Setting up a template for the daily note.</p>
-<p>Curious to see if subdirectory is going to get picked up with no work.</p>
-<p>Called mom. She's pruned the lilac bush finally.</p>
+<h1>Major System</h1>
+<p><a href="major-names-list">Major Names List</a></p>
+<p>I use a non-standard major system that was adjusted to make Korean map on a little bit better.</p>
+<p>0 - ch sh
+1 - r
+2 - n
+3 - t
+4 - m
+5 - l
+6 - s
+7 - k g
+8 - f v
+9 - b p</p>
+<p>I initially encountered Derren Brown's version in his book Tricks of the Mind, though the method precedes him.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
