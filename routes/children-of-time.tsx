@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"A collection of writing of different sorts.","tags":["notes","reviews","stories","fiction","non-fiction","commentary","critique","coding","code"],"created":"2024-06-17","updated":"2024-07-04","title":"Tim Godin - Writing","private":"false"}
+{"type":"book","isbn-13":"978-1447273288","author":"Adrian Tchaikovsky","title":"Children of Time","description":"Adrian Tchaikovksy's critically acclaimed stand-alone novel Children of Time is the epic story of humanity's battle for survival on a terraformed planet.","published":"20160101","created":"2024-07-04","updated":"2024-07-04","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,21 +23,9 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>writing</h1>
-<h2>code</h2>
-<ul>
-<li><a href="obsidino">Obsidino</a></li>
-</ul>
-<h2>short</h2>
-<ul>
-<li><a href="walking-the-dog">Walking the Dog</a></li>
-<li><a href="th3">TH3</a></li>
-</ul>
-<h2>memories</h2>
-<ul>
-<li><a href="justin-trudeau">Justin Trudeau</a></li>
-<li><a href="list-of-jobs">List of Jobs</a></li>
-</ul>
+<h1>Children of Time</h1>
+<h2>by Adrian Tchaikovsky</h2>
+<p>This series won the Hugo for Best Series in 2023, that is how I found it.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"A collection of writing of different sorts.","tags":["notes","reviews","stories","fiction","non-fiction","commentary","critique","coding","code"],"created":"2024-06-17","updated":"2024-07-04","title":"Tim Godin - Writing","private":"false"}
+{"type":"book","isbn-13":"978-0062457714","author":"Mark Manson","title":"The Subtle Art of Not Giving a Fuck","description":"In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be \"positive\" all the time so that we can truly become better, happier people.","published":"20160913","created":"2024-07-04","updated":"2024-07-04","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,21 +23,8 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>writing</h1>
-<h2>code</h2>
-<ul>
-<li><a href="obsidino">Obsidino</a></li>
-</ul>
-<h2>short</h2>
-<ul>
-<li><a href="walking-the-dog">Walking the Dog</a></li>
-<li><a href="th3">TH3</a></li>
-</ul>
-<h2>memories</h2>
-<ul>
-<li><a href="justin-trudeau">Justin Trudeau</a></li>
-<li><a href="list-of-jobs">List of Jobs</a></li>
-</ul>
+<h1>The Subtle Art of Not Giving a Fuck</h1>
+<p>Referred this book by someone close! Let's see how it is.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

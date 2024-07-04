@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-05-10","updated":"2024-05-12","title":"Tim Godin - Tims Twos","description":"This is an experiment.","tags":["timgodin"],"private":"false"}
+{"created":"2024-05-10","updated":"2024-07-04","title":"Tim Godin - Tims Twos","description":"This is an experiment.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,11 +24,12 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Tims Twos</h1>
-<h2>Daily Youtube Channel</h2>
+<h2>Daily Youtube Challenge</h2>
 <p>This is an experiment.</p>
 <p>A time constraint and a frequency constraint.</p>
 <p>Daily 2 minute videos.</p>
 <p>Essentially a micro-video-blog.</p>
+<p>Film and prep all 7 on one day of the week?</p>
 <h3>possible elements</h3>
 <ul>
 <li>stream of thought</li>
