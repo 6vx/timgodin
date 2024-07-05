@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-06-17","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-07-05","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -74,14 +74,14 @@ export default function Home({ data }: PageProps) {
 <h2>roadmap</h2>
 <p>in order of priority</p>
 <ul>
-<li>auto generate &quot;recently updated/created&quot;</li>
 <li>footnote support</li>
 <li>generate sitemap/robots.txt</li>
 <li>extended markdown syntax</li>
-<li>subdirectory support</li>
+<li>css moved to a subdirectory, investigate standards</li>
+<li><s>subdirectory support</s></li>
 <li>1:1 Obsidian-style markdown syntax</li>
 <li>Canvas view</li>
-<li>Graph view</li>
+<li><s>Graph view</s></li>
 </ul>
 <h2>links</h2>
 <ul>
