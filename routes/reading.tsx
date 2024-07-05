@@ -56,7 +56,7 @@ export default function Home({ data }: PageProps) {
 <li><a href="lords-of-uncreation">Lords of Uncreation</a> - The Final Architecture 3</li>
 <li><a href="infinity-gate">Infinity Gate</a> - random pick</li>
 </ul>
-<h1>stuff I follow</h1>
+<h2>stuff I follow</h2>
 <ul>
 <li>Brandon Sanderson's Stormlight Archive</li>
 <li>Lee Child's Jack Reacher series</li>
