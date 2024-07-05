@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":true,"meditation":true,"prayer":true,"might":false,"call":true,"vigor":false,"gore":false,"read":false,"write":true,"korean":true,"tags":["daily"],"created":"2024-07-05","updated":"2024-07-05","title":"Tim Godin - 20240705","description":"I woke up to Soap scratching incessantly at the barrier between her and I. It is a habit I wish she could break.","private":"false"}
+{"100":true,"meditation":true,"prayer":true,"might":false,"call":true,"vigor":false,"gore":false,"read":true,"write":true,"korean":true,"tags":["daily","blog"],"private":true,"created":"2024-07-05","updated":"2024-07-05","title":"Tim Godin - 20240705","description":"I woke up to Soap scratching incessantly at the barrier between her and I. It is a habit I wish she could break."}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,13 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>20240705</h1>
-<p><a href="unitroupe">Unitroupe</a> - <a href="kettlebell-routine">Kettlebell Routine</a> - <a href="reading">Reading</a> - <a href="major-system">Major System</a></p>
-<p>I woke up to Soap scratching incessantly at the barrier between her and I. It is a habit I wish she could break.</p>
-<p>She escaped her pen in the night and was working her way through the blanket I use to supplement the stairwell child gate.</p>
-<p>She mightve eventually made it, had I not met her at 0350 to put her back to bed.</p>
-<p>How much work children must be. I really can't imagine.</p>
-
+<h1>Private</h1><p>This page has been set to private</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

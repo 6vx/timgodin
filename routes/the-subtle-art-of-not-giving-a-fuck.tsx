@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"type":"book","isbn-13":"978-0062457714","author":"Mark Manson","title":"The Subtle Art of Not Giving a Fuck","description":"In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be \"positive\" all the time so that we can truly become better, happier people.","published":"20160913","created":"2024-07-04","updated":"2024-07-04","tags":["timgodin"],"private":"false"}
+{"type":"book","isbn-13":"978-0062457714","author":"Mark Manson","title":"The Subtle Art of Not Giving a Fuck","description":"In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be \"positive\" all the time so that we can truly become better, happier people.","published":"20160913","created":"2024-07-04","updated":"2024-07-05","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -34,6 +34,14 @@ export default function Home({ data }: PageProps) {
 <p>Not sure I'd recommend it, but it really does depend on the audience. How do they need to be communicated to?</p>
 <p>The message certainly resonates, and maybe hearing it again, albeit with more expletives than usual, is useful just as a reminder.</p>
 <p>Might finish it sometime while walking the dogs again or similar.</p>
+<h2>71</h2>
+<blockquote>
+<p>money was never a problem. money helped me avoid problems.
+safety net.
+perspective.</p>
+</blockquote>
+<p>This is the author to reader mismatch and does elucidate to me why I didn't 'jive' with the first half of the book.</p>
+<p>I like that they make reference to this, because where you come from is definitely going to determine your relationship with the ideas being presented.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

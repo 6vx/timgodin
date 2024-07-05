@@ -15,3 +15,27 @@ import config from "./fresh.config.ts";
 // const ga = createReporter({id: "G-X4B7FREDZL"});
 
 await start(manifest, config);
+
+// i'm going to increment the deno kv view count 
+// and console log the current count here
+
+const kv = await Deno.openKv();
+
+// Function to increment the homepage visit count
+async function incrementVisitCount() {
+    // Get the current visit count
+    const entry = await kv.get(["homepageVisits"]);
+    let visitCount = entry?.value ?? 0; // If it doesn't exist, start at 0
+  
+    // Increment the visit count
+    visitCount++;
+  
+    // Set the updated visit count back to the database
+    await kv.set(["homepageVisits"], visitCount);
+  
+    // Log the new visit count
+    console.log(`Homepage visits: ${visitCount}`);
+  }
+  
+  // Call this function whenever the homepage is visited
+  incrementVisitCount();
