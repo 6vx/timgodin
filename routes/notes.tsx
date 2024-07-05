@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Notes","description":"Tim Godin - Notes","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-07-05","title":"Tim Godin - Notes","description":"Tim Godin - Notes","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,6 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
+<h1>Notes</h1>
 <ul>
 <li><a href="writing">Writing</a> - Some code, memories, short stories collected in one place</li>
 <li><a href="reading">Reading</a> - Currently reading, collection of notes and thoughts</li>

@@ -24,11 +24,12 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Reading</h1>
-<p>Would like to export / import my old GoodReads... and OneNotes... but it's a bit tiring.</p>
-<p>Onward!</p>
+<p>Typically I enter notes under a header of their &quot;percentage&quot; so...</p>
+<h2>55</h2>
+<p>Indicates that my notes were taken around 55% of the way through the audio or ebook.</p>
 <h2>reading now/next</h2>
 <ul>
-<li><a href="the-subtle-art-of-not-giving-a-fuck">The Subtle Art of Not Giving a Fuck</a> - referral</li>
+<li><a href="the-subtle-art-of-not-giving-a-fuck">The Subtle Art of Not Giving a Fuck</a> - referral, 55%</li>
 <li><a href="children-of-time">Children of Time</a> - Hugo Best Series 2023 Winner Children Book 1 by Adrian</li>
 </ul>
 <h2>book notes</h2>
@@ -54,6 +55,13 @@ export default function Home({ data }: PageProps) {
 <li><a href="eyes-of-the-void">Eyes of the Void</a> - The Final Architecture 2</li>
 <li><a href="lords-of-uncreation">Lords of Uncreation</a> - The Final Architecture 3</li>
 <li><a href="infinity-gate">Infinity Gate</a> - random pick</li>
+</ul>
+<h1>stuff I follow</h1>
+<ul>
+<li>Brandon Sanderson's Stormlight Archive</li>
+<li>Lee Child's Jack Reacher series</li>
+<li>Jim Butcher's Dresden Files series</li>
+<li>Anything by Blake Crouch</li>
 </ul>
 
         <br />

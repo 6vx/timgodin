@@ -30,12 +30,12 @@ export default function Home({ data }: PageProps) {
 <li>0 - ch sh j</li>
 <li>1 - r</li>
 <li>2 - n</li>
-<li>3 - t</li>
+<li>3 - t d</li>
 <li>4 - m</li>
 <li>5 - l</li>
 <li>6 - s</li>
 <li>7 - k g</li>
-<li>8 - f v</li>
+<li>8 - f v ph</li>
 <li>9 - b p</li>
 </ul>
 <p>I initially encountered Derren Brown's version in his book Tricks of the Mind, though the method precedes him.</p>
