@@ -10,15 +10,6 @@ import { start } from "$fresh/server.ts";
 import manifest from "./fresh.gen.ts";
 import config from "./fresh.config.ts";
 
-// add my google analytics with the deno ga plugin
-// import { createReporter } from "https://deno.land/x/g_a/mod.ts";
-// const ga = createReporter({id: "G-X4B7FREDZL"});
-
-await start(manifest, config);
-
-// i'm going to increment the deno kv view count 
-// and console log the current count here
-
 const kv = await Deno.openKv();
 
 // Function to increment the homepage visit count
@@ -39,3 +30,5 @@ async function incrementVisitCount() {
   
   // Call this function whenever the homepage is visited
   incrementVisitCount();
+
+await start(manifest, config);
