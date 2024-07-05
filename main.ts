@@ -44,8 +44,9 @@ Deno.cron("Log Visitor Count", "0 0 * * *", async () => {
     
     // add to the dailyCountTally in deno kv, using the date in format Tally-YYYYMMDD as the key
     await kv.set([`Tally-${date.toISOString().slice(0, 10).replace(/-/g, "")}`], visitCount);
-    
+
     }
+);
 
 
 await start(manifest, config);
