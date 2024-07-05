@@ -47,14 +47,40 @@ export default function Home({ data }: PageProps) {
 <h2>examples</h2>
 <p><a href="/">This website</a> is built and updated using Obsidino. All pages on this website are generated from an Obsidian Vault.</p>
 <p><a href="markdown-syntax">This</a> page shows examples of the elements that Obsidino can currently process.</p>
-<h2>expected limitations</h2>
+<h2>limitations</h2>
 <ul>
 <li>1GB maximum size</li>
-<li>images, canvases, graphs limited</li>
+<li>no graphs/canvases/etc</li>
 <li>throttling resources</li>
+</ul>
+<h2>roadmap</h2>
+<h3>0.2 goals</h3>
+<ul>
+<li>Overhaul transmute process: convert entire vault to Object and then process accordingly</li>
+<li>CSS derived from vault file, preferably ./.style.css or potentially inside of a standard subdirectory</li>
+</ul>
+<h3>1.0 goals</h3>
+<ul>
+<li>Select directory -&gt; click GO = website (manual update tier)</li>
+<li>Browser based signup OneDrive / Google Drive support (automatic update tier)</li>
+<li>On/Off Obsidino banner/link (support tier)</li>
+<li>User assigned domain (custom domain tier)</li>
+</ul>
+<h3>other in order of priority</h3>
+<ul>
+<li>footnote support</li>
+</ul>
+<h3>potentially axing for brevity</h3>
+<ul>
+<li><s>extended markdown syntax</s></li>
+<li><s>subdirectory support</s></li>
+<li><s>1:1 Obsidian-style markdown syntax</s></li>
+<li><s>Canvas view</s></li>
+<li><s>Graph view</s></li>
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20240705 roadmap adjust, robots.txt generated</li>
 <li>20240617 auto-generate recently-updated page</li>
 <li>20240617 add support for jpg and jpeg</li>
 <li>20240616 auto-generate a page's title &amp; description when none is provided</li>
@@ -70,18 +96,6 @@ export default function Home({ data }: PageProps) {
 <li>20240510 support internal alias links</li>
 <li>20240505 support PNG images</li>
 <li>20240502 support internal links</li>
-</ul>
-<h2>roadmap</h2>
-<p>in order of priority</p>
-<ul>
-<li>footnote support</li>
-<li>generate sitemap/robots.txt</li>
-<li>extended markdown syntax</li>
-<li>css moved to a subdirectory, investigate standards</li>
-<li><s>subdirectory support</s></li>
-<li>1:1 Obsidian-style markdown syntax</li>
-<li>Canvas view</li>
-<li><s>Graph view</s></li>
 </ul>
 <h2>links</h2>
 <ul>

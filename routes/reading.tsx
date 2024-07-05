@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"Collection of notes on things I've read, want to read, or am currently going through.","title":"What is Tim Godin Reading?","tags":["books","bookreport","book","reading","readlist","commentary"],"created":"2024-07-04","updated":"2024-07-04","private":"false"}
+{"description":"Collection of notes on things I've read, want to read, or am currently going through.","title":"What is Tim Godin Reading?","tags":["books","bookreport","book","reading","readlist","commentary"],"created":"2024-07-04","updated":"2024-07-05","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -29,7 +29,7 @@ export default function Home({ data }: PageProps) {
 <p>Indicates that my notes were taken around 55% of the way through the audio or ebook.</p>
 <h2>reading now/next</h2>
 <ul>
-<li><a href="the-subtle-art-of-not-giving-a-fuck">The Subtle Art of Not Giving a Fuck</a> - referral, 55%</li>
+<li><a href="the-subtle-art-of-not-giving-a-fuck">The Subtle Art of Not Giving a Fuck</a> - referral</li>
 <li><a href="children-of-time">Children of Time</a> - Hugo Best Series 2023 Winner Children Book 1 by Adrian</li>
 </ul>
 <h2>book notes</h2>

@@ -42,7 +42,6 @@ Deno.cron("Log Visitor Count", "0 0 * * *", async () => {
     const entry = await kv.get(["homepageVisits"]);
     const visitCount = entry?.value ?? 0; // If it doesn't exist, start at 0
     
-    // add to the dailyCountTally in deno kv, using the date in format Tally-YYYYMMDD as the key
     await kv.set([`Tally-${date.toISOString().slice(0, 10).replace(/-/g, "")}`], visitCount);
 
     }

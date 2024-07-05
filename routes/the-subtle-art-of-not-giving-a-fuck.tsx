@@ -40,7 +40,7 @@ export default function Home({ data }: PageProps) {
 safety net.
 perspective.</p>
 </blockquote>
-<p>This is the author to reader mismatch and does elucidate to me why I didn't 'jive' with the first half of the book.</p>
+<p>This is probably part of the author-to-reader mismatch and does elucidate to me why I didn't 'jive' so much with the first half of the book.</p>
 <p>I like that they make reference to this, because where you come from is definitely going to determine your relationship with the ideas being presented.</p>
 
         <br />
