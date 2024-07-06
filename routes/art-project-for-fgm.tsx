@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-06-08","updated":"2024-06-17","title":"Tim Godin - Art Project for FGM","description":"here we go. this is important.","tags":["timgodin"]}
+{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-05","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>

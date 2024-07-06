@@ -32,7 +32,6 @@ export default function Home({ data }: PageProps) {
 <ul>
 <li><a href="walking-the-dog">Walking the Dog</a></li>
 <li><a href="justin-trudeau">Justin Trudeau</a></li>
-<li><a href="list-of-jobs">List of Jobs</a></li>
 </ul>
 
         <br />

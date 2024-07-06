@@ -25,8 +25,8 @@ export default function Home({ data }: PageProps) {
 
 <h1>Notes</h1>
 <ul>
-<li><a href="writing">Writing</a> - Some code, memories, short stories collected in one place</li>
 <li><a href="reading">Reading</a> - Currently reading, collection of notes and thoughts</li>
+<li><a href="writing">Writing</a> - Some code, memories, short stories collected in one place</li>
 </ul>
 
         <br />

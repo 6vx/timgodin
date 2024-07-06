@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Kettlebell Routine","description":"Tim Godin - Kettlebell Routine","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-07-05","title":"Tim Godin - Kettlebell Routine","description":"Tim Godin - Kettlebell Routine","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -28,67 +28,49 @@ export default function Home({ data }: PageProps) {
 <ul>
 <li>[ ] PUSHUPS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] GORILLA ROWS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] DOUBLE CLEANS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] PUSH PRESS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] CURLS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] TRICEPS EXTENSIONS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 </ul>
 <h2>day 2 LOWER BODY</h2>
 <ul>
 <li>[ ] SQUATS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] LUNGES</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] SINGLE LEG DEADLIFT</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] SWINGS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 </ul>
 <h2>day 4 FULL BODY</h2>
 <ul>
 <li>[ ] TURKISH GET UP</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] CLEAN AND PRESS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] SNATCH</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] THRUSTERS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 </ul>
 <h2>day 5 CORE STABILITY</h2>
 <ul>
 <li>[ ] WINDMILLS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] RUSSIAN TWISTS</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] PLANK PULL THROUGH</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 <li>[ ] HALO</li>
 <li>[ ] 2</li>
-<li>[ ] 3</li>
 </ul>
 
         <br />

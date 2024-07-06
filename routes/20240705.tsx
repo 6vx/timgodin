@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":true,"meditation":true,"prayer":true,"might":false,"call":true,"vigor":false,"gore":true,"read":true,"write":true,"korean":true,"tags":["daily","blog"],"private":true,"created":"2024-07-05","updated":"2024-07-05","title":"Tim Godin - 20240705","description":"I woke up to Soap scratching incessantly at the barrier between her and I. It is a habit I wish she could break."}
+{"100":true,"meditation":true,"prayer":true,"might":true,"call":true,"vigor":true,"gore":true,"read":true,"write":true,"korean":true,"tags":["daily","blog"],"private":true,"created":"2024-07-05","updated":"2024-07-05","title":"Tim Godin - 20240705","description":"I woke up to Soap scratching incessantly at the barrier between her and I. It is a habit I wish she could break."}
 export default function Home({ data }: PageProps) {
   return (
     <>
