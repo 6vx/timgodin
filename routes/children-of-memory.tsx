@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-06","updated":"2024-07-06","title":"Tim Godin - Children of Memory","description":"Tim Godin - Children of Memory","tags":["timgodin"],"private":"false"}
+{"author":"Adrian Tchaikovsky","title":"Tim Godin - Children of Memory","isbn-13":"978-0316466400","created":"2024-07-06","updated":"2024-07-06","description":"Third of trilogy.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,6 +23,10 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
+<h1>Children of Memory</h1>
+<h2>by Adrian Tchaikovsky</h2>
+<p><a target="_blank" href="https://www.amazon.ca/children-memory-adrian-tchaikovsky/dp/0316466409">Amazon</a></p>
+<p>Third of trilogy.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

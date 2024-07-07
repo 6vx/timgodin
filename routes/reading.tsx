@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"Collection of notes on things I've read, want to read, or am currently going through.","title":"What is Tim Godin Reading?","tags":["books","bookreport","book","reading","readlist","commentary"],"created":"2024-07-04","updated":"2024-07-05","private":"false"}
+{"description":"Collection of notes on things I've read, want to read, or am currently going through.","title":"What Are We Reading?","tags":["books","bookreport","book","reading","readlist","commentary"],"created":"2024-07-04","updated":"2024-07-06","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,9 +24,6 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Reading</h1>
-<p>Typically I enter notes under a header of their &quot;percentage&quot; so...</p>
-<h2>55</h2>
-<p>Indicates that my notes were taken around 55% of the way through the audio or ebook.</p>
 <h2>reading now/next</h2>
 <ul>
 <li><a href="the-subtle-art-of-not-giving-a-fuck">The Subtle Art of Not Giving a Fuck</a> - referral</li>
