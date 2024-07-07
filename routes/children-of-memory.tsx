@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-06","title":"Tim Godin - Kettlebell Routine","description":"I follow Simple and Sinister when I'm being really serious, but at least pick up the bell every day.","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-06","updated":"2024-07-06","title":"Tim Godin - Children of Memory","description":"Tim Godin - Children of Memory","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,9 +23,6 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Kettlebell Routine</h1>
-<p>I follow Simple and Sinister when I'm being really serious, but at least pick up the bell every day.</p>
-<p>🔔</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

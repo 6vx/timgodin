@@ -28,7 +28,7 @@ export default function Home({ data }: PageProps) {
 <ul>
 <li><a href="obsidino">Obsidino</a></li>
 </ul>
-<h2>memories</h2>
+<h2>random</h2>
 <ul>
 <li><a href="walking-the-dog">Walking the Dog</a></li>
 <li><a href="justin-trudeau">Justin Trudeau</a></li>

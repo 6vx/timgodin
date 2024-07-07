@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-06","title":"Tim Godin - Kettlebell Routine","description":"I follow Simple and Sinister when I'm being really serious, but at least pick up the bell every day.","tags":["timgodin"],"private":"false"}
+{"100":true,"meditation":true,"prayer":true,"might":true,"call":true,"vigor":true,"gore":true,"read":true,"write":true,"korean":true,"tags":["daily"],"private":true,"created":"2024-07-06","updated":"2024-07-06","title":"Tim Godin - 20240706","description":"Probably not a bad idea to focus on work for a while. Wish I knew how to focus. Maybe I could use some Vyvanse."}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,10 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Kettlebell Routine</h1>
-<p>I follow Simple and Sinister when I'm being really serious, but at least pick up the bell every day.</p>
-<p>🔔</p>
-
+<h1>Private</h1><p>This page has been set to private</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
