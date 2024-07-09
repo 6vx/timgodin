@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-07-09","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -62,7 +62,7 @@ export default function Home({ data }: PageProps) {
 <p>11 Rere</p>
 </li>
 <li>
-<p>12 Erin</p>
+<p>12 Erin/Ron</p>
 </li>
 <li>
 <p>13 Red</p>
@@ -134,13 +134,13 @@ export default function Home({ data }: PageProps) {
 <p>35 Toll</p>
 </li>
 <li>
-<p>36 Tess</p>
+<p>36 <span class="highlight">Tess</span></p>
 </li>
 <li>
 <p>37 Doug</p>
 </li>
 <li>
-<p>38 Daif</p>
+<p>38 <span class="highlight">Daif</span></p>
 </li>
 <li>
 <p>39 Dub</p>
@@ -152,7 +152,7 @@ export default function Home({ data }: PageProps) {
 <p>41 Maury</p>
 </li>
 <li>
-<p>42 Munna</p>
+<p>42 <span class="highlight">Munna</span></p>
 </li>
 <li>
 <p>43 Mat</p>
@@ -188,10 +188,10 @@ export default function Home({ data }: PageProps) {
 <p>53 Litt</p>
 </li>
 <li>
-<p>54 Lamb</p>
+<p>54 <span class="highlight">Lamb</span></p>
 </li>
 <li>
-<p>55 Loli</p>
+<p>55 <span class="highlight">Loli</span></p>
 </li>
 <li>
 <p>56 Lisa</p>
@@ -203,7 +203,7 @@ export default function Home({ data }: PageProps) {
 <p>58 Olive</p>
 </li>
 <li>
-<p>59 Lab</p>
+<p>59 <span class="highlight">Lab</span></p>
 </li>
 <li>
 <p>60 Sasha</p>
@@ -272,13 +272,13 @@ export default function Home({ data }: PageProps) {
 <p>81 Fry</p>
 </li>
 <li>
-<p>82 Evan</p>
+<p>82 <span class="highlight">Evan</span></p>
 </li>
 <li>
-<p>83 Fit</p>
+<p>83 <span class="highlight">Fit</span></p>
 </li>
 <li>
-<p>84 Fem</p>
+<p>84 <span class="highlight">Fem</span></p>
 </li>
 <li>
 <p>85 Phil</p>
@@ -320,7 +320,7 @@ export default function Home({ data }: PageProps) {
 <p>97 Beck</p>
 </li>
 <li>
-<p>98 Puff</p>
+<p>98 <span class="highlight">Puff</span></p>
 </li>
 <li>
 <p>99 Pippy</p>

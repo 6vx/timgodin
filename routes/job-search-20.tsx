@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-05-26","updated":"2024-07-01","title":"Tim Godin - Job Search 20","description":"20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)","tags":["timgodin"]}
+{"private":true,"created":"2024-05-26","updated":"2024-07-09","title":"Tim Godin - Job Search 20","description":"20240526 Concentrix - Technical Support / Customer Service Representative (Remote) (R1494841)","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>

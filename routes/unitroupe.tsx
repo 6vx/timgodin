@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-06-17","updated":"2024-07-04","title":"Tim Godin - Unitroupe","description":"I visualize a human in space, preparing to jump down into the fight for Mars.","tags":["timgodin"],"private":"false"}
+{"created":"2024-06-17","updated":"2024-07-07","title":"Tim Godin - Unitroupe","description":"I visualize a human in space, preparing to jump down into the fight for Mars.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -43,7 +43,7 @@ export default function Home({ data }: PageProps) {
 <p>so I can be sure to always have them,</p>
 <p>because I won't always have the strength to ask again.</p>
 <p>Give me also the time, the energy,</p>
-<p>and the power to face them.</p>
+<p>and the spirit to face them.</p>
 <p>I ask for these things,</p>
 <p>because I am the storm</p>
 

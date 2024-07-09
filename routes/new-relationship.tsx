@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-07-09","private":"false"}
+{"private":true,"created":"2024-07-08","updated":"2024-07-07","title":"Tim Godin - New Relationship","description":"I agree and apologize because you are absolutely right that my actions have not adequately matched my words. I am deeply troubled that you feel I've been breadcrumbing and manipulating you and I want you to know it is not intentional or with malice. I am, as I always do, going to assume the same about you. I don't think you're intentionally manipulating me, or doing it with ill intent.","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,13 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Tim Godin</h1>
-<img src="timface.webp" alt="timface.webp" />
-<p>I'm creating <a href="obsidino">Obsidino</a>.</p>
-<p>I make a lot of <a href="notes">notes</a>.</p>
-<p>I enjoy taking on short term web and media projects. <a href="contact">Reach out</a> with work inquiries/offers.</p>
-<p>Check out what I'm up to right <a href="now">now</a>.</p>
-
+<h1>Private</h1><p>This page has been set to private</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

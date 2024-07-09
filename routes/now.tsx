@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-07-05","description":"Everything is reset. Do whatever you want.","private":"false"}
+{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-07-09","description":"I'm working and playing in Canada's America (Alberta💖). It's Stampede season, so like any good transplant... I'm probably gonna turn off my cell phone and go camping in Banff this weekend.","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,12 +24,12 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>nownownow</h1>
-<p>Everything is reset. Do whatever you want.</p>
+<p>I'm working and playing in Canada's America (Alberta💖). It's Stampede season, so like any good transplant... I'm probably gonna turn off my cell phone and go camping in Banff this weekend.</p>
 <h2>currently processing</h2>
 <ul>
 <li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li>Shopping around my new credentials</li>
 <li><a href="art-project-for-fgm">Art Project for FGM</a></li>
+<li>Renewed fitness goals</li>
 </ul>
 
         <br />
