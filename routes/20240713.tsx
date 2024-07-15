@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Contemplating where this ride might be going. Loosely.","created":"2024-07-08","updated":"2024-07-10","title":"Tim Godin - Life Plan","tags":["timgodin"]}
+{"100":false,"meditation":false,"might":true,"prayer":false,"vigor":false,"gore":false,"call":true,"read":true,"write":true,"korean":true,"private":true,"tags":["daily"],"created":"2024-07-13","updated":"2024-07-13","title":"Tim Godin - 20240713","description":"I think I've been watching too much John Deloney content. Last night I was startled awake by a dream I had where I was waiting in a dentist chair for oral surgery. In walked Dr John, chipper as ever."}
 export default function Home({ data }: PageProps) {
   return (
     <>

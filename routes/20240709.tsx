@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":true,"meditation":true,"might":false,"prayer":true,"vigor":false,"gore":false,"call":false,"read":true,"write":false,"korean":true,"private":true,"tags":["daily"],"created":"2024-07-09","updated":"2024-07-09","title":"Tim Godin - 20240709","description":"I woke automatically. I feel empty and lovesick. I miss my woman."}
+{"100":true,"meditation":true,"might":false,"prayer":true,"vigor":false,"gore":false,"call":true,"read":true,"write":true,"korean":true,"private":true,"tags":["daily"],"created":"2024-07-09","updated":"2024-07-09","title":"Tim Godin - 20240709","description":"I woke automatically. I feel empty and lovesick. I miss my woman."}
 export default function Home({ data }: PageProps) {
   return (
     <>

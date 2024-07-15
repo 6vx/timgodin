@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"description":"Collection of notes on things I've read, want to read, or am currently going through.","title":"What Are We Reading?","tags":["books","bookreport","book","reading","readlist","commentary"],"created":"2024-07-04","updated":"2024-07-06","private":"false"}
+{"description":"Collection of notes on things I've read, want to read, or am currently going through.","title":"What Are We Reading?","tags":["books","bookreport","book","reading","readlist","commentary"],"created":"2024-07-04","updated":"2024-07-15","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -27,10 +27,11 @@ export default function Home({ data }: PageProps) {
 <h2>reading now/next</h2>
 <ul>
 <li><a href="the-subtle-art-of-not-giving-a-fuck">The Subtle Art of Not Giving a Fuck</a> - referral</li>
-<li><a href="children-of-time">Children of Time</a> - Hugo Best Series 2023 Winner Children Book 1 by Adrian</li>
+<li><a href="children-of-ruin">Children of Ruin</a></li>
 </ul>
 <h2>book notes</h2>
 <ul>
+<li><a href="children-of-time">Children of Time</a></li>
 <li><a href="men-who-hate-women">Men Who Hate Women</a></li>
 <li><a href="daring-greatly">Daring Greatly</a></li>
 <li><a href="12-rules-for-life">12 Rules for Life</a></li>
@@ -44,7 +45,6 @@ export default function Home({ data }: PageProps) {
 <ul>
 <li>re-read Red Rising</li>
 <li><a href="children-of-memory">Children of Memory</a></li>
-<li><a href="children-of-ruin">Children of Ruin</a></li>
 <li><a href="city-of-last-chances">City of Last Chances</a> - Adrian +1?</li>
 <li><a href="the-expert-systems-brother">The Expert Systems Brother</a> - Adrian +2?</li>
 <li><a href="the-expert-systems-champion">The Expert Systems Champion</a> - Adrian +3?</li>

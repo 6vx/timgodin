@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-09","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-07-10","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -101,7 +101,7 @@ export default function Home({ data }: PageProps) {
 <p>24 Nam</p>
 </li>
 <li>
-<p>25 Anal</p>
+<p>25 <span class="highlight">Anal</span></p>
 </li>
 <li>
 <p>26 Ness</p>

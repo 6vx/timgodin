@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Contemplating where this ride might be going. Loosely.","created":"2024-07-08","updated":"2024-07-10","title":"Tim Godin - Life Plan","tags":["timgodin"]}
+{"type":"book","author":"Adrian Tchaikovsky","description":"Book 2 of Adrian's Children trilogy.","title":"Children of Ruin","isbn-13":"978-0316452533","published":"2019","created":"2024-07-15","updated":"2024-07-15","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,13 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<p><a target="_blank" href="https://www.amazon.com/children-ruin-time-adrian-tchaikovsky/dp/031645253x">Amazon</a></p>
+<h1>Children of Ruin</h1>
+<h2>by Adrian Tchaikovsky</h2>
+<h2>notes</h2>
+<h3>50</h3>
+<p>So far so good. A bit less awe inspiring now that I'm already introduced to the writer's style and pacing and world. But I'm still invested and will finish it for sure.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

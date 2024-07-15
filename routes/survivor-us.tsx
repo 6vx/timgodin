@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Contemplating where this ride might be going. Loosely.","created":"2024-07-08","updated":"2024-07-10","title":"Tim Godin - Life Plan","tags":["timgodin"]}
+{"created":"2024-07-15","updated":"2024-07-15","title":"Tim Godin - Survivor US","description":"Tim Godin - Survivor US","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

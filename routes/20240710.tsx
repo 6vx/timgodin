@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Contemplating where this ride might be going. Loosely.","created":"2024-07-08","updated":"2024-07-10","title":"Tim Godin - Life Plan","tags":["timgodin"]}
+{"100":true,"meditation":true,"might":false,"prayer":true,"vigor":false,"gore":false,"call":true,"read":true,"write":true,"korean":true,"private":true,"tags":["daily"],"created":"2024-07-10","updated":"2024-07-10","title":"Tim Godin - 20240710","description":"I feel near suicidal today. I keep repeating awful stories in my head. I don't know how to stop."}
 export default function Home({ data }: PageProps) {
   return (
     <>

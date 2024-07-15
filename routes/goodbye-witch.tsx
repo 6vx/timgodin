@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Contemplating where this ride might be going. Loosely.","created":"2024-07-08","updated":"2024-07-10","title":"Tim Godin - Life Plan","tags":["timgodin"]}
+{"private":true,"created":"2024-07-13","updated":"2024-07-14","title":"Tim Godin - Goodbye Witch","description":"I'm sorry that I took this long to reply, my initial reaction was pretty volatile. I'm glad I waited until I had something more useful to say, whether the delay was destructive or not.","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>
