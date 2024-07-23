@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-07-09","updated":"2024-07-16","title":"Tim Godin - Security Guard Cover Letter Template","description":"Dear Hiring Manager,","tags":["timgodin"]}
+{"100":true,"meditation":true,"might":false,"prayer":true,"vigor":true,"gore":true,"call":true,"read":true,"write":true,"korean":true,"private":true,"tags":["daily"],"created":"2024-07-20","updated":"2024-07-18","title":"Tim Godin - 20240718","description":"I desperately want Sarah back. But why? Just because I was addicted? Maybe."}
 export default function Home({ data }: PageProps) {
   return (
     <>

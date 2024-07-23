@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"type":"book","isbn-13":"978-1447273288","author":"Adrian Tchaikovsky","title":"Children of Time","description":"Adrian Tchaikovksy's critically acclaimed stand-alone novel Children of Time is the epic story of humanity's battle for survival on a terraformed planet.","published":"20160101","created":"2024-07-04","updated":"2024-07-09","tags":["timgodin"],"private":"false"}
+{"type":"book","isbn-13":"978-1447273288","author":"Adrian Tchaikovsky","title":"Children of Time","description":"Adrian Tchaikovksy's critically acclaimed stand-alone novel Children of Time is the epic story of humanity's battle for survival on a terraformed planet.","published":"20160101","created":"2024-07-04","updated":"2024-07-15","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -37,6 +37,9 @@ export default function Home({ data }: PageProps) {
 <p>The AI/human hybrid storyline is working for me with Kern. I'm excited to find out where that goes.</p>
 <p>Actually I can't think of one narrative I'm not interested in the resolution to. All the characters have been great.</p>
 <p>I'm glad I didn't give up on it too soon. I usually cut books pretty early.</p>
+<h3>100</h3>
+<p>Highly recommend. Never thought I'd be crying over a spider. But here I am.</p>
+<p>Very interested in checking out more of this author's work.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

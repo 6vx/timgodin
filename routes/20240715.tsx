@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":true,"meditation":false,"might":true,"prayer":true,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"private":true,"tags":["daily"],"created":"2024-07-15","updated":"2024-07-15","title":"Tim Godin - 20240715","description":"I'm scared and lonely and exhausted and need to get my fucking head under control."}
+{"100":true,"meditation":true,"might":true,"prayer":true,"vigor":true,"gore":true,"call":false,"read":true,"write":true,"korean":true,"private":true,"tags":["daily"],"created":"2024-07-15","updated":"2024-07-15","title":"Tim Godin - 20240715","description":"I'm scared and lonely and exhausted and need to get my fucking head under control."}
 export default function Home({ data }: PageProps) {
   return (
     <>
