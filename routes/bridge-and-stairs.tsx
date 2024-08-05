@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-27","tags":["timgodin"]}
+{"created":"2024-07-31","updated":"2024-08-04","title":"Tim Godin - Bridge and Stairs","description":"Time to do the loop of bridge, down and up stairs and back to base.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,16 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<p>Time to do the loop of bridge, down and up stairs and back to base.</p>
+<p>Need to get an accurate read on it next time. I think it's between 6 and 7 km. Good bit of elevation change.</p>
+<p>6.5 km</p>
+<p><a href="20240729">20240729</a> - 69 (some jog)
+<a href="20240730">20240730</a> - 60 (more jog)
+<a href="20240731">20240731</a> - 45 (most jog)
+<a href="20240801">20240801</a> - 40 (jog whole way)</p>
+<p><a href="20240804">20240804</a> - 80 (walk with soapy)
+<a href="20240804">20240804</a> - 45 (most jog)</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

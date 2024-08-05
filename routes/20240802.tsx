@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-27","tags":["timgodin"]}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-08-02","updated":"2024-08-02","title":"Tim Godin - 20240802","description":"I dreamt Cole and I were in a lobby for some FPS but his avatar was seven or eight feet tall and some kid from Canmore kept trying to recruit him into his clan while we were trying to strategize for the upcoming map."}
 export default function Home({ data }: PageProps) {
   return (
     <>

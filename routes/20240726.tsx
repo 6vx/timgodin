@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-27","tags":["timgodin"]}
+{"100":false,"meditation":true,"might":true,"prayer":false,"vigor":true,"gore":true,"call":false,"read":true,"write":false,"korean":true,"reality":true,"private":true,"tags":["daily"],"created":"2024-07-27","updated":"2024-07-27","title":"Tim Godin - 20240726","description":"Two in a row without... What could that mean? Will I regulate even further now?"}
 export default function Home({ data }: PageProps) {
   return (
     <>

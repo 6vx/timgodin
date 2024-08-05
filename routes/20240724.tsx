@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-27","tags":["timgodin"]}
+{"100":true,"meditation":true,"might":true,"prayer":true,"vigor":false,"gore":true,"call":true,"read":true,"write":true,"korean":true,"reality":true,"private":true,"tags":["daily"],"created":"2024-07-24","updated":"2024-07-24","title":"Tim Godin - 20240724","description":"I am having difficulty moving and caring and being. I don't know how to proceed. Lethargic. My head hurts from pollution and caffeine withdrawal."}
 export default function Home({ data }: PageProps) {
   return (
     <>

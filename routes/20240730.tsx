@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-27","tags":["timgodin"]}
+{"100":true,"meditation":false,"might":true,"prayer":true,"vigor":true,"gore":true,"call":false,"read":false,"write":false,"korean":false,"reality":true,"private":true,"tags":["daily"],"created":"2024-07-30","updated":"2024-07-30","title":"Tim Godin - 20240730","description":"I dreamt that Elon Musk was a mad scientist bad guy and I was a secret agent infiltrating his futuristic laboratory. Very mission impossible at first but then I was also turning into a blob and flinging myself great distances before reconfiguring into myself."}
 export default function Home({ data }: PageProps) {
   return (
     <>

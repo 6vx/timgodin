@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-07-27","tags":["timgodin"]}
+{"created":"2024-07-27","updated":"2024-07-26","title":"Tim Godin - Soapy Bike Walk Blog","description":"Soapy in the bag, camera mounted on the back rack of the bike.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,9 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<h1>travel blog</h1>
+<p>Soapy in the bag, camera mounted on the back rack of the bike.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
