@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":false,"meditation":true,"might":true,"prayer":true,"vigor":false,"gore":true,"call":false,"read":true,"write":true,"korean":true,"reality":true,"private":true,"tags":["daily"],"created":"2024-08-07","updated":"2024-08-07","title":"Tim Godin - 20240807","description":"I dreamt. It was weird."}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-08-16","updated":"2024-08-15","title":"Tim Godin - 20240815","description":"30 shannon\n14 Tim\n-7 Bonnie\n90 Mimi"}
 export default function Home({ data }: PageProps) {
   return (
     <>

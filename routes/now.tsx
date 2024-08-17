@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-08-07","description":"I'm itching to try out a new tripod I got and make a couple time lapse videos.","private":"false"}
+{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-08-17","description":"Tim Godin - now","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,8 +24,8 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>nownownow</h1>
-<p>I'm itching to try out a new tripod I got and make a couple time lapse videos.</p>
-<p>I'm looking for work, I need a change. <a href="contact">Contact</a> me if you know of any opportunities nearby or remotely.</p>
+<p>Currently focused on consolidating my effort into fewer projects. I've become a bit scattered with too many things on the go. Time to prune some things and get <a href="obsidino">Obsidino</a> into a place where it's usable by laymen so I can take a break from it.</p>
+<p>I'm looking for work; I need a change. <a href="contact">Contact</a> me if you know of any opportunities nearby or remotely.</p>
 <h2>currently processing</h2>
 <ul>
 <li>Focused on <a href="fitness">Fitness</a></li>

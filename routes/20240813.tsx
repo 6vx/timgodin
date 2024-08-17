@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":false,"meditation":true,"might":true,"prayer":true,"vigor":false,"gore":true,"call":false,"read":true,"write":true,"korean":true,"reality":true,"private":true,"tags":["daily"],"created":"2024-08-07","updated":"2024-08-07","title":"Tim Godin - 20240807","description":"I dreamt. It was weird."}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-08-14","updated":"2024-08-13","title":"Tim Godin - 20240813","description":"I was part of amdpcimentary about drones and Bombs\nKid at school was making it and I was filming first person"}
 export default function Home({ data }: PageProps) {
   return (
     <>

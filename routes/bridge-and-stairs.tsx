@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-31","updated":"2024-08-07","title":"Tim Godin - Bridge and Stairs","description":"Favourite run right now, it's 6.5 km total out and back.","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-31","updated":"2024-08-12","title":"Tim Godin - Bridge and Stairs","description":"Favourite run right now, it's 6.5 km total out and back.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -34,6 +34,8 @@ export default function Home({ data }: PageProps) {
 <li><a href="20240801">20240801</a> - 40 (jog whole way)</li>
 <li><a href="20240804">20240804</a> - 80 (walk with soapy)</li>
 <li><a href="20240804">20240804</a> - 45 (most jog)</li>
+<li><a href="20240812">20240812</a> - 55 (left Achilles pain)</li>
+<li></li>
 </ul>
 
         <br />

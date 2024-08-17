@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"100":false,"meditation":true,"might":true,"prayer":true,"vigor":false,"gore":true,"call":false,"read":true,"write":true,"korean":true,"reality":true,"private":true,"tags":["daily"],"created":"2024-08-07","updated":"2024-08-07","title":"Tim Godin - 20240807","description":"I dreamt. It was weird."}
+{"private":true,"created":"2024-08-17","updated":"2024-08-17","title":"Tim Godin - Consolidated Effort","description":"How can I achieve more highly in what remains of my life?","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>
