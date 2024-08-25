@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-08-11","updated":"2024-08-11","title":"Tim Godin - Bonnie Expenses","description":"34/3 * 2 dog food\n3 - Margarine","tags":["timgodin"]}
+{"private":true,"created":"2024-08-11","updated":"2024-08-18","title":"Tim Godin - Bonnie Expenses","description":"august 2024","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>

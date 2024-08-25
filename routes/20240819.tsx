@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-08-24","description":"Consolidate all the %'s I've scattered about. It's time to apply 100 of them, all for myself, all exactly the way that I want.","private":"false"}
+{"100":true,"meditation":false,"might":true,"prayer":true,"vigor":false,"gore":true,"call":true,"read":false,"write":true,"korean":true,"reality":true,"private":true,"tags":["daily"],"created":"2024-08-19","updated":"2024-08-19","title":"Tim Godin - 20240819","description":"crushing the hand strengthener leads to great power. I will be able to crush peoples hands, hold onto things for longer, pull harder, press faster, everything. I intend to use this power to take on anyone anytime! As I crush things in my hand so too are things crushed in the world. The power flows through my vice grip and into the materials I am looking at."}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,15 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>nownownow</h1>
-<p>Consolidate all the %'s I've scattered about. It's time to apply 100 of them, all for myself, all exactly the way that I want.</p>
-<h2>currently processing</h2>
-<ul>
-<li>Focused on <a href="fitness">Fitness</a></li>
-<li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li>Finish an <a href="art-project-for-fgm">Art Project for FGM</a></li>
-</ul>
-
+<h1>Private</h1><p>This page has been set to private</p>
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

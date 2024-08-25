@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-07-29","updated":"2024-08-04","title":"Tim Godin - Adjustments","description":"you're gonna have to go hard my dude. In all aspects.","tags":["timgodin"]}
+{"private":true,"created":"2024-07-29","updated":"2024-08-19","title":"Tim Godin - Adjustments","description":"You can't just stop bad habits. But you can replace them with new better ones! Let's list the most recently you've caught yourself, the bad habit, the replacement habit in a table.","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>

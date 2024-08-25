@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"What I'm Up To","tags":["nownownow"],"created":"2024-04-26","updated":"2024-08-24","description":"Consolidate all the %'s I've scattered about. It's time to apply 100 of them, all for myself, all exactly the way that I want.","private":"false"}
+{"created":"2024-08-24","updated":"2024-08-24","title":"Tim Godin - Doctor Health Concerns","description":"Abscess near right ankle?","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,14 +23,11 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>nownownow</h1>
-<p>Consolidate all the %'s I've scattered about. It's time to apply 100 of them, all for myself, all exactly the way that I want.</p>
-<h2>currently processing</h2>
-<ul>
-<li>Focused on <a href="fitness">Fitness</a></li>
-<li>Flesh out <a href="obsidino">Obsidino</a></li>
-<li>Finish an <a href="art-project-for-fgm">Art Project for FGM</a></li>
-</ul>
+<p>Abscess near right ankle?</p>
+<p>Want blood work / general pain tiredness</p>
+<p>Check back right abdomen for mole</p>
+<p>Depression?</p>
+<p>Left achilles is sore/tender</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
