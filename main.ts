@@ -55,7 +55,7 @@ export async function storeStringInKV(value: string) {
   if (kv) {
     try {
       // Put the string into KV under the key "current_string"
-      await kv.put("current_string", value);
+      await kv.set("current_string", value);
       console.log(`Stored string: "${value}" under key "current_string"`);
     } catch (error) {
       console.error("Failed to store the string in Deno KV:", error);
