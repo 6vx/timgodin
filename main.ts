@@ -9,6 +9,7 @@ import "$std/dotenv/load.ts";
 import { start } from "$fresh/server.ts";
 import manifest from "./fresh.gen.ts";
 import config from "./fresh.config.ts";
+import { storeStringInKV, getStringFromKV } from './setItemToBag.ts'
 
 const kv = await Deno.openKv();
 
@@ -46,6 +47,11 @@ Deno.cron("Log Visitor Count", "0 0 * * *", async () => {
 
     }
 );
+
+// here we will write the latest string using setItemToBag.ts 
+storeStringInKV();
+getStringFromKV();
+
 
 
 await start(manifest, config);
