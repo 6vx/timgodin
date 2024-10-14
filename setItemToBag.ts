@@ -1,14 +1,15 @@
-await Deno.openKv();
+const kv = await Deno.openKv();
+
 
 // Deno KV Example: Storing a String
 
 // Function to store a string in Deno KV
 export async function storeStringInKV(value: string) {
     // Ensure the Deno KV is available
-    if (Deno.kv) {
+    if (kv) {
       try {
         // Put the string into KV under the key "current_string"
-        await Deno.kv.put("current_string", value);
+        await kv.put("current_string", value);
         console.log(`Stored string: "${value}" under key "current_string"`);
       } catch (error) {
         console.error("Failed to store the string in Deno KV:", error);
@@ -26,7 +27,7 @@ export async function storeStringInKV(value: string) {
   // Function to retrieve a string from Deno KV
 export async function getStringFromKV() {
     try {
-      const result = await Deno.kv.get("current_string");
+      const result = await kv.get("current_string");
       if (result) {
         console.log(`Retrieved string: "${result}" from key "current_string"`);
       } else {
