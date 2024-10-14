@@ -49,7 +49,7 @@ Deno.cron("Log Visitor Count", "0 0 * * *", async () => {
 );
 
 // here we will write the latest string using setItemToBag.ts 
-storeStringInKV();
+storeStringInKV("First String.");
 getStringFromKV();
 
 
