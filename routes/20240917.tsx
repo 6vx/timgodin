@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-10-13","tags":["timgodin"]}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-09-17","updated":"2024-09-17","title":"Tim Godin - 20240917","description":"I dreamt I was working for a witch as a delivery boy\nHasan was a lackey of hers, about to be a dry cleaner for her or something\nI made friends with a dejected sub witch with the power to make magic dice we would sell on the side"}
 export default function Home({ data }: PageProps) {
   return (
     <>

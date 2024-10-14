@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-10-13","tags":["timgodin"]}
+{"100":true,"meditation":true,"might":true,"prayer":true,"vigor":false,"gore":true,"call":true,"read":false,"write":true,"korean":true,"reality":false,"private":true,"tags":["daily"],"created":"2024-09-01","updated":"2024-09-01","title":"Tim Godin - 20240901","description":"I felt the dreams. I don't recall them."}
 export default function Home({ data }: PageProps) {
   return (
     <>

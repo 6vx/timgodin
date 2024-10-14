@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-10-13","tags":["timgodin"]}
+{"created":"2024-10-13","updated":"2024-10-13","title":"Tim Godin - 51 Lore","description":"She reminds me of how I want to be.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,12 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<p>She reminds me of how I want to be.</p>
+<p>Someone who sees something wrong and just fixes it there and then. Like patching her code.</p>
+<p>How should I patch my code, Lore?</p>
+<p>I have a few bug reports coming in.</p>
+<p>I could write fixes and catches and such for the bugs without necessarily finding their root cause. You can catch a problem and patch it without knowing the nitty gritty.</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

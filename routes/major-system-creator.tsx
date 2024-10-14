@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-10-13","tags":["timgodin"]}
+{"title":"Create your own Major System","created":"2024-09-01","updated":"2024-09-01","description":"Tim Godin - Major System Creator","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,11 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+<h1>Major System Creator</h1>
+<h2>links</h2>
+<p><a target="_blank" href="https://major-system.info/en/">Major System mnemonic technique database, list and generator (major-system.info)</a></p>
+<p><a target="_blank" href="https://en.wikipedia.org/wiki/mnemonic_major_system">Mnemonic major system - Wikipedia</a></p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>

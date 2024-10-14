@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-08-19","updated":"2024-08-24","title":"Tim Godin - Weight Log","description":"Identify your ideal weight and track progress","tags":["timgodin"]}
+{"private":true,"created":"2024-08-19","updated":"2024-09-06","title":"Tim Godin - Weight Log","description":"Identify your ideal weight and track progress","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>

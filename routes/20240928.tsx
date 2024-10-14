@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"description":"Curated AI images for backgrounds in slideshow, commissioned project.","title":"Pyramid","created":"2024-06-08","updated":"2024-10-13","tags":["timgodin"]}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-09-28","updated":"2024-09-28","title":"Tim Godin - 20240928","description":"I dreamt that Katie was in charge of BC and I was in charge of Alberta, and we were negotiating how to resolve a trade dispute. I decided to massively reduce the things legal to enter/exit BC until the problem got resolved."}
 export default function Home({ data }: PageProps) {
   return (
     <>
