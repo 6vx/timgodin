@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-10-19","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-10-20","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,6 +24,7 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Obsidino</h1>
+<p><a target="_blank" href="https://obsidino.deno.dev/">Obsidino v0.1</a> processes but does not yet store markdown files.</p>
 <blockquote>
 <p>Vault -&gt; URL in one click.</p>
 </blockquote>
@@ -34,7 +35,7 @@ export default function Home({ data }: PageProps) {
 <li>90+ Lighthouse score</li>
 <li>SEO built-in</li>
 <li>Automatic image reformatting</li>
-<li>Minimal/zero config</li>
+<li>Minimal/zero configuration required</li>
 </ul>
 <h2>why</h2>
 <blockquote>
@@ -55,13 +56,13 @@ export default function Home({ data }: PageProps) {
 <h2>roadmap</h2>
 <h3>0.2 goals</h3>
 <ul>
-<li>Overhaul transmute process: convert entire vault to Object and then process accordingly</li>
-<li>CSS derived from vault file, preferably ./.style.css or potentially inside of a standard subdirectory</li>
+<li>Overhaul transmute process: convert entire vault to Object and then store in DenoKV</li>
+<li>CSS derived from vault file, preferably ./.style.css (<em>align with plugin community standard</em>)</li>
 </ul>
 <h3>1.0 goals</h3>
 <ul>
-<li>Select directory -&gt; click GO = url in your clipboard</li>
-<li>Subscription options</li>
+<li>Select directory -&gt; click GO == url in your clipboard</li>
+<li>Subscription options:</li>
 <li>Browser based signup OneDrive / Google Drive support</li>
 <li>On/Off Obsidino banner</li>
 <li>User assigned domain</li>
@@ -104,6 +105,10 @@ export default function Home({ data }: PageProps) {
 <li><a target="_blank" href="https://deno.com/deploy">Deno Deploy | Deno</a></li>
 <li><a target="_blank" href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheat Sheet | Markdown Guide</a></li>
 <li><a target="_blank" href="https://fresh.deno.dev/">Fresh - The next-gen web framework.</a></li>
+<li><a target="_blank" href="https://capacitorjs.com/docs/apis/filesystem">Filesystem Capacitor Plugin API | Capacitor Documentation</a></li>
+<li><a target="_blank" href="https://www.vultr.com/products/cloud-compute/">Cloud Compute, Bare Metal, &amp; Storage - Vultr.com</a></li>
+<li><a target="_blank" href="https://deno.land/x/deno_kv_oauth@v0.10.0">deno_kv_oauth@v0.10.0 | Deno</a></li>
+<li></li>
 </ul>
 
         <br />

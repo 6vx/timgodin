@@ -2,17 +2,32 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
         <url>
+          <loc>https://www.timgod.in/12---ron</loc>
+          <lastmod>2024-10-20</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/20241020</loc>
+          <lastmod>2024-10-20</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/kettlebell-tarot</loc>
+          <lastmod>2024-10-20</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/obsidino</loc>
+          <lastmod>2024-10-20</lastmod>
+        </url>
+      
+        <url>
           <loc>https://www.timgod.in/20241019</loc>
           <lastmod>2024-10-19</lastmod>
         </url>
       
         <url>
           <loc>https://www.timgod.in/obsidino.deno.dev</loc>
-          <lastmod>2024-10-19</lastmod>
-        </url>
-      
-        <url>
-          <loc>https://www.timgod.in/obsidino</loc>
           <lastmod>2024-10-19</lastmod>
         </url>
       
@@ -47,7 +62,7 @@
         </url>
       
         <url>
-          <loc>https://www.timgod.in/</loc>
+          <loc>https://www.timgod.in/index</loc>
           <lastmod>2024-10-15</lastmod>
         </url>
       
@@ -128,11 +143,6 @@
       
         <url>
           <loc>https://www.timgod.in/20241005</loc>
-          <lastmod>2024-10-05</lastmod>
-        </url>
-      
-        <url>
-          <loc>https://www.timgod.in/kettlebell-tarot</loc>
           <lastmod>2024-10-05</lastmod>
         </url>
       
