@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-07-05","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-10-19","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,7 +24,6 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Obsidino</h1>
-<img src="obsidino.webp" alt="obsidino.webp" />
 <blockquote>
 <p>Vault -&gt; URL in one click.</p>
 </blockquote>
@@ -50,7 +49,7 @@ export default function Home({ data }: PageProps) {
 <h2>limitations</h2>
 <ul>
 <li>1GB maximum size</li>
-<li>no graphs/canvases/etc</li>
+<li>no graphs/canvases</li>
 <li>throttling resources</li>
 </ul>
 <h2>roadmap</h2>
@@ -61,10 +60,11 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h3>1.0 goals</h3>
 <ul>
-<li>Select directory -&gt; click GO = website (manual update tier)</li>
-<li>Browser based signup OneDrive / Google Drive support (automatic update tier)</li>
-<li>On/Off Obsidino banner/link (support tier)</li>
-<li>User assigned domain (custom domain tier)</li>
+<li>Select directory -&gt; click GO = url in your clipboard</li>
+<li>Subscription options</li>
+<li>Browser based signup OneDrive / Google Drive support</li>
+<li>On/Off Obsidino banner</li>
+<li>User assigned domain</li>
 </ul>
 <h3>other in order of priority</h3>
 <ul>
@@ -80,6 +80,7 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h2>progress</h2>
 <ul>
+<li>20241019 fork project <a target="_blank" href="https://obsidino.deno.dev">Obsidino 0.1</a></li>
 <li>20240705 roadmap adjust, robots.txt generated</li>
 <li>20240617 auto-generate recently-updated page</li>
 <li>20240617 add support for jpg and jpeg</li>

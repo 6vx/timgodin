@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-07-17","updated":"2024-10-16","title":"Tim Godin - GNYS Timesheet","description":"20240717 0700 1345\n20240718 0700 1505\n20240719 0700 1305","tags":["timgodin"]}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-10-19","updated":"2024-10-19","title":"Tim Godin - 20241019","description":"Tim Godin - 20241019"}
 export default function Home({ data }: PageProps) {
   return (
     <>

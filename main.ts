@@ -47,6 +47,13 @@ Deno.cron("Log Visitor Count", "0 0 * * *", async () => {
     }
 );
 
+// we want to add user data to the kv but we want it to be
+// customized to match their oauth id so that it's the same 
+// every time that they log into the website
+// stuff like preferences and names
+
+
+
 // // Deno KV Example: Storing a String (works 2024 10 14)
 
 // // Function to store a string in Deno KV
@@ -86,7 +93,5 @@ Deno.cron("Log Visitor Count", "0 0 * * *", async () => {
 
 // // Retrieve the stored string
 // await getStringFromKV();
-
-
 
 await start(manifest, config);
