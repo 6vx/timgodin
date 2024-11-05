@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-09-01","updated":"2024-11-04","title":"Tim Godin - Mom CBI","description":"CBI:\nhttps://portal.cbihealth.ca/landing\nUsername: Kgodin625\nPassword: M0mrules321!","tags":["timgodin"]}
+{"100":false,"meditation":false,"might":false,"prayer":false,"vigor":false,"gore":false,"call":false,"read":false,"write":false,"korean":false,"reality":false,"private":true,"tags":["daily"],"created":"2024-10-23","updated":"2024-10-23","title":"Tim Godin - 20241023","description":"I dream only of death now. I regret so much. I fear so much. I wish I had anything. I don't. I have nothing. I miss my Witch. I miss being of service to her. Having a purpose. I wish that I was better. I wish I had more discipline. I wish I could see a path forward. It is not obvious to me. I see only darkness."}
 export default function Home({ data }: PageProps) {
   return (
     <>

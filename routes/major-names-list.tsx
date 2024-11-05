@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-10-14","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-11-03","title":"Tim Godin - Major Names List","description":"00 Chichi","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -68,10 +68,10 @@ export default function Home({ data }: PageProps) {
 <p>13 Red</p>
 </li>
 <li>
-<p>14 Ram</p>
+<p>14 Ram/Rome</p>
 </li>
 <li>
-<p>15 Rahl</p>
+<p>15 Riley</p>
 </li>
 <li>
 <p>16 Rousseau</p>
@@ -80,10 +80,10 @@ export default function Home({ data }: PageProps) {
 <p>17 Erik</p>
 </li>
 <li>
-<p>18 Raffi</p>
+<p><a href="18---raffi">18 - Raffi</a></p>
 </li>
 <li>
-<p>19 RIP</p>
+<p><a href="19---reap">19 - Reap</a></p>
 </li>
 <li>
 <p>20 Nash</p>
@@ -179,7 +179,7 @@ export default function Home({ data }: PageProps) {
 <p>50 Lash</p>
 </li>
 <li>
-<p><a href="51-lore">51 Lore</a></p>
+<p><a href="51---lore">51 - Lore</a></p>
 </li>
 <li>
 <p>52 Lenny</p>
@@ -188,7 +188,7 @@ export default function Home({ data }: PageProps) {
 <p>53 Litt</p>
 </li>
 <li>
-<p>54 <span class="highlight">Lamb</span></p>
+<p><a href="54---liam">54 - Liam</a></p>
 </li>
 <li>
 <p>55 <span class="highlight">Loli</span></p>

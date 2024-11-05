@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-07-04","updated":"2024-07-04","title":"Tim Godin - Major System","description":"I use a non-standard major system that was adjusted to make Korean map on a little bit better.","tags":["timgodin"],"private":"false"}
+{"created":"2024-07-04","updated":"2024-10-22","title":"Tim Godin - Major System","description":"I use a non-standard major system that was adjusted to make Korean map on a little bit better.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -25,6 +25,7 @@ export default function Home({ data }: PageProps) {
 
 <h1>Major System</h1>
 <p><a href="major-names-list">Major Names List</a></p>
+<p><a href="kettlebell-tarot">Kettlebell Tarot</a></p>
 <p>I use a non-standard major system that was adjusted to make Korean map on a little bit better.</p>
 <ul>
 <li>0 - ch sh j</li>

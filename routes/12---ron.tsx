@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"created":"2024-10-20","updated":"2024-10-20","title":"Tim Godin - 12 - Ron","description":"Tim Godin - 12 - Ron","tags":["timgodin"],"private":"false"}
+{"created":"2024-10-20","updated":"2024-10-20","title":"Tim Godin - 12 - Ron","description":"Stands at the gateway between universes. This is a portal between a futuristic space world and the terror plagued pre-historic past.","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,6 +23,9 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
+<h1>Ron</h1>
+<p>Stands at the gateway between universes. This is a portal between a futuristic space world and the terror plagued pre-historic past.</p>
+<p>Ron is contemplating the journey, the bridge between future and past, the divide between childhood and adulthood.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

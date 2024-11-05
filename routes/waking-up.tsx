@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-09-01","updated":"2024-11-04","title":"Tim Godin - Mom CBI","description":"CBI:\nhttps://portal.cbihealth.ca/landing\nUsername: Kgodin625\nPassword: M0mrules321!","tags":["timgodin"]}
+{"private":true,"created":"2024-10-27","updated":"2024-10-27","title":"Tim Godin - Waking Up","description":"Tim Godin - Waking Up","tags":["timgodin"]}
 export default function Home({ data }: PageProps) {
   return (
     <>
