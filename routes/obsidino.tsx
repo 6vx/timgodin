@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-10-20","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-11-04","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -108,7 +108,6 @@ export default function Home({ data }: PageProps) {
 <li><a target="_blank" href="https://capacitorjs.com/docs/apis/filesystem">Filesystem Capacitor Plugin API | Capacitor Documentation</a></li>
 <li><a target="_blank" href="https://www.vultr.com/products/cloud-compute/">Cloud Compute, Bare Metal, &amp; Storage - Vultr.com</a></li>
 <li><a target="_blank" href="https://deno.land/x/deno_kv_oauth@v0.10.0">deno_kv_oauth@v0.10.0 | Deno</a></li>
-<li></li>
 </ul>
 
         <br />
