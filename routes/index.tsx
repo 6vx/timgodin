@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-11-04","private":"false"}
+{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-11-11","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,8 +24,10 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Tim Godin</h1>
-<h2>Widget Artificer</h2>
-<p>Right now I'm working on <a href="obsidino">Obsidino</a>.</p>
+<h2>Web Dev &amp; Systems Integration</h2>
+<h3>Bringing Together the Old and the New Since 2016</h3>
+<p>If you're looking to harness the power of modern cloud solutions while keeping your trusted legacy systems, I can help. With experience on platforms like DeliverPlus and MakeShift, I specialize in making different systems work together smoothly and effectively.</p>
+<p><a href="contact">Contact me</a> to chat about your project needs.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

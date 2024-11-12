@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"private":true,"created":"2024-09-01","updated":"2024-11-11","title":"Tim Godin - Mom CBI","description":"CBI:\nhttps://portal.cbihealth.ca/landing\nUsername: Kgodin625\nPassword: M0mrules321!","tags":["timgodin"]}
+{"created":"2024-11-08","updated":"2024-11-08","title":"Tim Godin - List of Homes","description":"Tim Godin - List of Homes","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Private</h1><p>This page has been set to private</p>
+
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
         </div>
