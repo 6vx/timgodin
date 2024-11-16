@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-11-04","private":"false"}
+{"title":"Obsidino - Deploy your Vault for Less","tags":["obsidino","publish","obsidian","markdown","deno","fresh","saas"],"description":"Obsidino is a lower cost alternative to Publish leveraging Deno Deploy and Fresh framework.","created":"2024-04-26","updated":"2024-11-16","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,10 +24,10 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Obsidino</h1>
-<p><a target="_blank" href="https://obsidino.deno.dev/">Obsidino v0.1</a> processes but does not yet store markdown files.</p>
 <blockquote>
-<p>Vault -&gt; URL in one click.</p>
+<h1>Vault -&gt; URL in one click.</h1>
 </blockquote>
+<p><a target="_blank" href="https://obsidino.deno.dev/">Obsidino v0.1</a> processes but does not yet store markdown files.</p>
 <h2>what</h2>
 <p>Obsidino is a simple and fast method of deploying a vault to the web.</p>
 <p>Obsidino consumes an Obsidian Vault using Deno and deploys as a Fresh project.</p>
@@ -69,6 +69,7 @@ export default function Home({ data }: PageProps) {
 </ul>
 <h3>other in order of priority</h3>
 <ul>
+<li>auto-h1-title-generation to match Obsidian workflow</li>
 <li>footnote support</li>
 </ul>
 <h3>potentially axing for brevity</h3>

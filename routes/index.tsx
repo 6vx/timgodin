@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-11-11","private":"false"}
+{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-11-16","private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -24,10 +24,12 @@ export default function Home({ data }: PageProps) {
       <div class="main text-left w-max-md mx-auto">
 
 <h1>Tim Godin</h1>
+<img src="timface.webp" alt="timface.webp" />
 <h2>Web Dev &amp; Systems Integration</h2>
-<h3>Bringing Together the Old and the New Since 2016</h3>
-<p>If you're looking to harness the power of modern cloud solutions while keeping your trusted legacy systems, I can help. With experience on platforms like DeliverPlus and MakeShift, I specialize in making different systems work together smoothly and effectively.</p>
-<p><a href="contact">Contact me</a> to chat about your project needs.</p>
+<p>Canadian widget artificer, xoloitzcuintli caretaker and jumping enthusiast.</p>
+<p>I've been working on <a href="obsidino">Obsidino</a> in between other projects.</p>
+<p>Thinking about how to interact with <a href="the-new-internet">The New Internet</a>.</p>
+<p><a href="tims-trust">Tim's Trust</a> is guarded and given tentatively. I tend to &quot;call 'em like I seem 'em&quot; and am drawn to similar.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
