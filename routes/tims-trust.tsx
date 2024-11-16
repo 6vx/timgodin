@@ -38,7 +38,6 @@ export default function Home({ data }: PageProps) {
 <h3>Derek Sivers</h3>
 <p>Inspirational output into the world. I don't even remember how I first encountered the delicious minimalism of Derek's site. The only thing better than how Derek presents himself is his output.</p>
 <p>Derek reads a lot and shares all of his notes and reviews on his site. Whatever I initially ended up on his site for; the book notes brought me back.</p>
-<p>The insightful blog posts made me a</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
