@@ -29,7 +29,7 @@ export default function Home({ data }: PageProps) {
 <p>Canadian widget artificer, xoloitzcuintli caretaker and jumping enthusiast.</p>
 <p>I've been working on <a href="obsidino">Obsidino</a> in between other projects.</p>
 <p>Thinking about how to interact with <a href="the-new-internet">The New Internet</a>.</p>
-<p><a href="tims-trust">Tim's Trust</a> is guarded and given tentatively. I tend to &quot;call 'em like I seem 'em&quot; and am drawn to similar.</p>
+<p><a href="tims-trust">My trust</a> is guarded and given tentatively. I tend to &quot;call 'em like I seem 'em&quot; and am drawn to similar.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
