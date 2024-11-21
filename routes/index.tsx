@@ -28,7 +28,6 @@ export default function Home({ data }: PageProps) {
 <h2>dM</h2>
 <p>Canadian widget artificer, xoloitzcuintli caretaker and jumping enthusiast.</p>
 <p>I've been working on <a href="obsidino">Obsidino</a> in between other projects.</p>
-<p><a href="links">Links</a>.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>
