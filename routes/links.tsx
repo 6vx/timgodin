@@ -9,7 +9,7 @@ export const handler: Handlers = {
   },
 };
 const data = 
-{"title":"Tim Godin - Widget Artificer","tags":["homepage","timgodin","Tim","Godin","timgod","typescript","youtube","developer","journalist","markdown","obsidino"],"description":"Homepage of Tim Godin, widget artificer, Xolo caretaker and jumping enthusiast.","created":"2024-04-26","updated":"2024-11-20","private":"false"}
+{"created":"2024-11-20","updated":"2024-11-20","title":"Tim Godin - Links","description":"Tim Godin - Links","tags":["timgodin"],"private":"false"}
 export default function Home({ data }: PageProps) {
   return (
     <>
@@ -23,12 +23,6 @@ export default function Home({ data }: PageProps) {
       </Head>
       <div class="main text-left w-max-md mx-auto">
 
-<h1>Tim Godin</h1>
-<img src="timface.webp" alt="timface.webp" />
-<h2>dM</h2>
-<p>Canadian widget artificer, xoloitzcuintli caretaker and jumping enthusiast.</p>
-<p>I've been working on <a href="obsidino">Obsidino</a> in between other projects.</p>
-<p><a href="links">Links</a>.</p>
 
         <br />
         <p class="timestamps">Created: {data.created} - Updated: {data.updated}</p>

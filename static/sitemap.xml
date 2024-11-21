@@ -2,12 +2,37 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
         <url>
-          <loc>https://www.timgod.in/20241116</loc>
-          <lastmod>2024-11-16</lastmod>
+          <loc>https://www.timgod.in/20241120</loc>
+          <lastmod>2024-11-20</lastmod>
         </url>
       
         <url>
           <loc>https://www.timgod.in/</loc>
+          <lastmod>2024-11-20</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/links</loc>
+          <lastmod>2024-11-20</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/20241117</loc>
+          <lastmod>2024-11-17</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/major-system</loc>
+          <lastmod>2024-11-17</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/major-tarot</loc>
+          <lastmod>2024-11-17</lastmod>
+        </url>
+      
+        <url>
+          <loc>https://www.timgod.in/20241116</loc>
           <lastmod>2024-11-16</lastmod>
         </url>
       
@@ -198,11 +223,6 @@
       
         <url>
           <loc>https://www.timgod.in/game-pass-codes</loc>
-          <lastmod>2024-10-22</lastmod>
-        </url>
-      
-        <url>
-          <loc>https://www.timgod.in/major-system</loc>
           <lastmod>2024-10-22</lastmod>
         </url>
       
